@@ -1,17 +1,15 @@
 <template>
-    <OtherLayout>
+    <MainLayout>
         <h2>About Me</h2>
-    </OtherLayout>
+    </MainLayout>
 </template>
 
 <script setup>
-import OtherLayout from '../layouts/other.vue'
+import MainLayout from '@/layouts/main.vue'
 
 </script>
 
 <style scoped>
-body {
-    margin: 0;
-}
+
 
 </style>

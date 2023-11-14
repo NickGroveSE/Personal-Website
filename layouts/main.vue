@@ -1,11 +1,11 @@
 <template>
     <div>
+        <Sidebar class="page-element">
+
+        </Sidebar>
         <div class="main-content">
             <slot />
         </div>
-        <Sidebar>
-
-        </Sidebar>
     </div>
 
 </template>
@@ -16,12 +16,14 @@
 
 <style scoped>
 
-div {
+.page-element {
     display: inline-block;
 }
 
 .main-content {
-    width: calc(100vw - 200px)
+    float: right;
+    width: calc(100vw - 171px);
+    margin: 10px;
 }
 
 </style>
