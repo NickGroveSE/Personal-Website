@@ -18,9 +18,11 @@
 <style scoped>
 
 div {
+    margin-top: -2px;
     width: 150px;
-    background-color: red;
+    background-color: #171614;
     height: 100vh;
+    border-right: 2px solid #42b883;
 }
 
 ul {
@@ -31,6 +33,11 @@ ul {
 
 li {
     text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #f5f0f6;
 }
 
 </style>
