@@ -10,8 +10,9 @@
 
 </template>
 
-<script>
-    import SideBar from '../components/sidebar.vue'
+<script setup>
+
+
 </script>
 
 <style scoped>
@@ -21,9 +22,15 @@
 }
 
 .main-content {
-    float: right;
-    width: calc(100vw - 171px);
+    vertical-align: top;
+    display: inline-block;
     margin: 10px;
 }
+
+/* Color Palette */
+/*  171614
+    a27035
+    42b883
+    f5f0f6 */
 
 </style>

@@ -1,11 +1,8 @@
 <template>
-    <MainLayout>
-        <h2>About Me</h2>
-    </MainLayout>
+    <h2>About Me</h2>
 </template>
 
 <script setup>
-import MainLayout from '@/layouts/main.vue'
 
 </script>
 

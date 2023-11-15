@@ -1,16 +1,13 @@
 <template>
-    <div>
-        <h2>Home</h2>
-        <p>Something Something Something</p>
-        <p>Something Something Something</p>
-    </div>
+    <h2>Home</h2>
 </template>
 
 <script setup>
-
+    definePageMeta({
+        layout: 'home'
+    })
 </script>
 
 <style scoped>
-
 
 </style>

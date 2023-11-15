@@ -1,11 +1,8 @@
 <template>
-    <MainLayout>
-        <h2>Projects</h2>
-    </MainLayout>
+    <h2>Projects</h2>
 </template>
 
 <script setup>
-import MainLayout from '@/layouts/main.vue'
 
 </script>
 
