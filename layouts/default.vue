@@ -25,11 +25,12 @@
     vertical-align: top;
     display: inline-block;
     margin: 10px;
+    border-top-left-radius: 25px;;
 }
 
 /* Color Palette */
 /*  171614
-    a27035
+    CE7919
     42b883
     f5f0f6 */
 
