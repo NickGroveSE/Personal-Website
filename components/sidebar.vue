@@ -19,6 +19,7 @@
 
 div {
     margin-top: -2px;
+    padding-top: 25vh;
     width: 150px;
     background-color: #171614;
     height: calc(100vh + 2px);
@@ -29,6 +30,7 @@ ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    
 }
 
 li {

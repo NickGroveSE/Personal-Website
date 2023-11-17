@@ -2,7 +2,7 @@
     <div class="introduction-wrapper">
         <div class="introduction-panel">
             <div class="introduction-side" id="introduction-left">
-                <img class="profile-image" src="../assets/content/github-profile-pic.jpg"><img>
+                <img class="profile-image" src="../assets/content/github-profile-pic.jpg">
                 <div class="name">Nick Grove</div>
                 <div class="career">Full Stack Developer & Web Designer</div>
             </div>
@@ -16,13 +16,12 @@
                     <div class="recent-project">
                         <div class="recent-pre-title">Most Recent Project</div>
                         <div class="recent-img-and-title">
-                            <div class="recent-img"></div>
-                            <div class="recent-title-wrapper"><div class="recent-title">MTGMetaTracker</div></div>
+                            <img class="recent-img" src="../assets/content/M.png">
+                            <div class="recent-title">MTGMetaTracker</div>
                         </div>
                         <div class="recent-description">Using data from mtggoldfish.com to create a website that tracks the popularity of decks within competitive Magic The Gathering.</div>
                         <div class="recent-tags">
                             <ul>
-                                <li class="tag">Node.js</li>
                                 <li class="tag">Express</li>
                                 <li class="tag">EJS</li>
                                 <li class="tag">MongoDB</li>
@@ -59,6 +58,7 @@
     margin-top: calc(50vh - 200px);
     background-color: #f5f0f6;
     border-radius: 25px;
+    box-shadow: 10px 10px #CE7919;
 }
 
 .introduction-side {
@@ -90,9 +90,8 @@
 .name {
     height: 33px;
     width: 200px;
-    margin-top: 5px;
     font-size: 30px;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .career {
@@ -122,19 +121,25 @@
 }
 
 .recent-project {
-    height: 170px;
+    height: 165px;
     width: 280px;
-    margin-top: 45px;
+    margin-top: 50px;
     padding: 10px;
-    border: 1px solid #42b883;
+    border: 2px solid rgba(66, 184, 131, 0.25);
     border-radius: 5px; 
+    
+}
+
+.recent-project:hover {
+    border: 2px solid #42b883;
+    transition: 0.5s;
 }
 
 .recent-pre-title {
     height: 18px;
     color: #42b883;
     font-size: 15px;
-    font-weight: 200;
+    font-weight: 700;
 }
 
 .recent-img-and-title {
@@ -142,31 +147,30 @@
 }
 
 .recent-img {
-    width: 60px;
-    height: 60px;
+    max-width: 60px;
+    max-height: 60px;
     background: lightgrey;
     display: inline-block;
-}
-
-.recent-title-wrapper {
-    height: 60px;
-    margin-left: 10px;
-    vertical-align: top;
-    display: inline-block;
+    border-radius: 5px;
+    background-color: #f5f0f6;
 }
 
 .recent-title {
-    height: 60px;
-    display: block;
+    width: 210px;
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 5px;
+    vertical-align: top;
+    display: inline-block;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 900;
     color: #171614;
 }
 
 .recent-description {
     height: 42px;
     width: 270px;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 12px;
     font-weight: 300;
     color: #171614;
@@ -186,7 +190,7 @@ ul {
     margin: 0 5px 0 0;
     color: #171614;
     border: 1px solid #171614;
-    border-radius: 10px;
+    border-radius: 5px;
     font-size: 12px;
     font-weight: 700;
 }
