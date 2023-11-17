@@ -17,15 +17,17 @@
                         <div class="recent-pre-title">Most Recent Project</div>
                         <div class="recent-img-and-title">
                             <div class="recent-img"></div>
-                            <div class="recent-title">MTGMetaTracker</div>
+                            <div class="recent-title-wrapper"><div class="recent-title">MTGMetaTracker</div></div>
                         </div>
                         <div class="recent-description">Using data from mtggoldfish.com to create a website that tracks the popularity of decks within competitive Magic The Gathering.</div>
-                        <div class="recent-tags"><ul>
-                            <li class="tag">Node.js</li>
-                            <li class="tag">Express</li>
-                            <li class="tag">EJS</li>
-                            <li class="tag">MongoDB</li>
-                        </ul></div>
+                        <div class="recent-tags">
+                            <ul>
+                                <li class="tag">Node.js</li>
+                                <li class="tag">Express</li>
+                                <li class="tag">EJS</li>
+                                <li class="tag">MongoDB</li>
+                            </ul>
+                        </div>
                     </div>
                 </NuxtLink>
             </div>
@@ -120,9 +122,9 @@
 }
 
 .recent-project {
-    height: 175px;
+    height: 170px;
     width: 280px;
-    margin-top: 40px;
+    margin-top: 45px;
     padding: 10px;
     border: 1px solid #42b883;
     border-radius: 5px; 
@@ -146,24 +148,47 @@
     display: inline-block;
 }
 
-.recent-title {
-    height: 24px;
-    margin-top: 15px;
+.recent-title-wrapper {
+    height: 60px;
     margin-left: 10px;
     vertical-align: top;
-    font-size: 22px;
-    font-weight: 700;
-    color: #171614;
     display: inline-block;
 }
 
+.recent-title {
+    height: 60px;
+    display: block;
+    font-size: 22px;
+    font-weight: 700;
+    color: #171614;
+}
+
 .recent-description {
-    height: 48px;
+    height: 42px;
     width: 270px;
     margin-top: 10px;
     font-size: 12px;
     font-weight: 300;
     color: #171614;
+} 
+
+ul {
+    margin: 10px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    height: 20px;
+}
+
+.tag {
+    display: inline-block;
+    vertical-align: top;
+    padding: 2px 5px 2px 5px;
+    margin: 0 5px 0 0;
+    color: #171614;
+    border: 1px solid #171614;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
 }
 
 </style>
