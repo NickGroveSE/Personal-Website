@@ -1,10 +1,10 @@
 <template>
 <div>
     <ul>
-        <li><NuxtLink class="sidebar-link" to="/">Home</NuxtLink></li>
-        <li><NuxtLink class="sidebar-link" to="/about">About Me</NuxtLink></li>
-        <li><NuxtLink class="sidebar-link" to="/projects">Projects</NuxtLink></li>
-        <li><NuxtLink class="sidebar-link" to="/skills">Skills & Education</NuxtLink></li>
+        <li><NuxtLink class="link" to="/">Home</NuxtLink></li>
+        <li><NuxtLink class="link" to="/about">About Me</NuxtLink></li>
+        <li><NuxtLink class="link" to="/projects">Projects</NuxtLink></li>
+        <li><NuxtLink class="link" to="/skills">Skills & Education</NuxtLink></li>
     </ul>
 </div>
 
@@ -22,7 +22,7 @@ div {
     padding-top: 25vh;
     width: 150px;
     background-color: #171614;
-    height: calc(100vh + 2px);
+    height: calc(75vh + 2px);
     border-right: 2px solid #42b883;
 }
 
@@ -38,9 +38,8 @@ li {
     padding: 5px 20px 5px 20px;
 }
 
-.sidebar-link {
+.link {
     display: block;
-    text-decoration: none;
     color: #f5f0f6;
     width: 100%;
     height: 100%;

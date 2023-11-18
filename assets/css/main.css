@@ -8,3 +8,13 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+
+.link {
+    text-decoration: none;
+}
+
+.page-title {
+    font-weight: 900;
+    margin: 10px;
+    color: #42b883;
+}

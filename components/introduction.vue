@@ -12,20 +12,16 @@
                     <NuxtLink class="link" to="https://www.behance.net/nickgrove1"><img class="link-img" src="../assets/content/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
                     <NuxtLink class="link" to="https://github.com/NickGroveSE"><img class="link-img" src="../assets/content/github-mark.svg" alt="NickGroveSE on Github"></NuxtLink>
                 </div>
-                <NuxtLink class="link" to="/projects/mock">
+                <NuxtLink class="recent-project-link" to="/projects/MTGMetaTracker" >
                     <div class="recent-project">
                         <div class="recent-pre-title">Most Recent Project</div>
                         <div class="recent-img-and-title">
                             <img class="recent-img" src="../assets/content/M.png">
-                            <div class="recent-title">MTGMetaTracker</div>
+                            <div class="recent-title">{{ projects[0].title }}</div>
                         </div>
-                        <div class="recent-description">Using data from mtggoldfish.com to create a website that tracks the popularity of decks within competitive Magic The Gathering.</div>
+                        <div class="recent-description">{{ projects[0].description }}</div>
                         <div class="recent-tags">
-                            <ul>
-                                <li class="tag">Express</li>
-                                <li class="tag">EJS</li>
-                                <li class="tag">MongoDB</li>
-                            </ul>
+                            <TagCollection :tags="projects[0].tags"></TagCollection>
                         </div>
                     </div>
                 </NuxtLink>
@@ -36,7 +32,9 @@
 </template>
 
 <script setup>
+    import TagCollection from './tagcollection.vue'
 
+    const projects = await queryContent("projects").sort({ startedAt: 1 }).find();
 
 </script>
 
@@ -51,7 +49,7 @@
 }
 
 .introduction-panel {
-    width: 600px;
+    width: 584px;
     height: 320px;
     margin-left: auto;
     margin-right: auto;
@@ -76,7 +74,7 @@
 }
 
 #introduction-right {
-    width: 320px;
+    width: 304px;
     height: 280px;
     padding: 20px;
 }
@@ -101,13 +99,12 @@
 
 .link-container {
     height: 40px;
-    width: 320px;
+    width: 304px;
 }
 
 .link {
     float: right;
     margin-left: 10px;
-    text-decoration: none;
 }
 
 .link-img {
@@ -120,10 +117,17 @@
     height: 40px;
 }
 
+.recent-project-link {
+    display: block;
+    margin-top: 50px;
+    margin-left: 0;
+    width: 304px;
+    text-decoration: none;
+}
+
 .recent-project {
     height: 165px;
     width: 280px;
-    margin-top: 50px;
     padding: 10px;
     border: 2px solid rgba(66, 184, 131, 0.25);
     border-radius: 5px; 
@@ -169,30 +173,11 @@
 
 .recent-description {
     height: 42px;
-    width: 270px;
+    width: 280px;
     margin-top: 5px;
     font-size: 12px;
     font-weight: 300;
     color: #171614;
 } 
-
-ul {
-    margin: 10px 0 0 0;
-    padding: 0;
-    list-style-type: none;
-    height: 20px;
-}
-
-.tag {
-    display: inline-block;
-    vertical-align: top;
-    padding: 2px 5px 2px 5px;
-    margin: 0 5px 0 0;
-    color: #171614;
-    border: 1px solid #171614;
-    border-radius: 5px;
-    font-size: 12px;
-    font-weight: 700;
-}
 
 </style>
