@@ -5,8 +5,7 @@
           :title="project.title"
           :description="project.description"
           :tags="project.tags"
-          :imgurls="project.imgurls"
-          :links="project.links"
+          :imgurl="project.imgurl"
     />
 </template>
 

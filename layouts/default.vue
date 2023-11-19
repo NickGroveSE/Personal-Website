@@ -25,7 +25,8 @@
     vertical-align: top;
     display: inline-block;
     margin: 10px;
-    border-top-left-radius: 25px;;
+    border-top-left-radius: 25px;
+    background-color: #f5f0f6;
 }
 
 /* Color Palette */

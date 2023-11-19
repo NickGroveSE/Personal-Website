@@ -1,7 +1,7 @@
 <template>
     <NuxtLink class="link" to="/projects/{{ title.toLowerCase() }}">
         <TagCollection :tags="tags"></TagCollection>
-        <div>Image</div>
+        <ProjectImage class="link" :src="imgurl" />
         <div>{{ title }}</div>
         <div class="bottom-container">
             <div>{{ description }}</div>
@@ -15,13 +15,13 @@
 
 <script setup>
     import TagCollection from './tagcollection.vue'
+    import ProjectImage from './projectimage.vue'
 
     defineProps({
         title: String,
         description: String,
         tags: Object,
-        imgurls: Object,
-        links: Object
+        imgurl: String,
     })
 
 </script>

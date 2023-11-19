@@ -3,6 +3,7 @@
 body {
     margin: 0;
     font-family: 'Inter';
+    background-color: #f5f0f6;
 }
 
 body::-webkit-scrollbar {

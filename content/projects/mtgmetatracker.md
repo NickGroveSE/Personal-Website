@@ -7,7 +7,7 @@ startedAt: 8-14-2023
 
 tags: ["Express", "EJS", "MongoDB"]
 
-imgurl: "M.png"
+imgurl: "/M.png"
 
 links: ["https://github.com/NickGroveSE"]
 
