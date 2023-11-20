@@ -1,5 +1,5 @@
 <template>
-    <ul>
+    <ul :class="$attrs.class">
         <Tag :tags="tags"></Tag>
     </ul>
 </template>
@@ -18,10 +18,18 @@
 <style scoped>
 
 ul {
-    margin: 10px 0 0 0;
+    
     padding: 0;
     list-style-type: none;
     height: 20px;
+}
+
+.recent {
+    margin: 10px 0 0 0;
+}
+
+.link {
+    margin: 5px 0 0 0;
 }
 
 </style>

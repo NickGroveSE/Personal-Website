@@ -17,11 +17,11 @@
                         <div class="recent-pre-title">Most Recent Project</div>
                         <div class="recent-img-and-title">
                             <ProjectImage class="recent" :src="projects[0].imgurl"/>
-                            <div class="recent-title">{{ projects[0].title }}</div>
+                            <ProjectTitle class="recent" :title="projects[0].title"/>
                         </div>
                         <div class="recent-description">{{ projects[0].description }}</div>
                         <div class="recent-tags">
-                            <TagCollection :tags="projects[0].tags"/>
+                            <TagCollection class="recent" :tags="projects[0].tags"/>
                         </div>
                     </div>
                 </NuxtLink>
@@ -34,8 +34,9 @@
 <script setup>
     import TagCollection from './tagcollection.vue'
     import ProjectImage from './projectimage.vue'
+    import ProjectTitle from './projecttitle.vue'
 
-    const projects = await queryContent("projects").sort({ startedAt: 1 }).find();
+    const projects = await queryContent("projects").sort({ date: -1 }).find();
 
     // const imageClassObject = reactive({
     //     recent: true,
@@ -155,17 +156,9 @@
     margin-top: 5px;
 }
 
-.recent-title {
-    width: 210px;
-    height: 50px;
-    margin-left: 10px;
-    padding-top: 5px;
-    vertical-align: top;
-    display: inline-block;
-    font-size: 22px;
-    font-weight: 900;
-    color: #171614;
-}
+/* .recent-title {
+
+} */
 
 .recent-description {
     height: 42px;
