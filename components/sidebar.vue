@@ -1,7 +1,7 @@
 <template>
 <div>
     <ul>
-        <li id="current"><NuxtLink class="link" to="/" id="current-link">Home</NuxtLink></li>
+        <li><NuxtLink class="link" to="/" id="current">Home</NuxtLink></li>
         <li><NuxtLink class="link" to="/about">About Me</NuxtLink></li>
         <li><NuxtLink class="link" to="/projects">Projects</NuxtLink></li>
         <li><NuxtLink class="link" to="/skills">Skills & Education</NuxtLink></li>
@@ -20,7 +20,7 @@
 div {
     margin-top: -2px;
     padding-top: 25vh;
-    width: 130px;
+    width: 150px;
     background-color: #171614;
     height: calc(100vh - 38px);
     border-right: 2px solid #42b883;
@@ -35,28 +35,31 @@ ul {
 
 li {
     text-align: right;
-    padding: 10px 20px 10px 0;
-    margin-left: 30px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
+    margin-left: 50px;
 }
 
 .link {
     display: block;
     color: #f5f0f6;
-    width: 100%;
-    height: 100%;
+    padding: 8px 20px 8px 0;
     font-size: 15px;
     font-weight: 900;
 }
 
-#current {
-    background-color: #f5f0f6;
+.link:hover {
+    background-color: #42b883;
     margin-right: -2px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: 0.5s;
 }
 
-#current-link {
+#current {
     color: #42b883;
+    background-color: #f5f0f6;
+    margin-right: -2px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 </style>

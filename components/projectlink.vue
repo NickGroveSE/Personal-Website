@@ -2,7 +2,7 @@
     <NuxtLink class="project-link" to="/projects/{{ title.toLowerCase() }}">
         <ProjectImage class="link" :src="imgurl" />
         <div class="top-right-container">        
-            <ProjectTitle class="link" :title="title"/>
+            <ProjectTitle id="title" class="link" :title="title"/>
             <TagCollection class="link" :tags="tags"/>
         </div>
         <div class="excerpt">
@@ -41,9 +41,16 @@
     }
 
     .project-link:hover {
+        background-color: rgba(66, 184, 131, 0.15);
         border: 2px solid rgba(66, 184, 131, 1);
+        box-shadow: 5px 5px #CE7919;
+        transform: translate(-5px, -5px);
         transition: 0.5s;
     }
+
+    /* .project-link:hover #title {
+        color: #f5f0f6;
+    } */
 
     .top-right-container {
         margin-left: 20px;
@@ -54,6 +61,7 @@
 
     .excerpt {
         margin-top: 5px;
+
     }
 
 </style>
