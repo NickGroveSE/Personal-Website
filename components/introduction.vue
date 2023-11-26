@@ -169,4 +169,8 @@
     color: #171614;
 } 
 
+.recent-tags {
+    overflow: hidden;
+}
+
 </style>

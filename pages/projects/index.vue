@@ -1,8 +1,9 @@
 <template>
-    <h2>Projects</h2>
+    <PageTitle class="page" heading="Projects"/>
 </template>
 
 <script setup>
+import PageTitle from '../../components/pagetitle.vue'
 
 </script>
 

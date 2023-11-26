@@ -21,7 +21,7 @@ div {
 }
 
 .recent {
-    width: 210px;
+    width: 200px;
     height: 50px;
     margin-left: 10px;
     padding-top: 5px;

@@ -32,4 +32,8 @@ ul {
     margin: 5px 0 0 0;
 }
 
+.project {
+    margin: 0 0 0 10px;
+}
+
 </style>

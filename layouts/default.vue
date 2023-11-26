@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="page">
         <Sidebar class="page-element">
 
         </Sidebar>
@@ -17,14 +17,26 @@
 
 <style scoped>
 
+.page {
+    height: 100%;
+}
+
 .page-element {
+    position: absolute;
     display: inline-block;
+    margin: -2px 0 0 0;
+    padding: 0;
+    height: 100%;
+}
+
+.page-element::-webkit-scrollbar {
+    display: none;
 }
 
 .main-content {
     vertical-align: top;
     display: inline-block;
-    margin: 10px;
+    margin: 10px 10px 10px 160px;
     border-top-left-radius: 25px;
     background-color: #f5f0f6;
 }

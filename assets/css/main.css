@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Inter';
     background-color: #f5f0f6;
+    height: 100%;
 }
 
 body::-webkit-scrollbar {
@@ -14,9 +15,9 @@ body::-webkit-scrollbar {
     text-decoration: none;
 }
 
-.page-title {
-    font-size: 30px;
-    font-weight: 900;
-    margin: 10px;
-    color: #42b883;
+.content {
+    margin: 0 0 20px 30px;
+    font-weight: 300;
+    color: #171614;
+    width: calc(100vw - 222px);
 }

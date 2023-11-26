@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink class="project-link" to="/projects/{{ title.toLowerCase() }}">
+    <NuxtLink class="project-link" :to="`/projects/${title}`">
         <ProjectImage class="link" :src="imgurl" />
         <div class="top-right-container">        
             <ProjectTitle id="title" class="link" :title="title"/>
@@ -61,7 +61,7 @@
 
     .excerpt {
         margin-top: 5px;
-
+        font-weight: 300;
     }
 
 </style>

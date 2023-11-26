@@ -1,5 +1,5 @@
 <template>
-    <h2 class="page-title">Highlighted Projects</h2>
+    <PageTitle class="page" heading="Highlighted Projects"/>
     <ProjectLink
           v-for="project in projects"
           :title="project.title"
@@ -11,6 +11,7 @@
 
 <script setup>
     import ProjectLink from '../components/projectlink.vue'
+    import PageTitle from '../components/pagetitle.vue'
 
     definePageMeta({
         layout: 'home'
