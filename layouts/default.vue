@@ -1,15 +1,13 @@
 <template>
-    <div class="page-wrapper">
-        <div class="page">
-            <div class="blur">
+    <div id="page">
+        <div class="blur">
 
-            </div>
-            <Sidebar class="page-element">
+        </div>
+        <Sidebar class="page-element">
 
-            </Sidebar>
-            <div class="main-content">
-                <slot />
-            </div>
+        </Sidebar>
+        <div class="main-content">
+            <slot />
         </div>
     </div>
 
@@ -21,11 +19,7 @@
 </script>
 
 <style scoped>
-
-.page-wrapper {
-    height: 100%;
-}
-.page {
+#page {
     height: 100%;
 }
 
@@ -41,7 +35,7 @@
     position: fixed;
     top: 0;
     display: inline-block;
-    margin: -2px 0 0 0;
+    margin: 0;
     padding: 0;
     width: 150px;
     height: calc(100% + 2px);

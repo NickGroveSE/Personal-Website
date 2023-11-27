@@ -27,6 +27,9 @@
                 </NuxtLink>
             </div>
         </div>
+        <NuxtLink class="page-down" to="#page">
+            Click Me
+        </NuxtLink>
     </div>
 
 </template>

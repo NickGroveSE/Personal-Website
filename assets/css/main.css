@@ -1,5 +1,9 @@
 @import '../fonts/stylesheet.css';
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     margin: 0;
     font-family: 'Inter';
