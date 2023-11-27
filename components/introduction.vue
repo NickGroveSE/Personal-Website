@@ -27,9 +27,15 @@
                 </NuxtLink>
             </div>
         </div>
-        <NuxtLink class="page-down" to="#page">
-            Click Me
-        </NuxtLink>
+        <div class="page-down-wrapper">
+            <NuxtLink class="page-down" to="#page">
+                <Arrow id="arrow-1"></Arrow>
+                <Arrow id="arrow-2"></Arrow>
+                <Arrow id="arrow-3"></Arrow>
+                <Arrow id="arrow-4"></Arrow>
+            </NuxtLink>
+        </div>
+
     </div>
 
 </template>
@@ -38,6 +44,7 @@
     import TagCollection from './tagcollection.vue'
     import ProjectImage from './projectimage.vue'
     import ProjectTitle from './projecttitle.vue'
+    import Arrow from './arrow.vue'
 
     const projects = await queryContent("projects").sort({ date: -1 }).find();
 
@@ -67,6 +74,21 @@
     background-color: #f5f0f6;
     border-radius: 25px;
     box-shadow: 10px 10px #CE7919;
+}
+
+.page-down-wrapper {
+    position: relative;
+    width: 100px;
+    height: 70px;
+    margin: calc(100vh - (50vh + 220px)) auto 0 auto;
+    vertical-align: bottom;
+}
+
+.page-down {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
 }
 
 .introduction-side {

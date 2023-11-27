@@ -25,9 +25,9 @@
 
 .blur {
     position: absolute;
-    background-image: linear-gradient(rgba(23, 22, 20, 1), rgba(23, 22, 20, 0));
+    background: linear-gradient(rgba(23, 22, 20, 1) 40%, rgba(23, 22, 20, 0));
     width: 150px;
-    height: 150px;
+    height: 100px;
     z-index: 10;
 }
 
