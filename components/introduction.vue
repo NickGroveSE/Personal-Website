@@ -8,9 +8,9 @@
             </div>
             <div class="introduction-side" id="introduction-right">
                 <div class="link-container">
-                    <NuxtLink class="link" to="https://www.linkedin.com/in/nick-grove-9417b6199/"><img class="link-img" id="linkedin-img" src="../assets/content/LI-In-Bug.png" alt="Nick Grove on LinkedIn"></NuxtLink>
-                    <NuxtLink class="link" to="https://www.behance.net/nickgrove1"><img class="link-img" src="../assets/content/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
-                    <NuxtLink class="link" to="https://github.com/NickGroveSE"><img class="link-img" src="../assets/content/github-mark.svg" alt="NickGroveSE on Github"></NuxtLink>
+                    <NuxtLink class="link" to="https://www.linkedin.com/in/nick-grove-9417b6199/"><img class="link-img" id="linkedin-img" src="/LI-In-Bug.png" alt="Nick Grove on LinkedIn"></NuxtLink>
+                    <NuxtLink class="link" to="https://www.behance.net/nickgrove1"><img class="link-img" src="/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
+                    <NuxtLink class="link" to="https://github.com/NickGroveSE"><img class="link-img" src="/github-mark.svg" alt="NickGroveSE on Github"></NuxtLink>
                 </div>
                 <NuxtLink class="recent-project-link" to="/projects/MTGMetaTracker" >
                     <div class="recent-project">
@@ -167,6 +167,7 @@
 }
 
 .recent-project:hover {
+    background-color: rgba(66, 184, 131, 0.15);
     border: 2px solid #42b883;
     transition: 0.5s;
 }
