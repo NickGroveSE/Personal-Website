@@ -1,10 +1,15 @@
 <template>
-    <div class="page">
-        <Sidebar class="page-element">
+    <div class="page-wrapper">
+        <div class="page">
+            <div class="blur">
 
-        </Sidebar>
-        <div class="main-content">
-            <slot />
+            </div>
+            <Sidebar class="page-element">
+
+            </Sidebar>
+            <div class="main-content">
+                <slot />
+            </div>
         </div>
     </div>
 
@@ -17,16 +22,32 @@
 
 <style scoped>
 
+.page-wrapper {
+    height: 100%;
+}
 .page {
     height: 100%;
 }
 
-.page-element {
+.blur {
     position: absolute;
+    background-image: linear-gradient(rgba(23, 22, 20, 1), rgba(23, 22, 20, 0));
+    width: 150px;
+    height: 150px;
+    z-index: 10;
+}
+
+.page-element {
+    position: fixed;
+    top: 0;
     display: inline-block;
     margin: -2px 0 0 0;
     padding: 0;
-    height: 100%;
+    width: 150px;
+    height: calc(100% + 2px);
+    background-color: #171614;
+    border-right: 2px solid #42b883;
+    z-index: 0;
 }
 
 .page-element::-webkit-scrollbar {
@@ -34,8 +55,10 @@
 }
 
 .main-content {
+
     vertical-align: top;
     display: inline-block;
+    height: calc(100% + 2px);
     margin: 10px 10px 10px 160px;
     border-top-left-radius: 25px;
     background-color: #f5f0f6;

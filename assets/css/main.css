@@ -1,6 +1,6 @@
 @import '../fonts/stylesheet.css';
 
-body {
+html, body {
     margin: 0;
     font-family: 'Inter';
     background-color: #f5f0f6;

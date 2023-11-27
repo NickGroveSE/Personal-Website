@@ -17,18 +17,11 @@
 
 <style scoped>
 
-div {
-    width: 150px;
-    background-color: #171614;
-    border-right: 2px solid #42b883;
-    
-}
-
 ul {
     list-style: none;
     margin: 0;
     padding: 25vh 0 0 0;
-    
+
 }
 
 li {

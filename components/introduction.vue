@@ -47,11 +47,12 @@
 <style scoped>
 
 .introduction-wrapper {
+    position: relative;
     width: 100%;
     height: 100vh;
     background-color: #171614;
-    border-bottom: 2px solid #42b883;
     overflow: auto;
+    z-index: 10;
 }
 
 .introduction-panel {
