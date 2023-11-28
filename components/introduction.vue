@@ -167,7 +167,7 @@
 }
 
 .recent-project:hover {
-    background-color: rgba(66, 184, 131, 0.15);
+    background-color: #D5E6E3;
     border: 2px solid #42b883;
     transition: 0.5s;
 }

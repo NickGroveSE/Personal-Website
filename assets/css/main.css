@@ -1,5 +1,9 @@
 @import '../fonts/stylesheet.css';
 
+:root {
+    --lh: 1.4rem;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -21,6 +25,7 @@ body::-webkit-scrollbar {
 
 .content {
     margin: 0 0 20px 30px;
+    font-size: 16px;
     font-weight: 300;
     color: #171614;
     width: calc(100vw - 222px);

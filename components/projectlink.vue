@@ -6,9 +6,7 @@
             <TagCollection class="link" :tags="tags"/>
         </div>
         <div class="excerpt">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nunc id elit porta mollis ac non neque. Nam rhoncus sodales libero, non elementum nulla volutpat nec. 
-            Cras tincidunt lobortis orci, eu lacinia nunc elementum at. Pellentesque mattis interdum augue vel ullamcorper. Maecenas at erat nec ante tristique consequat sed non eros. 
-            Ut pharetra elit at malesuada iaculis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pretium convallis lectus id tempor.
+            <ContentDoc class="excerpt-content" :path="`/projects/${title.split(' ').join('').toLowerCase()}`"></ContentDoc>
         </div>
     </NuxtLink>
 </template>
@@ -36,17 +34,23 @@
         display: block;
         padding: 15px;
         width: calc(100vw - 246px);
+        height: 180px;
         border: 2px solid rgba(66, 184, 131, 0.15);
         border-radius: 5px; 
     }
 
     .project-link:hover {
-        background-color: rgba(66, 184, 131, 0.15);
+        background-color: #D5E6E3;
         border: 2px solid rgba(66, 184, 131, 1);
         box-shadow: 5px 5px #CE7919;
         transform: translate(-5px, -5px);
         transition: 0.5s;
     }
+
+    /* .project-link:hover .read-more{
+        background: linear-gradient(to right, rgba(213, 230, 227, 0), rgba(213, 230, 227, 1));
+        transition: 1s;
+    } */
 
     /* .project-link:hover #title {
         color: #f5f0f6;
@@ -60,8 +64,41 @@
     }
 
     .excerpt {
-        margin-top: 5px;
+        position: relative;
+        font-size: 16px;
         font-weight: 300;
+        max-height: calc(var(--lh) * var(--max-lines));;
+        overflow: hidden;
+        --max-lines: 4.2;
+        text-overflow: ellipsis;
+        /* white-space: nowrap; */
+        
+        
     }
+
+    .excerpt::before {
+        font-weight: 900;
+        color: #CE7919;
+        position: absolute;
+        content: "...";
+        bottom: 6px;
+        right: 0;
+    }
+    
+    /* .excerpt-content {
+        
+    } */
+
+    /* .read-more {
+        position: relative;
+        float: right;
+        top: 160px;
+        width: 300px;
+        text-align: right;
+        color: #42b883;
+        font-weight: 300;
+        background: linear-gradient(to right, rgba(245, 240, 246, 0), rgba(245, 240, 246, 1));
+    } */
+
 
 </style>
