@@ -1,5 +1,5 @@
 <template>
-    <PageTitle class="page" heading="About Me"/>
+    <PageTitle class="page" heading="My Story"/>
     <div class="content">
         <ContentDoc path="/pages/aboutme"/>
     </div>

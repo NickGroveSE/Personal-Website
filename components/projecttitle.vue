@@ -20,7 +20,7 @@ div {
     font-weight: 900;
 }
 
-.recent {
+.tile {
     width: 200px;
     height: 50px;
     margin-left: 10px;

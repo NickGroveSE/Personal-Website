@@ -21,11 +21,11 @@ ul {
     
     padding: 0;
     list-style-type: none;
-    height: 20px;
+    height: 18px;
 }
 
-.recent {
-    margin: 10px 0 0 0;
+.tile {
+    margin: 5px 0 0 0;
 }
 
 .link {

@@ -25,7 +25,6 @@
     border-radius: 5px;
     font-size: 12px;
     font-weight: 700;
-    border: 1px solid #f5f0f6;
 }
 
 </style>
