@@ -27,7 +27,7 @@
     position: absolute;
     background: linear-gradient(rgba(23, 22, 20, 1) 40%, rgba(23, 22, 20, 0));
     width: 150px;
-    height: 100px;
+    height: 30px;
     z-index: 10;
 }
 

@@ -1,6 +1,6 @@
 <template>
 
-    <li class="tag" v-for="tag in tags">{{ tag }}</li>
+    <li v-for="tag in tags">{{ tag }}</li>
 
 </template>
 
@@ -15,7 +15,7 @@
 
 <style scoped>
 
-.tag {
+li {
     display: inline-block;
     vertical-align: top;
     padding: 2px 5px 2px 5px;

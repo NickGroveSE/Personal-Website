@@ -2,7 +2,7 @@
 title: "Scheduli"
 description: "A sleek and unique scheduling app that focuses is on simplicity. My first Full Stack project using Vue and my introduction to various other frameworks."
 date: 2023-12-01
-tags: ["Full Stack", "Vue.js", "Laravel", "PostgreSQL", "Tailwind CSS"]
+tags: ["Full Stack", "Vue", "Laravel", "PostgreSQL", "Tailwind CSS"]
 imgurl: ""
 links: ["https://github.com/NickGroveSE/Scheduli"]
 linkimgurls: ["../assets/content/github-mark.svg"]

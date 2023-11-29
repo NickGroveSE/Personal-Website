@@ -12,7 +12,7 @@
                     <NuxtLink class="link" to="https://www.behance.net/nickgrove1"><img class="link-img" src="/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
                     <NuxtLink class="link" to="https://github.com/NickGroveSE"><img class="link-img" src="/github-mark.svg" alt="NickGroveSE on Github"></NuxtLink>
                 </div>
-                <div class="recent-pre-title">Most Recent Project</div>
+                <div class="recent-pre-title">What I Am Currently Working On</div>
                 <ProjectTile
                     :title="projects[0].title"
                     :tags="projects[0].tags"

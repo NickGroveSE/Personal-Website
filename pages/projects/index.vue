@@ -1,6 +1,6 @@
 <template>
-    <PageTitle class="page" heading="Projects"/>
-    <div class="filters-heading">Filters</div>
+    <PageTitle class="page" heading="My Projects"/>
+    <div class="filters-heading">Filters Coming Soon!</div>
     <div class="projects-wrapper">    
         <ProjectTile
             class="projects-tile"
@@ -28,7 +28,10 @@
     }
 
     .filters-heading {
-        margin-left: 40px;
+        margin-left: 60px;
+        color: #42b883;
+        font-size: 16px;
+        font-weight: 700;
     }
 
     .projects-tile {

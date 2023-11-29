@@ -1,10 +1,14 @@
 <template>
     <PageTitle class="page" heading="Highlighted Projects"/>
     <ProjectLink
-          v-for="project in projects"
-          :title="project.title"
-          :tags="project.tags"
-          :imgurl="project.imgurl"
+          :title="MTGMetaTracker.title"
+          :tags="MTGMetaTracker.tags"
+          :imgurl="MTGMetaTracker.imgurl"
+    />
+    <ProjectLink
+          :title="WordleSolver.title"
+          :tags="WordleSolver.tags"
+          :imgurl="WordleSolver.imgurl"
     />
     <NuxtLink class="more-projects" to="/projects">Check Out More of My Work <img id="arrow" src="/RightArrow.svg"></NuxtLink>
 </template>
@@ -17,7 +21,8 @@
         layout: 'home'
     })
 
-    const projects = await queryContent("projects").sort({ date: -1 }).find();
+    const MTGMetaTracker = await queryContent("projects").where({ title: { $eq: 'MTGMetaTracker' } }).findOne()
+    const WordleSolver = await queryContent("projects").where({ title: { $eq: 'Wordle Solver' } }).findOne()
 
 
 </script>

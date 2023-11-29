@@ -7,7 +7,9 @@
         </div>
         <div class="excerpt">
             <ContentDoc class="excerpt-content" :path="`/projects/${title.split(' ').join('').toLowerCase()}`"></ContentDoc>
+            <div class="glimpse"></div>
         </div>
+        <div class="read-more">Click to Read More</div>
     </NuxtLink>
 </template>
 
@@ -34,7 +36,7 @@
         display: block;
         padding: 15px;
         width: calc(100vw - 246px);
-        height: 180px;
+        height: 265px;
         border: 2px solid rgba(66, 184, 131, 0.15);
         border-radius: 5px; 
     }
@@ -69,36 +71,18 @@
         font-weight: 300;
         max-height: calc(var(--lh) * var(--max-lines));;
         overflow: hidden;
-        --max-lines: 4.2;
+        --max-lines: 9;
         text-overflow: ellipsis;
-        /* white-space: nowrap; */
-        
-        
     }
 
-    .excerpt::before {
+    .read-more {
+        width: 100%;
+        margin-top: 10px;
+        font-size: 16px;
         font-weight: 900;
-        color: #CE7919;
-        position: absolute;
-        content: "...";
-        bottom: 6px;
-        right: 0;
-    }
-    
-    /* .excerpt-content {
-        
-    } */
-
-    /* .read-more {
-        position: relative;
-        float: right;
-        top: 160px;
-        width: 300px;
-        text-align: right;
         color: #42b883;
-        font-weight: 300;
-        background: linear-gradient(to right, rgba(245, 240, 246, 0), rgba(245, 240, 246, 1));
-    } */
+        text-align: center;
+    }
 
 
 </style>
