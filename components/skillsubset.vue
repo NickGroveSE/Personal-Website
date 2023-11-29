@@ -19,10 +19,12 @@
 <style scoped>
 
 div {
-    margin: 0 0 15px 40px;
+    margin: 0 0 15px 0;
     color: #171614;
     font-weight: 900;
     font-size: 22px;
+    width: 400px;
+    display: inline-block;
 }
 
 

@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink class="project-link" to="/projects/MTGMetaTracker" >
+    <NuxtLink class="project-link" :to="`/projects/${title}`" >
         <div class="project">
             <div class="img-and-title">
                 <ProjectImage class="tile" :src="imgurl"/>

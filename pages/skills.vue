@@ -1,4 +1,7 @@
 <template>
+    <PageTitle class="page" heading="Education"/>
+    <Education imgurl="/uofi.png" heading="The University of Iowa" degree="Bachelor's Degree in Computer Science & Engineering" timeframe="August 2016 - May 2020"/>
+    <Education id="last-edu" imgurl="/sfassociate.png" heading="Salesforce Associate (In Progress)" timeframe="September 2023 - Current"/>
     <PageTitle class="page" heading="Skills"/>
     <div class="subsets-wrapper">
         <SkillSubset 
@@ -7,33 +10,33 @@
             :tags="subset.tags"
         />
     </div>
-    <PageTitle class="page" heading="Education"/>
 </template>
 
 <script setup>
     import PageTitle from '../components/pagetitle.vue'
     import SkillSubset from '../components/skillsubset.vue' 
+    import Education from '../components/education.vue'
 
     const subsets = [
         {
             name: "Languages",
-            tags: ["JavaScript: 3 years","Python: 2 years", "Java: 2 years", "C/C++: 2 years"]
+            tags: ["JavaScript","Python", "Java", "C/C++", "Swift"]
         },
         {
             name: "Frontend",
-            tags: ["Vue: 0.5 years", "React: 0.5 years"]
+            tags: ["Vue", "React"]
         },
         {
             name: "Backend",
-            tags: ["Express: 0.5 years"]
+            tags: ["Express"]
         },
         {
             name: "Databases",
-            tags: ["MySQL: 1 years", "MongoDB: 0.5 years"]
+            tags: ["MySQL", "MongoDB"]
         },
         {
             name: "Design",
-            tags: ["Figma: 3 years"]
+            tags: ["Figma"]
         }
     ]
 
@@ -43,5 +46,12 @@
 
 <style scoped>
 
+    .subsets-wrapper {
+        margin-left: 30px;
+    }
+
+    #last-edu {
+        margin-bottom: 40px;
+    }
 
 </style>

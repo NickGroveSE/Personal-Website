@@ -1,6 +1,6 @@
 <template>
     <PageTitle class="page" heading="My Projects"/>
-    <div class="filters-heading">Filters Coming Soon!</div>
+    <!-- <div class="filters-heading">Filters Coming Soon!</div> -->
     <div class="projects-wrapper">    
         <ProjectTile
             class="projects-tile"
