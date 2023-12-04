@@ -14,6 +14,7 @@
                 </div>
                 <div class="recent-pre-title">What I Am Currently Working On</div>
                 <ProjectTile
+                    class="recent-project"
                     :title="projects[0].title"
                     :tags="projects[0].tags"
                     :imgurl="projects[0].imgurl"
@@ -143,6 +144,58 @@
     font-size: 15px;
     font-weight: 700;
     margin: 55px 0 2px 10px
+}
+
+@media (max-width: 700px) {
+    
+    #introduction-right {
+        width: 80px;
+    }
+
+    .introduction-panel {
+        width: 320px;
+    }
+
+    .recent-pre-title {
+        display: none;
+    }
+
+    .recent-project {
+        display: none;
+    }
+
+    .link-container { 
+        width: 40px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    #introduction-left {
+        height: 260px;
+        width: 180px;
+    }
+
+    .introduction-panel {
+        height: 300px;
+        width: 220px;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .name {
+        width: 180px;
+    }
+
+    .career {
+        width: 180px;
+    }
+
+
 }
 
 </style>
