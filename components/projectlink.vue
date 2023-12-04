@@ -1,6 +1,6 @@
 <template>
     <NuxtLink class="project-link" :to="`/projects/${title}`">
-        <ProjectImage class="link" :src="imgurl" />
+        <ProjectImage class="link" :imgurl="imgurl" />
         <div class="top-right-container">        
             <ProjectTitle id="title" class="link" :title="title"/>
             <TagCollection class="link" :tags="tags"/>

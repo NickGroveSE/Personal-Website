@@ -2,7 +2,7 @@
     
     <PageTitle class="project" id="title" :heading="title"/>
     <div class="link-container">
-        <NuxtLink class="link" :to="`${project.links[0]}`"><img class="link-img" :src="`${project.linkimgurls[0]}`"></NuxtLink>
+        <NuxtLink v-if="project.linkimgurls" v-for="(image, index) in project.linkimgurls"  class="link" :to="`${project.links[index]}`"><img class="link-img" :src="image"></NuxtLink>
     </div>
     <TagCollection class="project" id="tags" :tags="project.tags"/>
 

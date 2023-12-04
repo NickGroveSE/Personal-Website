@@ -5,11 +5,9 @@ date: 2023-12-01
 tags: ["Full Stack", "Vue", "Laravel", "PostgreSQL", "Tailwind CSS"]
 imgurl: ""
 links: ["https://github.com/NickGroveSE/Scheduli"]
-linkimgurls: ["../assets/content/github-mark.svg"]
+linkimgurls: ["/github-mark.svg"]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique sem turpis, ut congue neque accumsan sed. Quisque sollicitudin augue eget tellus dapibus, id dapibus orci volutpat. Donec sit amet enim ac neque efficitur rutrum. Nunc molestie ex vitae ex fermentum placerat eget vitae lorem. Curabitur odio est, dictum suscipit egestas sit amet, elementum hendrerit metus. Quisque lacus lectus, facilisis in condimentum sed, fringilla eu nunc. Praesent sit amet neque blandit, dictum elit id, egestas nibh. Pellentesque equat nulla justo, sit amet semper augue bibendum ut. Nam viverra nisl tortor, eget laoreet enim aliquet et. Fusce pharetra et velit ut convallis. Cras sem orci, varius at erat nec, convallis malesuada nibh.
+My goal for Scheduli was to create a sleek scheduling app for my first Full Stack application using Vue as my Frontend Framework and introduce myself to some new technologies. I decided on working with Laravel and PostgreSQL for the Backend to get my start in PHP and using modern, widely-used frameworks was important to me with this stack. When it came to the Frontend I wanted to explore as well with diving into Tailwind CSS and SASS, both of these feel like vital CSS tools for me being more Frontend-leaning.
 
-Nulla facilisi. Integer luctus diam in urna hendrerit, vitae eleifend sem suscipit. Donec condimentum lacinia enim, non mollis odio feugiat ut. Integer pharetra interdum iaculis. Suspendisse potenti. Donec at dui felis. Duis id porttitor magna.
-
-In magna ante, venenatis nec posuere eu, ullamcorper in libero. Mauris tristique elit ut imperdiet consequat. Nulla cursus bibendum risus at scelerisque. In porta, sem eu imperdiet cursus, libero ligula malesuada mi, quis molestie velit tellus sit amet arcu. Fusce ornare massa a dui ultricies, ac posuere urna pretium. Aenean iaculis quam lorem, sed gravida ex rhoncus at. Aliquam turpis lorem, semper rutrum velit convallis, egestas porta dui. Aliquam iaculis nisi velit, non euismod arcu tincidunt sed. Aliquam consequat est a tortor rhoncus, in suscipit nunc pellentesque. Mauris a ante vel arcu dignissim tempus. Mauris consequat elit non auctor tempor.
+Currently this project is in the beginning phases. Organizing the Relational Database, Design, and Planning my Backlog. 

@@ -5,7 +5,7 @@ date: 2023-11-09
 tags: ["Python", "Pandas", "PyAutoGUI"]
 imgurl: "/Wordle.webp"
 links: ["https://github.com/NickGroveSE"]
-linkimgurls: ["../assets/content/github-mark.svg"]
+linkimgurls: ["/github-mark.svg"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique sem turpis, ut congue neque accumsan sed. Quisque sollicitudin augue eget tellus dapibus, id dapibus orci volutpat. Donec sit amet enim ac neque efficitur rutrum. Nunc molestie ex vitae ex fermentum placerat eget vitae lorem. Curabitur odio est, dictum suscipit egestas sit amet, elementum hendrerit metus. Quisque lacus lectus, facilisis in condimentum sed, fringilla eu nunc. Praesent sit amet neque blandit, dictum elit id, egestas nibh. Pellentesque equat nulla justo, sit amet semper augue bibendum ut. Nam viverra nisl tortor, eget laoreet enim aliquet et. Fusce pharetra et velit ut convallis. Cras sem orci, varius at erat nec, convallis malesuada nibh.

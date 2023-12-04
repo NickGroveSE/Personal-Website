@@ -2,7 +2,7 @@
     <NuxtLink class="project-link" :to="`/projects/${title}`" >
         <div class="project">
             <div class="img-and-title">
-                <ProjectImage class="tile" :src="imgurl"/>
+                <ProjectImage class="tile" :imgurl="imgurl"/>
                 <ProjectTitle class="tile" :title="title"/>
             </div>
             <div class="tags">
