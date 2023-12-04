@@ -8,8 +8,13 @@ links: []
 linkimgurls: []
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tristique sem turpis, ut congue neque accumsan sed. Quisque sollicitudin augue eget tellus dapibus, id dapibus orci volutpat. Donec sit amet enim ac neque efficitur rutrum. Nunc molestie ex vitae ex fermentum placerat eget vitae lorem. Curabitur odio est, dictum suscipit egestas sit amet, elementum hendrerit metus. Quisque lacus lectus, facilisis in condimentum sed, fringilla eu nunc. Praesent sit amet neque blandit, dictum elit id, egestas nibh. Pellentesque equat nulla justo, sit amet semper augue bibendum ut. Nam viverra nisl tortor, eget laoreet enim aliquet et. Fusce pharetra et velit ut convallis. Cras sem orci, varius at erat nec, convallis malesuada nibh.
+I was participating in the online Hackathon CAPTURETHEWORLD, and since the theme was social good I decided to create a Mobile App that would be a way for people to support their local businesses and non-profits, with an emphasis on fighting against gentrification. My inspiration for this app was the gentrification I see everyday in the city I live, Cincinnati. In the neighborhood OTR there is a polarizing example of this on a main road Liberty Street. On the South side of the street it is primarily White, new developments, and higher cost of living and on the North side of the street it primarily African American, abandoned buildings, and homelessness. I wanted to create a platform where businesses that are owned by people of color and/or heavily affected by gentrification can prosper. 
 
-Nulla facilisi. Integer luctus diam in urna hendrerit, vitae eleifend sem suscipit. Donec condimentum lacinia enim, non mollis odio feugiat ut. Integer pharetra interdum iaculis. Suspendisse potenti. Donec at dui felis. Duis id porttitor magna.
+<div id="fig-1" style="display: block; width: 70%; margin-left: auto; margin-right: auto;">
+    <div style="display: inline; font-size: 18px; font-weight: 900; color: #42b883;">Figure 1:</div>
+    <div style=" font-size: 14px;">Figma designs</div>
+    <img  src="/urbanuncoverscreens.png" style="width: 100%; margin: 10px 0 50px 0">
+</div>
 
-In magna ante, venenatis nec posuere eu, ullamcorper in libero. Mauris tristique elit ut imperdiet consequat. Nulla cursus bibendum risus at scelerisque. In porta, sem eu imperdiet cursus, libero ligula malesuada mi, quis molestie velit tellus sit amet arcu. Fusce ornare massa a dui ultricies, ac posuere urna pretium. Aenean iaculis quam lorem, sed gravida ex rhoncus at. Aliquam turpis lorem, semper rutrum velit convallis, egestas porta dui. Aliquam iaculis nisi velit, non euismod arcu tincidunt sed. Aliquam consequat est a tortor rhoncus, in suscipit nunc pellentesque. Mauris a ante vel arcu dignissim tempus. Mauris consequat elit non auctor tempor.
+CAPTURETHEWORLD was very welcoming to projects with no code or low code, so I wanted to put some heavy emphasis on the Design (<a href="#fig-1" style="color: #CE7919;">Figure 1</a>). I felt like this idea really challenged me on the Design side of things, and I would love to come back to it one day. Next steps if I ever come back to this project is fully fleshing out the Design, showcase it on Behance, and maybe one day get to programming it using a native framework but it would be a large undertaking.
+
