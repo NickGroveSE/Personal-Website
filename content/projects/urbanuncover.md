@@ -16,5 +16,5 @@ I was participating in the online Hackathon CAPTURETHEWORLD, and since the theme
     <img  src="/urbanuncoverscreens.png" style="width: 100%; margin: 10px 0 50px 0">
 </div>
 
-CAPTURETHEWORLD was very welcoming to projects with no code or low code, so I wanted to put some heavy emphasis on the Design (<a href="#fig-1" style="color: #CE7919;">Figure 1</a>). I felt like this idea really challenged me on the Design side of things, and I would love to come back to it one day. Next steps if I ever come back to this project is fully fleshing out the Design, showcase it on Behance, and maybe one day get to programming it using a native framework but it would be a large undertaking.
+CAPTURETHEWORLD was very welcoming to projects with no code or low code, so I wanted to put some heavy emphasis on the Design (Figure 1). I felt like this idea really challenged me on the Design side of things, and I would love to come back to it one day. Next steps if I ever come back to this project is fully fleshing out the Design, showcase it on Behance, and maybe one day get to programming it using a native framework but it would be a large undertaking.
 

@@ -55,7 +55,15 @@
     }
 
     #tags {
-        margin: -30px 0 0 60px;
+        margin: -35px 0 0 60px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    #tags {
+        margin-top: -40px;
     }
     
 }

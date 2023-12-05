@@ -4,10 +4,10 @@
 
         </div>
 
-        <div class="ham-menu">
+        <div id="ham-menu" v-on:click="showSidebar=!showSidebar" v-bind:class="{active:showSidebar}" :style="showSidebar ? openedButtonStyle : closedButtonStyle">
 
         </div>
-        <Sidebar class="page-element">
+        <Sidebar id="sidebar" :style="showSidebar ? openedMenuStyle : closedButtonStyle">
 
         </Sidebar>
         <div class="main-content">
@@ -17,7 +17,40 @@
 
 </template>
 
-<script setup>
+<script>
+
+    export default {
+        data() {
+            return {
+                showSidebar: true,
+                openedButtonStyle: {
+                    left: "160px"
+                }, 
+                closedButtonStyle: {
+                    left: "10px"
+                }, 
+                openedMenuStyle: {
+                    visibility: "visible",
+                },
+                closedMenuStyle: {
+                    visibility: "hidden"
+                }
+            }
+	    },
+        methods: {
+            toggleSidebar() {
+                this.showSidebar=!this.showSidebar
+            }
+        }
+    }
+
+
+    // function toggleSideBar(event) {
+
+    //     console.log(this.$refs.sidebar)
+
+    // }
+
 
 
 </script>
@@ -35,7 +68,7 @@
     z-index: 10;
 }
 
-.ham-menu {
+#ham-menu {
     position: absolute;
     display: inline-block;
     visibility: hidden;
@@ -51,24 +84,23 @@
     border-radius: 5px;
 }
 
-.ham-menu:hover {
+#ham-menu:hover {
     cursor: pointer;
 }
 
-.page-element {
+#sidebar {
     position: fixed;
     top: 0;
-    display: inline-block;
     margin: 0;
     padding: 0;
     width: 150px;
     height: calc(100% + 2px);
     background-color: #171614;
     border-right: 2px solid #42b883;
-    z-index: 0;
+    z-index: 2;
 }
 
-.page-element::-webkit-scrollbar {
+#sidebar::-webkit-scrollbar {
     display: none;
 }
 
@@ -80,19 +112,24 @@
     margin: 10px 10px 10px 160px;
     border-top-left-radius: 25px;
     background-color: #f5f0f6;
+    z-index: 0;
+}
+
+.noHover {
+    pointer-events: none;
 }
 
 @media (max-width: 700px) {
 
-    .page-element {
-        display: none;
+    #sidebar {
+        visibility: hidden;
     }
 
     .blur {
         visibility: hidden;
     }
 
-    .ham-menu {
+    #ham-menu {
         position: sticky;
         visibility: visible;
     }
