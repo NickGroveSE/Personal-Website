@@ -1,9 +1,9 @@
 <template>
     <NuxtLink class="project-link" :to="`/projects/${title}`">
-        <ProjectImage class="link" :imgurl="imgurl" />
+        <ProjectImage id="image" class="link" :imgurl="imgurl" />
         <div class="top-right-container">        
             <ProjectTitle id="title" class="link" :title="title"/>
-            <TagCollection class="link" :tags="tags"/>
+            <TagCollection id="tags" class="link" :tags="tags"/>
         </div>
         <div class="excerpt">
             <ContentDoc class="excerpt-content" :path="`/projects/${title.split(' ').join('').toLowerCase()}`"></ContentDoc>
@@ -65,6 +65,10 @@
         display: inline-block;
     }
 
+    #tags {
+        overflow: hidden;
+    }
+
     .excerpt {
         position: relative;
         font-size: 16px;
@@ -83,6 +87,27 @@
         color: #42b883;
         text-align: center;
     }
+
+    @media (max-width: 700px) {
+
+        .project-link {
+            width: calc(100vw - 90px);
+        }
+
+    }
+
+    @media (max-width: 500px) {
+
+        #image {
+            display: none;
+        }
+
+        .top-right-container {
+            margin-left: 0;
+        }
+
+    }
+
 
 
 </style>

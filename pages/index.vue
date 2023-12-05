@@ -9,7 +9,7 @@
           :title="WordleSolver.title"
           :tags="WordleSolver.tags"
           :imgurl="WordleSolver.imgurl"
-    />
+    /> 
     <NuxtLink class="more-projects" to="/projects">Check Out More of My Work <img id="arrow" src="/RightArrow.svg"></NuxtLink>
 </template>
 

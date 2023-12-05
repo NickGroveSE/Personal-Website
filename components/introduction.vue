@@ -8,9 +8,11 @@
             </div>
             <div class="introduction-side" id="introduction-right">
                 <div class="link-container">
-                    <NuxtLink class="link" to="https://www.linkedin.com/in/nick-grove-9417b6199/"><img class="link-img" id="linkedin-img" src="/LI-In-Bug.png" alt="Nick Grove on LinkedIn"></NuxtLink>
-                    <NuxtLink class="link" to="https://www.behance.net/nickgrove1"><img class="link-img" src="/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
                     <NuxtLink class="link" to="https://github.com/NickGroveSE"><img class="link-img" src="/github-mark.svg" alt="NickGroveSE on Github"></NuxtLink>
+                    <NuxtLink class="link" to="https://www.behance.net/nickgrove1"><img class="link-img" src="/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
+                    <NuxtLink class="link" to="https://www.linkedin.com/in/nick-grove-9417b6199/"><img class="link-img" id="linkedin-img" src="/LI-In-Bug.png" alt="Nick Grove on LinkedIn"></NuxtLink>
+                    
+                    
                 </div>
                 <div class="recent-pre-title">What I Am Currently Working On</div>
                 <ProjectTile
@@ -149,11 +151,11 @@
 @media (max-width: 700px) {
     
     #introduction-right {
-        width: 80px;
+        width: 50px;
     }
 
     .introduction-panel {
-        width: 320px;
+        width: 330px;
     }
 
     .recent-pre-title {
@@ -165,7 +167,23 @@
     }
 
     .link-container { 
+        margin-top: 20px;
         width: 40px;
+    }
+
+    .link {
+        float: left;
+        margin: 20px 0 0 0;
+    }
+
+    .link-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #linkedin-img {
+        width: 58.75px;
+        height: 50px;
     }
 
 }
@@ -177,9 +195,14 @@
         width: 180px;
     }
 
+    #introduction-right {
+        width: 50px;
+        padding: 15px;
+    }
+
     .introduction-panel {
         height: 300px;
-        width: 220px;
+        width: 300px;
     }
 
     .profile-image {
@@ -195,6 +218,15 @@
         width: 180px;
     }
 
+    .link-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #linkedin-img {
+        width: 58.75px;
+        height: 50px;
+    }
 
 }
 

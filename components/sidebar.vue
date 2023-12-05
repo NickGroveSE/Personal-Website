@@ -1,12 +1,12 @@
 <template>
-<div>
-    <ul>
-        <li><NuxtLink class="link" to="/">Home</NuxtLink></li>
-        <li><NuxtLink class="link" to="/about">About Me</NuxtLink></li>
-        <li><NuxtLink class="link" to="/projects">Projects</NuxtLink></li>
-        <li><NuxtLink class="link" to="/skills">Skills & Education</NuxtLink></li>
-    </ul>
-</div>
+    <div>
+        <ul>
+            <li><NuxtLink class="link" to="/">Home</NuxtLink></li>
+            <li><NuxtLink class="link" to="/about">About Me</NuxtLink></li>
+            <li><NuxtLink class="link" to="/projects">Projects</NuxtLink></li>
+            <li><NuxtLink class="link" to="/skills">Skills & Education</NuxtLink></li>
+        </ul>
+    </div>
 
 </template>
 
@@ -45,6 +45,8 @@ li {
     transform: translate(2px, -2px);
     transition: 0.5s;
 }
+
+
 
 
 </style>

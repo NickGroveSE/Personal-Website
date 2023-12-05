@@ -16,7 +16,6 @@ h2 {
     font-size: 30px;
     font-weight: 900;
     margin: 10px;
-    
 }
 
 .page {
@@ -25,6 +24,14 @@ h2 {
 
 .project {
     color: #171614;
+}
+
+@media (max-width: 700px) {
+
+    h2 {
+        margin: 10px 10px 10px 60px;
+    }
+    
 }
 
 </style>

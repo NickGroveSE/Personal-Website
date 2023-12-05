@@ -3,6 +3,10 @@
         <div class="blur">
 
         </div>
+
+        <div class="ham-menu">
+
+        </div>
         <Sidebar class="page-element">
 
         </Sidebar>
@@ -31,6 +35,24 @@
     z-index: 10;
 }
 
+.ham-menu {
+    position: fixed;
+    visibility: hidden;
+    top: 10px;
+    left: 10px;
+    z-index: 15;
+    width: 40px;
+    height: 35px;
+    background-color: #171614;
+    background-image: url('/ham-menu.svg');
+    border: 2px solid #42b883;
+    border-radius: 5px;
+}
+
+.ham-menu:hover {
+    cursor: pointer;
+}
+
 .page-element {
     position: fixed;
     top: 0;
@@ -57,6 +79,30 @@
     border-top-left-radius: 25px;
     background-color: #f5f0f6;
 }
+
+@media (max-width: 700px) {
+
+    .page-element {
+        display: none;
+    }
+
+    .blur {
+        visibility: hidden;
+    }
+
+    .ham-menu {
+        visibility: visible;
+    }
+
+    .main-content {
+
+        margin: 10px;
+
+    }
+
+}
+
+
 
 /* Color Palette */
 /*  171614
