@@ -29,7 +29,15 @@ h2 {
 @media (max-width: 700px) {
 
     h2 {
-        margin: 10px 10px 10px 60px;
+        margin: -50px 10px 10px 60px;
+    }
+    
+}
+
+@media (max-width: 600px) {
+
+    .project {
+        font-size: 24px;
     }
     
 }

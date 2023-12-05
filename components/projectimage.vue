@@ -45,4 +45,13 @@
         height: 80px;
     }
 
+    @media (max-width: 500px) {
+
+        .link {
+            width: 60px;
+            height: 60px;
+        }
+        
+    }
+
 </style>

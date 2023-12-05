@@ -97,13 +97,14 @@
     }
 
     @media (max-width: 500px) {
-
-        #image {
-            display: none;
+        
+        .top-right-container {
+            width: 175px;
+            margin-left: 8px;
         }
 
-        .top-right-container {
-            margin-left: 0;
+        .excerpt {
+            font-size: 12px;
         }
 
     }

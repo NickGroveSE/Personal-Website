@@ -35,4 +35,12 @@ div {
     font-size: 28px;
 }
 
+@media (max-width: 500px) {
+
+    .link {
+        font-size: 20px;
+    }
+
+}
+
 </style>

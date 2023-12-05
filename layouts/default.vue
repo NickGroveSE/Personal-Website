@@ -36,10 +36,12 @@
 }
 
 .ham-menu {
-    position: fixed;
+    position: absolute;
+    display: inline-block;
     visibility: hidden;
     top: 10px;
     left: 10px;
+    margin-top: 10px;
     z-index: 15;
     width: 40px;
     height: 35px;
@@ -91,6 +93,7 @@
     }
 
     .ham-menu {
+        position: sticky;
         visibility: visible;
     }
 
