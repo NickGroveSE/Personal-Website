@@ -27,15 +27,7 @@ li {
     font-weight: 700;
 }
 
-@media (max-width: 700px) {
-
-    li {
-        font-size: 10px;
-    }
-
-}
-
-@media (max-width: 600px) {
+@media (max-width: 500px) {
 
     li {
         font-size: 9px;

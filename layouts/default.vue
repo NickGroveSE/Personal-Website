@@ -4,12 +4,15 @@
 
         </div>
 
-        <div id="ham-menu" v-on:click="showSidebar=!showSidebar" v-bind:class="{active:showSidebar}" :style="showSidebar ? openedButtonStyle : closedButtonStyle">
+        <div id="ham-menu" v-on:click="showSidebar=!showSidebar" :style="showSidebar ? openedButtonStyle : closedButtonStyle">
 
         </div>
-        <Sidebar id="sidebar" :style="showSidebar ? openedMenuStyle : closedButtonStyle">
+        <div id="transparent-layer" :style="showSidebar ? openedLayerStyle : closedLayerStyle">
+            <Sidebar id="sidebar" :style="showSidebar ? openedMenuStyle : closedMenuStyle">
 
-        </Sidebar>
+            </Sidebar>
+        </div>
+
         <div class="main-content">
             <slot />
         </div>
@@ -22,18 +25,26 @@
     export default {
         data() {
             return {
-                showSidebar: true,
+                showSidebar: false,
                 openedButtonStyle: {
-                    left: "160px"
+                    left: "160px", 
+                    "background-image" : "url('/x.svg')"
                 }, 
                 closedButtonStyle: {
-                    left: "10px"
+                    left: "0",
+                    "background-image" : "url('/ham-menu.svg')"
                 }, 
                 openedMenuStyle: {
                     visibility: "visible",
                 },
                 closedMenuStyle: {
-                    visibility: "hidden"
+                    left: "0"
+                },
+                openedLayerStyle: {
+                    width: "100vw"
+                }, 
+                closedLayerStyle: {
+                    width: "0"
                 }
             }
 	    },
@@ -73,7 +84,7 @@
     display: inline-block;
     visibility: hidden;
     top: 10px;
-    left: 10px;
+    margin-left: 10px;
     margin-top: 10px;
     z-index: 15;
     width: 40px;
@@ -86,6 +97,17 @@
 
 #ham-menu:hover {
     cursor: pointer;
+}
+
+#transparent-layer {
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: 0;
+    height: calc(100% + 2px);
+    background-color: rgba(66, 184, 131, 0.3);
+    backdrop-filter: blur(0.38px);
+    z-index: 1;
 }
 
 #sidebar {
@@ -115,10 +137,6 @@
     z-index: 0;
 }
 
-.noHover {
-    pointer-events: none;
-}
-
 @media (max-width: 700px) {
 
     #sidebar {
@@ -139,6 +157,19 @@
         margin: 10px;
 
     }
+
+    #transparent-layer {
+        visibility: visible;
+    }
+
+}
+
+@media (min-width: 701px) {
+    
+    #sidebar {
+        visibility: visible;
+    }
+
 
 }
 

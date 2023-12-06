@@ -28,15 +28,15 @@ h2 {
 
 @media (max-width: 700px) {
 
-    h2 {
+    h2:first-child {
         margin: -50px 10px 10px 60px;
     }
-    
+
 }
 
 @media (max-width: 600px) {
 
-    .project {
+    h2 {
         font-size: 24px;
     }
     

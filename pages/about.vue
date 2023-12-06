@@ -18,7 +18,7 @@
     </div> 
     <div class="contact" id="email">
         <div class="contact-title" id="email-title">Email:</div>
-        <div class="contact-title">nickgrove.se@gmail.com</div>
+        <div class="contact-title" id="email-actual">nickgrove.se@gmail.com</div>
     </div>
 </template>
 
@@ -32,7 +32,7 @@
 .contact {
     vertical-align: top;
     display: inline-block;
-    margin-left: 30px;
+    margin: 0 15px 0 15px;
     width: 70px;
     height: 100px;
     font-weight: 300;
@@ -62,7 +62,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    
+    cursor: pointer;
 }
 
 .link-img {
@@ -75,6 +75,19 @@
 #linkedin-img {
     width: 82.25px;
     height: 70px;
+}
+
+@media (max-width: 550px) {
+
+    #email-title {
+        text-align: left;
+        margin: 10px 0 5px 0;
+    }
+
+    #email-actual {
+        text-align: left;
+    }
+
 }
 
 </style>

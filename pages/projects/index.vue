@@ -24,7 +24,7 @@
 
 <style scoped>
     .projects-wrapper {
-        margin: 10px 30px 10px 30px;
+        margin: 10px 10px 10px 10px;
     }
 
     .filters-heading {
@@ -37,5 +37,12 @@
     .projects-tile {
         margin: 10px;
     }
+    
+    @media (max-width: 360px) {
 
+        .projects-wrapper {
+            margin: 10px 0 10px 0;
+        }
+        
+    }
 </style>

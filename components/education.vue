@@ -57,4 +57,74 @@
         font-weight: 700;
     }
 
+    @media (max-width: 800px) {
+        
+        .edu-wrapper {
+            margin: 20px 0 0 15px;
+        }
+        .edu-text {
+            margin-left: 10px;
+            width: calc(100% - 80px);
+        }
+
+        .edu-image {
+            width: 70px;
+            height: 70px;
+        }
+
+        .heading {
+            font-size: 20px;
+        }
+
+        .degree {
+            font-size: 14px;
+            padding-left: 10px;
+        }
+
+        .timeframe {
+            font-size: 13px;
+            padding-left: 10px;
+        }
+
+    }
+
+    @media (max-width: 550px) {
+        
+        .edu-wrapper {
+            margin: 20px 0 0 5px;
+        }
+
+        .edu-text {
+            margin-left: 5px;
+            width: calc(100% - 70px)
+        }
+        .edu-image {
+            width: 60px;
+            height: 60px;
+        }
+        
+        .heading {
+            font-size: 18px;
+        }
+
+        .degree {
+            font-size: 12px;
+            padding-left: 5px;
+            max-width: 250px;
+        }
+
+        .timeframe {
+            font-size: 11px;
+            padding-left: 5px;
+        }
+
+    }
+
+    @media (max-width: 400px) {
+        
+        .heading {
+            width: 220px;
+        }
+    }
+
 </style>
