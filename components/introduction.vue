@@ -228,7 +228,7 @@
         height: 50px;
     }
 
-    .page-down {
+    .page-down-wrapper {
         margin-top: 20px;
     }
 
