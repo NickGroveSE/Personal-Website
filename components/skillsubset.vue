@@ -1,13 +1,17 @@
 <template>
 
 
-    <div>{{ heading }}: <TagCollection class="skill" :tags="tags"/></div>
+    <div>{{ heading }}:     
+        <ul>
+            <Skill :tags="tags"></Skill>
+        </ul>
+    </div>
 
 </template>
 
 
 <script setup>
-    import TagCollection from '../components/tagcollection.vue'
+    import Skill from './skill.vue'
 
     defineProps({
         heading: String,
@@ -25,6 +29,23 @@ div {
     font-size: 22px;
     width: 400px;
     display: inline-block;
+}
+
+ul {
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+
+@media (max-width: 700px) {
+
+    div {
+        font-size: 18px;
+    }
+
+    ul {
+        width: 80vw;
+    }
+    
 }
 
 

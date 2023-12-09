@@ -52,4 +52,13 @@
     vertical-align: middle;
 }
 
+@media (max-width: 400px) {
+
+    .more-projects {
+        width: calc(100vw - 90px);
+        font-size: 14px;
+    }
+    
+}
+
 </style>

@@ -8,7 +8,6 @@
 
     <div class="content">
         <ContentDoc :path="`/projects/${title.split(' ').join('').toLowerCase()}`"/>
-        
     </div>
     
 </template>

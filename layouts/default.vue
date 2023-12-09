@@ -8,7 +8,7 @@
 
         </div>
         <div id="transparent-layer" :style="showSidebar ? openedLayerStyle : closedLayerStyle">
-            <Sidebar id="sidebar" :style="showSidebar ? openedMenuStyle : closedMenuStyle">
+            <Sidebar id="sidebar" :style="showSidebar ? openedMenuStyle : closedMenuStyle" @click="showSidebar = !showSidebar">
 
             </Sidebar>
         </div>
@@ -35,7 +35,7 @@
                     "background-image" : "url('/ham-menu.svg')"
                 }, 
                 openedMenuStyle: {
-                    visibility: "visible",
+                    visibility: "visible"
                 },
                 closedMenuStyle: {
                     left: "0"
@@ -168,6 +168,7 @@
     
     #sidebar {
         visibility: visible;
+        pointer-events: all;
     }
 
 

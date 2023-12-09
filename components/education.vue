@@ -110,7 +110,7 @@
         .degree {
             font-size: 12px;
             padding-left: 5px;
-            max-width: 250px;
+            max-width: 220px;
         }
 
         .timeframe {

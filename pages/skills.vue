@@ -3,6 +3,7 @@
     <Education imgurl="/uofi.png" heading="The University of Iowa" degree="Bachelor's Degree in Computer Science & Engineering" timeframe="August 2016 - May 2020"/>
     <Education id="last-edu" imgurl="/sfassociate.png" heading="Salesforce Associate (In Progress)" timeframe="September 2023 - Current"/>
     <PageTitle class="page" heading="Skills"/>
+    <!-- <div id="hint">(Click to View Projects for each Skill)</div> -->
     <div class="subsets-wrapper">
         <SkillSubset 
             v-for="subset in subsets"
@@ -20,11 +21,12 @@
     const subsets = [
         {
             name: "Languages",
-            tags: ["JavaScript","Python", "Java", "C/C++", "Swift"]
+            tags: ["JavaScript", "Python", "Java", "C++", "Swift"]
+
         },
         {
             name: "Frontend",
-            tags: ["Vue", "React"]
+            tags: [ "Vue", "React"]
         },
         {
             name: "Backend",
@@ -32,7 +34,7 @@
         },
         {
             name: "Databases",
-            tags: ["MySQL", "MongoDB"]
+            tags: ["MongoDB"]
         },
         {
             name: "Design",
@@ -46,12 +48,25 @@
 
 <style scoped>
 
+    #hint {
+        font-size: 14px;
+        margin: -10px 0 10px 10px;
+    }
+
     .subsets-wrapper {
         margin-left: 30px;
     }
 
     #last-edu {
         margin-bottom: 40px;
+    }
+
+    @media (max-width: 700px) {
+
+        .subsets-wrapper {
+            margin-left: 20px;
+        }
+        
     }
 
 </style>

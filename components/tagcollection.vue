@@ -39,12 +39,4 @@ ul {
     margin: 2px 0 0 20px;
 }
 
-/* @media (max-width: 500px) {
-
-    ul {
-        height: 10px;
-    }
-
-} */
-
 </style>

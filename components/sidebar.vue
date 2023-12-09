@@ -10,8 +10,9 @@
 
 </template>
 
-
 <script setup>
+
+
 
 </script>
 
@@ -46,7 +47,13 @@ li {
     transition: 0.5s;
 }
 
+@media (max-width: 700px) {
 
+    .link:hover {
+        transition: 0s;
+    }
+    
+}
 
 
 </style>
