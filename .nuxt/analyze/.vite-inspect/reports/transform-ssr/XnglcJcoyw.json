@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue?vue&type=style&index=0&scoped=e83d14df&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n    .project-link {\r\n        display: inline-block;\r\n        margin-left: 0;\r\n        width: 304px;\r\n        text-decoration: none;\r\n    }\r\n\r\n    .project {\r\n        height: 140px;\r\n        width: 280px;\r\n        padding: 10px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n        \r\n    }\r\n\r\n    .project:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid #42b883;\r\n        transition: 0.5s;\r\n    }\r\n\r\n    .img-and-title {\r\n        margin-top: 5px;\r\n    }\r\n\r\n    /* .tile-title {\r\n\r\n    } */\r\n\r\n    .description {\r\n        height: 42px;\r\n        width: 280px;\r\n        margin-top: 5px;\r\n        font-size: 12px;\r\n        font-weight: 300;\r\n        color: #171614;\r\n    } \r\n\r\n    .tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n",
+      "start": 1702088887919,
+      "end": 1702088887919,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <NuxtLink class=\"project-link\" :to=\"`/projects/${title}`\" >\r\n        <div class=\"project\">\r\n            <div class=\"img-and-title\">\r\n                <ProjectImage class=\"tile\" :imgurl=\"imgurl\"/>\r\n                <ProjectTitle class=\"tile\" :title=\"title\"/>\r\n            </div>\r\n            <div class=\"tags\">\r\n                <TagCollection class=\"tile\" :tags=\"tags\"/>\r\n            </div>\r\n            <div class=\"description\">{{ description }}</div>\r\n        </div>\r\n    </NuxtLink>\r\n</template>\r\n\r\n\r\n<script setup>\r\n    import TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    defineProps({\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n        description: String\r\n    })\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n    .project-link {\r\n        display: inline-block;\r\n        margin-left: 0;\r\n        width: 304px;\r\n        text-decoration: none;\r\n    }\r\n\r\n    .project {\r\n        height: 140px;\r\n        width: 280px;\r\n        padding: 10px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n        \r\n    }\r\n\r\n    .project:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid #42b883;\r\n        transition: 0.5s;\r\n    }\r\n\r\n    .img-and-title {\r\n        margin-top: 5px;\r\n    }\r\n\r\n    /* .tile-title {\r\n\r\n    } */\r\n\r\n    .description {\r\n        height: 42px;\r\n        width: 280px;\r\n        margin-top: 5px;\r\n        font-size: 12px;\r\n        font-weight: 300;\r\n        color: #171614;\r\n    } \r\n\r\n    .tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887920,
+      "end": 1702088887920,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887920,
+      "end": 1702088887920,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887920,
+      "end": 1702088887921,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887920,
+      "end": 1702088887921,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887922,
+      "end": 1702088887922,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887922,
+      "end": 1702088887922,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887922,
+      "end": 1702088887922,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".project-link{display:inline-block;margin-left:0;text-decoration:none;width:304px}.project{border:2px solid rgba(66,184,131,.15);border-radius:5px;height:140px;padding:10px;width:280px}.project:hover{background-color:#d5e6e3;border:2px solid #42b883;transition:.5s}.description,.img-and-title{margin-top:5px}.description{color:#171614;font-size:12px;font-weight:300;height:42px;width:280px}.tags{overflow:hidden}",
+      "start": 1702088887922,
+      "end": 1702088887933,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue",
+        "mappings": "AAEI,cACI,oBAAqB,CACrB,aAAc,CAEd,oBAAqB,CADrB,WAEJ,CAEA,SAII,qCAA0C,CAC1C,iBAAkB,CAJlB,YAAa,CAEb,YAAa,CADb,WAKJ,CAEA,eACI,wBAAyB,CACzB,wBAAyB,CACzB,cACJ,CAUA,4BAPI,cAcJ,CAPA,aAMI,aAAc,CAFd,cAAe,CACf,eAAgB,CAJhB,WAAY,CACZ,WAKJ,CAEA,MACI,eACJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n    .project-link {\r\n        display: inline-block;\r\n        margin-left: 0;\r\n        width: 304px;\r\n        text-decoration: none;\r\n    }\r\n\r\n    .project {\r\n        height: 140px;\r\n        width: 280px;\r\n        padding: 10px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n        \r\n    }\r\n\r\n    .project:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid #42b883;\r\n        transition: 0.5s;\r\n    }\r\n\r\n    .img-and-title {\r\n        margin-top: 5px;\r\n    }\r\n\r\n    /* .tile-title {\r\n\r\n    } */\r\n\r\n    .description {\r\n        height: 42px;\r\n        width: 280px;\r\n        margin-top: 5px;\r\n        font-size: 12px;\r\n        font-weight: 300;\r\n        color: #171614;\r\n    } \r\n\r\n    .tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887934,
+      "end": 1702088887934,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887934,
+      "end": 1702088887934,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887935,
+      "end": 1702088887935,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".project-link[data-v-e83d14df]{display:inline-block;margin-left:0;text-decoration:none;width:304px}.project[data-v-e83d14df]{border:2px solid rgba(66,184,131,.15);border-radius:5px;height:140px;padding:10px;width:280px}.project[data-v-e83d14df]:hover{background-color:#d5e6e3;border:2px solid #42b883;transition:.5s}.description[data-v-e83d14df],.img-and-title[data-v-e83d14df]{margin-top:5px}.description[data-v-e83d14df]{color:#171614;font-size:12px;font-weight:300;height:42px;width:280px}.tags[data-v-e83d14df]{overflow:hidden}",
+      "start": 1702088887935,
+      "end": 1702088887938,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue",
+        "mappings": "AAAA,+BAAc,oBAAoB,CAAC,aAAa,CAAC,oBAAoB,CAAC,WAAW,CAAC,0BAAS,qCAAqC,CAAC,iBAAiB,CAAC,YAAY,CAAC,YAAY,CAAC,WAAW,CAAC,gCAAe,wBAAwB,CAAC,wBAAwB,CAAC,cAAc,CAAC,8DAA4B,cAAc,CAAC,8BAAa,aAAa,CAAC,cAAc,CAAC,eAAe,CAAC,WAAW,CAAC,WAAW,CAAC,uBAAM,eAAe",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887938,
+      "end": 1702088887938,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887938,
+      "end": 1702088887938,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887938,
+      "end": 1702088887938,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887940,
+      "end": 1702088887940,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887940,
+      "end": 1702088887940,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887940,
+      "end": 1702088887940,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887940,
+      "end": 1702088887940,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887947,
+      "end": 1702088887947,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887947,
+      "end": 1702088887947,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1702088887948,
+      "end": 1702088887948,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887948,
+      "end": 1702088887948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887948,
+      "end": 1702088887948,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887949,
+      "end": 1702088887949,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887949,
+      "end": 1702088887949,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887951,
+      "end": 1702088887951,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887951,
+      "end": 1702088887951,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887951,
+      "end": 1702088887951,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887951,
+      "end": 1702088887951,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887953,
+      "end": 1702088887953,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887953,
+      "end": 1702088887953,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887954,
+      "end": 1702088887954,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887954,
+      "end": 1702088887954,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887954,
+      "end": 1702088887954,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887954,
+      "end": 1702088887954,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887954,
+      "end": 1702088887954,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887955,
+      "end": 1702088887955,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887955,
+      "end": 1702088887955,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887955,
+      "end": 1702088887955,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887955,
+      "end": 1702088887955,
+      "order": "normal"
+    }
+  ]
+}

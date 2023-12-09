@@ -1,0 +1,221 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <NuxtLink class=\"project-link\" :to=\"`/projects/${title}`\">\r\n        <ProjectImage id=\"image\" class=\"link\" :imgurl=\"imgurl\" />\r\n        <div class=\"top-right-container\">        \r\n            <ProjectTitle id=\"title\" class=\"link\" :title=\"title\"/>\r\n            <TagCollection id=\"tags\" class=\"link\" :tags=\"tags\"/>\r\n        </div>\r\n        <div class=\"excerpt\">\r\n            <ContentDoc class=\"excerpt-content\" :path=\"`/projects/${title.split(' ').join('').toLowerCase()}`\"></ContentDoc>\r\n            <div class=\"glimpse\"></div>\r\n        </div>\r\n        <div class=\"read-more\">Click to Read More</div>\r\n    </NuxtLink>\r\n</template>\r\n\r\n\r\n<script setup>\r\n    import TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    defineProps({\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n    })\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n    .project-link {\r\n        color: #171614;\r\n        margin: 10px 20px 0 20px;\r\n        text-decoration: none;\r\n        display: block;\r\n        padding: 15px;\r\n        width: calc(100vw - 246px);\r\n        height: 265px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n    }\r\n\r\n    .project-link:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid rgba(66, 184, 131, 1);\r\n        box-shadow: 5px 5px #CE7919;\r\n        transform: translate(-5px, -5px);\r\n        transition: 0.5s;\r\n    }\r\n\r\n    /* .project-link:hover .read-more{\r\n        background: linear-gradient(to right, rgba(213, 230, 227, 0), rgba(213, 230, 227, 1));\r\n        transition: 1s;\r\n    } */\r\n\r\n    /* .project-link:hover #title {\r\n        color: #f5f0f6;\r\n    } */\r\n\r\n    .top-right-container {\r\n        margin-left: 20px;\r\n        padding-top: 5px;\r\n        vertical-align: top;\r\n        display: inline-block;\r\n    }\r\n\r\n    #tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n    .excerpt {\r\n        position: relative;\r\n        font-size: 16px;\r\n        font-weight: 300;\r\n        max-height: calc(var(--lh) * var(--max-lines));;\r\n        overflow: hidden;\r\n        --max-lines: 9;\r\n        text-overflow: ellipsis;\r\n    }\r\n\r\n    .read-more {\r\n        width: 100%;\r\n        margin-top: 10px;\r\n        font-size: 16px;\r\n        font-weight: 900;\r\n        color: #42b883;\r\n        text-align: center;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .project-link {\r\n            width: calc(100vw - 90px);\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 500px) {\r\n        \r\n        .top-right-container {\r\n            width: 175px;\r\n            margin-left: 8px;\r\n        }\r\n\r\n        .excerpt {\r\n            font-size: 12px;\r\n        }\r\n\r\n    }\r\n\r\n\r\n\r\n</style>",
+      "start": 1702088883024,
+      "end": 1702088883276,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088883276,
+      "end": 1702088883276,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088883276,
+      "end": 1702088883276,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088883276,
+      "end": 1702088883277,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088883277,
+      "end": 1702088883277,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088883277,
+      "end": 1702088883277,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088883277,
+      "end": 1702088883277,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088883277,
+      "end": 1702088883277,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088883277,
+      "end": 1702088883277,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createVNode as _createVNode, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-7b386a1e\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"top-right-container\" }\nconst _hoisted_2 = { class: \"excerpt\" }\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"glimpse\" }, null, -1))\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"read-more\" }, \"Click to Read More\", -1))\n\nimport TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    \nconst _sfc_main = {\n  __name: 'projectlink',\n  props: {\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n    },\n  setup(__props) {\n\r\n    \r\n\r\n\nreturn (_ctx, _cache) => {\n  const _component_ContentDoc = _resolveComponent(\"ContentDoc\")\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createBlock(_component_NuxtLink, {\n    class: \"project-link\",\n    to: `/projects/${__props.title}`\n  }, {\n    default: _withCtx(() => [\n      _createVNode(ProjectImage, {\n        id: \"image\",\n        class: \"link\",\n        imgurl: __props.imgurl\n      }, null, 8, [\"imgurl\"]),\n      _createElementVNode(\"div\", _hoisted_1, [\n        _createVNode(ProjectTitle, {\n          id: \"title\",\n          class: \"link\",\n          title: __props.title\n        }, null, 8, [\"title\"]),\n        _createVNode(TagCollection, {\n          id: \"tags\",\n          class: \"link\",\n          tags: __props.tags\n        }, null, 8, [\"tags\"])\n      ]),\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createVNode(_component_ContentDoc, {\n          class: \"excerpt-content\",\n          path: `/projects/${__props.title.split(' ').join('').toLowerCase()}`\n        }, null, 8, [\"path\"]),\n        _hoisted_3\n      ]),\n      _hoisted_4\n    ]),\n    _: 1\n  }, 8, [\"to\"]))\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue?vue&type=style&index=0&scoped=7b386a1e&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-7b386a1e\"]])",
+      "start": 1702088883277,
+      "end": 1702088883281,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088883281,
+      "end": 1702088883281,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088883281,
+      "end": 1702088883282,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088883282,
+      "end": 1702088883282,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088883282,
+      "end": 1702088883282,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702088883282,
+      "end": 1702088883282,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702088883282,
+      "end": 1702088883282,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Users/Nick/Desktop/PersonalWebsite/node_modules/@nuxt/content/dist/runtime/components/ContentDoc.vue\";\nimport { default as __nuxt_component_1 } from \"C:/Users/Nick/Desktop/PersonalWebsite/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { createVNode as _createVNode, createElementVNode as _createElementVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-7b386a1e\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"top-right-container\" }\nconst _hoisted_2 = { class: \"excerpt\" }\nconst _hoisted_3 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"glimpse\" }, null, -1))\nconst _hoisted_4 = /*#__PURE__*/ _withScopeId(() => /*#__PURE__*/_createElementVNode(\"div\", { class: \"read-more\" }, \"Click to Read More\", -1))\n\nimport TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    \nconst _sfc_main = {\n  __name: 'projectlink',\n  props: {\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n    },\n  setup(__props) {\n\r\n    \r\n\r\n\nreturn (_ctx, _cache) => {\n  const _component_ContentDoc = __nuxt_component_0\n  const _component_NuxtLink = __nuxt_component_1\n\n  return (_openBlock(), _createBlock(_component_NuxtLink, {\n    class: \"project-link\",\n    to: `/projects/${__props.title}`\n  }, {\n    default: _withCtx(() => [\n      _createVNode(ProjectImage, {\n        id: \"image\",\n        class: \"link\",\n        imgurl: __props.imgurl\n      }, null, 8, [\"imgurl\"]),\n      _createElementVNode(\"div\", _hoisted_1, [\n        _createVNode(ProjectTitle, {\n          id: \"title\",\n          class: \"link\",\n          title: __props.title\n        }, null, 8, [\"title\"]),\n        _createVNode(TagCollection, {\n          id: \"tags\",\n          class: \"link\",\n          tags: __props.tags\n        }, null, 8, [\"tags\"])\n      ]),\n      _createElementVNode(\"div\", _hoisted_2, [\n        _createVNode(_component_ContentDoc, {\n          class: \"excerpt-content\",\n          path: `/projects/${__props.title.split(' ').join('').toLowerCase()}`\n        }, null, 8, [\"path\"]),\n        _hoisted_3\n      ]),\n      _hoisted_4\n    ]),\n    _: 1\n  }, 8, [\"to\"]))\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue?vue&type=style&index=0&scoped=7b386a1e&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-7b386a1e\"]])",
+      "start": 1702088883283,
+      "end": 1702088883283,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088883283,
+      "end": 1702088883283,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088883283,
+      "end": 1702088883283,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088883283,
+      "end": 1702088883283,
+      "order": "normal"
+    }
+  ]
+}

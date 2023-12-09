@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue?vue&type=style&index=0&scoped=9bb08a52&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n.arrow {\r\n    width: 100px;\r\n    height: 25px;\r\n    margin-left: 5px;\r\n    animation: pulse 3s infinite\r\n}\r\n\r\n@keyframes pulse {\r\n  0% {\r\n    transform: translate(0, -10px);\r\n  }\r\n  30% {\r\n    transform: translate(0, 10px);\r\n  }\r\n    100% {\r\n    transform: translate(0, -10px);\r\n  }\r\n}\r\n\r\n#arrow-1 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-1.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n#arrow-2 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-2.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-3 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-3.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-4 {\r\n    background-image: url('./down-arrow-4.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n",
+      "start": 1702088888697,
+      "end": 1702088888697,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue"
+        ],
+        "names": [],
+        "mappings": ";;AAcA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACH,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE;EACf,CAAC,EAAE;IACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EAChC;EACA,CAAC,CAAC,EAAE;IACF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;EAC/B;IACE,CAAC,CAAC,CAAC,EAAE;IACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;EAChC;AACF;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC;;;AAGA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACpB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;IACL,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IAC3C,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAChC",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n\r\n    <div class=\"arrow\" :id=\"$attrs.id\"></div>\r\n    \r\n</template>\r\n\r\n\r\n<script setup>\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n.arrow {\r\n    width: 100px;\r\n    height: 25px;\r\n    margin-left: 5px;\r\n    animation: pulse 3s infinite\r\n}\r\n\r\n@keyframes pulse {\r\n  0% {\r\n    transform: translate(0, -10px);\r\n  }\r\n  30% {\r\n    transform: translate(0, 10px);\r\n  }\r\n    100% {\r\n    transform: translate(0, -10px);\r\n  }\r\n}\r\n\r\n#arrow-1 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-1.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n#arrow-2 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-2.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-3 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-3.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-4 {\r\n    background-image: url('./down-arrow-4.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888697,
+      "end": 1702088888697,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888697,
+      "end": 1702088888697,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888697,
+      "end": 1702088888698,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888697,
+      "end": 1702088888698,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888698,
+      "end": 1702088888698,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888698,
+      "end": 1702088888698,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088888698,
+      "end": 1702088888698,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".arrow{animation:pulse 3s infinite;height:25px;margin-left:5px;width:100px}@keyframes pulse{0%{transform:translateY(-10px)}30%{transform:translateY(10px)}to{transform:translateY(-10px)}}#arrow-1{background-image:url(down-arrow-1.svg)}#arrow-1,#arrow-2{background-repeat:no-repeat;margin-bottom:-10px}#arrow-2{background-image:url(down-arrow-2.svg)}#arrow-3{background-image:url(down-arrow-3.svg);margin-bottom:-10px}#arrow-3,#arrow-4{background-repeat:no-repeat}#arrow-4{background-image:url(down-arrow-4.svg)}",
+      "start": 1702088888698,
+      "end": 1702088888707,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue",
+        "mappings": "AAEA,OAII,2BAA2B,CAF3B,WAAY,CACZ,eAAgB,CAFhB,WAIJ,CAEA,iBACE,GACE,2BACF,CACA,IACE,0BACF,CACE,GACA,2BACF,CACF,CAEA,SAEI,sCAEJ,CAGA,kBAJI,2BAA4B,CAF5B,mBAUJ,CAJA,SAEI,sCAEJ,CAEA,SAEI,sCAA2C,CAD3C,mBAGJ,CAEA,kBAHI,2BAMJ,CAHA,SACI,sCAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n.arrow {\r\n    width: 100px;\r\n    height: 25px;\r\n    margin-left: 5px;\r\n    animation: pulse 3s infinite\r\n}\r\n\r\n@keyframes pulse {\r\n  0% {\r\n    transform: translate(0, -10px);\r\n  }\r\n  30% {\r\n    transform: translate(0, 10px);\r\n  }\r\n    100% {\r\n    transform: translate(0, -10px);\r\n  }\r\n}\r\n\r\n#arrow-1 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-1.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n#arrow-2 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-2.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-3 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-3.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-4 {\r\n    background-image: url('./down-arrow-4.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088888707,
+      "end": 1702088888707,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088888708,
+      "end": 1702088888708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088888708,
+      "end": 1702088888708,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".arrow[data-v-9bb08a52]{animation:pulse-9bb08a52 3s infinite;height:25px;margin-left:5px;width:100px}@keyframes pulse-9bb08a52{0%{transform:translateY(-10px)}30%{transform:translateY(10px)}to{transform:translateY(-10px)}}#arrow-1[data-v-9bb08a52]{background-image:url(down-arrow-1.svg)}#arrow-1[data-v-9bb08a52],#arrow-2[data-v-9bb08a52]{background-repeat:no-repeat;margin-bottom:-10px}#arrow-2[data-v-9bb08a52]{background-image:url(down-arrow-2.svg)}#arrow-3[data-v-9bb08a52]{background-image:url(down-arrow-3.svg);margin-bottom:-10px}#arrow-3[data-v-9bb08a52],#arrow-4[data-v-9bb08a52]{background-repeat:no-repeat}#arrow-4[data-v-9bb08a52]{background-image:url(down-arrow-4.svg)}",
+      "start": 1702088888708,
+      "end": 1702088888709,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue",
+        "mappings": "AAAA,wBAAO,oCAA2B,CAAC,WAAW,CAAC,eAAe,CAAC,WAAW,CAAC,0BAAiB,GAAG,2BAA2B,CAAC,IAAI,0BAA0B,CAAC,GAAG,2BAA2B,CAAC,CAAC,0BAAS,sCAAsC,CAAC,oDAAkB,2BAA2B,CAAC,mBAAmB,CAAC,0BAAS,sCAAsC,CAAC,0BAAS,sCAAsC,CAAC,mBAAmB,CAAC,oDAAkB,2BAA2B,CAAC,0BAAS,sCAAsC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088888709,
+      "end": 1702088888709,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088888710,
+      "end": 1702088888710,
+      "order": "normal"
+    }
+  ]
+}

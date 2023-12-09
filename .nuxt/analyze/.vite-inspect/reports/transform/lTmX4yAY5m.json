@@ -1,0 +1,218 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/node_modules/@nuxt/content/dist/runtime/composables/utils.mjs",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { withBase } from \"ufo\";\nimport { useRuntimeConfig, useRequestEvent } from \"#app\";\nimport { useContentPreview } from \"./preview.mjs\";\nexport const withContentBase = (url) => withBase(url, useRuntimeConfig().public.content.api.baseURL);\nexport const useContentDisabled = () => {\n  console.warn(\"useContent is only accessible when you are using `documentDriven` mode.\");\n  console.warn(\"Learn more by visiting: https://content.nuxt.com/document-driven\");\n  throw new Error(\"useContent is only accessible when you are using `documentDriven` mode.\");\n};\nexport const navigationDisabled = () => {\n  console.warn(\"Navigation is only accessible when you enable it in module options.\");\n  console.warn(\"Learn more by visiting: https://content.nuxt.com/get-started/configuration#navigation\");\n  throw new Error(\"Navigation is only accessible when you enable it in module options.\");\n};\nexport const addPrerenderPath = (path) => {\n  const event = useRequestEvent();\n  event.node.res.setHeader(\n    \"x-nitro-prerender\",\n    [\n      event.node.res.getHeader(\"x-nitro-prerender\"),\n      path\n    ].filter(Boolean).join(\",\")\n  );\n};\nexport const shouldUseClientDB = () => {\n  const { experimental } = useRuntimeConfig().public.content;\n  if (process.server) {\n    return false;\n  }\n  if (experimental.clientDB) {\n    return true;\n  }\n  return useContentPreview().isEnabled();\n};\n",
+      "start": 1702088882833,
+      "end": 1702088883084,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088883084,
+      "end": 1702088883084,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "start": 1702088883085,
+      "end": 1702088883085,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088883085,
+      "end": 1702088883085,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883085,
+      "end": 1702088883085,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088883093,
+      "end": 1702088883093,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702088883094,
+      "end": 1702088883094,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088883095,
+      "end": 1702088883095,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883096,
+      "end": 1702088883097,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088883097,
+      "end": 1702088883097,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "result": "import { withBase } from \"ufo\";\nimport { useRuntimeConfig, useRequestEvent } from \"#app\";\nimport { useContentPreview } from \"./preview.mjs\";\nexport const withContentBase = (url) => withBase(url, useRuntimeConfig().public.content.api.baseURL);\nexport const useContentDisabled = () => {\n  console.warn(\"useContent is only accessible when you are using `documentDriven` mode.\");\n  console.warn(\"Learn more by visiting: https://content.nuxt.com/document-driven\");\n  throw new Error(\"useContent is only accessible when you are using `documentDriven` mode.\");\n};\nexport const navigationDisabled = () => {\n  console.warn(\"Navigation is only accessible when you enable it in module options.\");\n  console.warn(\"Learn more by visiting: https://content.nuxt.com/get-started/configuration#navigation\");\n  throw new Error(\"Navigation is only accessible when you enable it in module options.\");\n};\nexport const addPrerenderPath = (path) => {\n  const event = useRequestEvent();\n  event.node.res.setHeader(\n    \"x-nitro-prerender\",\n    [\n      event.node.res.getHeader(\"x-nitro-prerender\"),\n      path\n    ].filter(Boolean).join(\",\")\n  );\n};\nexport const shouldUseClientDB = () => {\n  const { experimental } = useRuntimeConfig().public.content;\n  if (false) {\n    return false;\n  }\n  if (experimental.clientDB) {\n    return true;\n  }\n  return useContentPreview().isEnabled();\n};\n",
+      "start": 1702088883097,
+      "end": 1702088883097,
+      "order": "normal",
+      "sourcemaps": null
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088883097,
+      "end": 1702088883097,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088883098,
+      "end": 1702088883098,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088883098,
+      "end": 1702088883098,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088883099,
+      "end": 1702088883099,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088883099,
+      "end": 1702088883099,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088883100,
+      "end": 1702088883100,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088883101,
+      "end": 1702088883101,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088883101,
+      "end": 1702088883101,
+      "order": "normal"
+    }
+  ]
+}

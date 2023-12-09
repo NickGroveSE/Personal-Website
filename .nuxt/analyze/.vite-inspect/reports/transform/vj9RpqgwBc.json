@@ -1,0 +1,221 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/sidebar.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div>\r\n        <ul>\r\n            <li><NuxtLink class=\"link\" to=\"/\">Home</NuxtLink></li>\r\n            <li><NuxtLink class=\"link\" to=\"/about\">About Me</NuxtLink></li>\r\n            <li><NuxtLink class=\"link\" to=\"/projects\">Projects</NuxtLink></li>\r\n            <li><NuxtLink class=\"link\" to=\"/skills\">Skills & Education</NuxtLink></li>\r\n        </ul>\r\n    </div>\r\n\r\n</template>\r\n\r\n<script setup>\r\n\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\nul {\r\n    list-style: none;\r\n    margin: 0;\r\n    padding: 40vh 0 0 0;\r\n\r\n}\r\n\r\nli {\r\n    text-align: right;\r\n    margin-left: 50px;\r\n}\r\n\r\n.link {\r\n    display: block;\r\n    color: #f5f0f6;\r\n    padding: 8px 20px 8px 0;\r\n    font-size: 15px;\r\n    font-weight: 900;\r\n}\r\n\r\n.link:hover {\r\n    background-color: #42b883;\r\n    border-bottom-left-radius: 5px;\r\n    border-top-left-radius: 5px;\r\n    box-shadow: -2px 2px #CE7919;\r\n    transform: translate(2px, -2px);\r\n    transition: 0.5s;\r\n}\r\n\r\n@media (max-width: 700px) {\r\n\r\n    .link:hover {\r\n        transition: 0s;\r\n    }\r\n    \r\n}\r\n\r\n\r\n</style>",
+      "start": 1702088883184,
+      "end": 1702088883330,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088883330,
+      "end": 1702088883330,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088883330,
+      "end": 1702088883330,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088883330,
+      "end": 1702088883330,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088883330,
+      "end": 1702088883330,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088883331,
+      "end": 1702088883331,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088883331,
+      "end": 1702088883331,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088883331,
+      "end": 1702088883331,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088883331,
+      "end": 1702088883331,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"ul\", null, [\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Home\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/about\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"About Me\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/projects\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Projects\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/skills\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Skills & Education\")\n          ]),\n          _: 1\n        })\n      ])\n    ])\n  ]))\n}\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/sidebar.vue?vue&type=style&index=0&scoped=ff43cce6&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-ff43cce6\"]])",
+      "start": 1702088883331,
+      "end": 1702088883334,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088883334,
+      "end": 1702088883334,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088883335,
+      "end": 1702088883335,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088883335,
+      "end": 1702088883336,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088883336,
+      "end": 1702088883336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088883336,
+      "end": 1702088883336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702088883336,
+      "end": 1702088883336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702088883336,
+      "end": 1702088883336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Users/Nick/Desktop/PersonalWebsite/node_modules/nuxt/dist/app/components/nuxt-link\";\nconst _sfc_main = {}\nimport { createTextVNode as _createTextVNode, resolveComponent as _resolveComponent, withCtx as _withCtx, createVNode as _createVNode, createElementVNode as _createElementVNode, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nfunction _sfc_render(_ctx, _cache) {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createElementBlock(\"div\", null, [\n    _createElementVNode(\"ul\", null, [\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Home\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/about\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"About Me\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/projects\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Projects\")\n          ]),\n          _: 1\n        })\n      ]),\n      _createElementVNode(\"li\", null, [\n        _createVNode(_component_NuxtLink, {\n          class: \"link\",\n          to: \"/skills\"\n        }, {\n          default: _withCtx(() => [\n            _createTextVNode(\"Skills & Education\")\n          ]),\n          _: 1\n        })\n      ])\n    ])\n  ]))\n}\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/sidebar.vue?vue&type=style&index=0&scoped=ff43cce6&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['render',_sfc_render],['__scopeId',\"data-v-ff43cce6\"]])",
+      "start": 1702088883336,
+      "end": 1702088883336,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088883336,
+      "end": 1702088883336,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088883336,
+      "end": 1702088883337,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088883337,
+      "end": 1702088883337,
+      "order": "normal"
+    }
+  ]
+}

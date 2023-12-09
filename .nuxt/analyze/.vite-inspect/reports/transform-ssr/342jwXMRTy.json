@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/introduction.vue?vue&type=style&index=0&scoped=aed80b1d&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n.introduction-wrapper {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 100vh;\r\n    background-color: #171614;\r\n    overflow: auto;\r\n    z-index: 10;\r\n}\r\n\r\n.introduction-panel {\r\n    width: 584px;\r\n    height: 320px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: calc(50vh - 200px);\r\n    background-color: #f5f0f6;\r\n    border-radius: 25px;\r\n    box-shadow: 10px 10px #CE7919;\r\n}\r\n\r\n.page-down-wrapper {\r\n    position: relative;\r\n    width: 100px;\r\n    height: 70px;\r\n    margin: calc(100vh - (50vh + 220px)) auto 0 auto;\r\n    vertical-align: bottom;\r\n}\r\n\r\n.page-down {\r\n    display: inline-block;\r\n    width: 100%;\r\n    height: 100%;\r\n    transition: 1s;\r\n}\r\n\r\n.introduction-side {\r\n    display: inline-block;\r\n}\r\n\r\n#introduction-left {\r\n    width: 200px;\r\n    height: 280px;\r\n    background-color: #42b883;\r\n    border-radius: 25px;\r\n    padding: 20px;\r\n    vertical-align: top;\r\n    color: #f5f0f6 ;\r\n}\r\n\r\n#introduction-right {\r\n    width: 304px;\r\n    height: 280px;\r\n    padding: 20px;\r\n}\r\n\r\n.profile-image {\r\n    height: 200px;\r\n    width: 200px;\r\n    border-radius: 100px;\r\n}\r\n\r\n.name {\r\n    height: 33px;\r\n    width: 200px;\r\n    font-size: 30px;\r\n    font-weight: 900;\r\n}\r\n\r\n.career {\r\n    font-size: 18px;\r\n    font-weight: 200;\r\n}\r\n\r\n.link-container {\r\n    height: 40px;\r\n    width: 304px;\r\n}\r\n\r\n.link {\r\n    float: right;\r\n    margin-left: 10px;\r\n}\r\n\r\n.link-img {\r\n    width: 40px;\r\n    height: 40px;\r\n}\r\n\r\n#linkedin-img {\r\n    width: 47px;\r\n    height: 40px;\r\n}\r\n\r\n.recent-pre-title {\r\n    height: 18px;\r\n    color: #42b883;\r\n    font-size: 15px;\r\n    font-weight: 700;\r\n    margin: 55px 0 2px 10px\r\n}\r\n\r\n@media (max-width: 700px) {\r\n    \r\n    #introduction-right {\r\n        width: 50px;\r\n    }\r\n\r\n    .introduction-panel {\r\n        width: 330px;\r\n    }\r\n\r\n    .recent-pre-title {\r\n        display: none;\r\n    }\r\n\r\n    .recent-project {\r\n        display: none;\r\n    }\r\n\r\n    .link-container { \r\n        margin-top: 20px;\r\n        width: 40px;\r\n    }\r\n\r\n    .link {\r\n        float: left;\r\n        margin: 20px 0 0 0;\r\n    }\r\n\r\n    .link-img {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    #linkedin-img {\r\n        width: 58.75px;\r\n        height: 50px;\r\n    }\r\n\r\n}\r\n\r\n@media (max-width: 400px) {\r\n\r\n    #introduction-left {\r\n        height: 260px;\r\n        width: 180px;\r\n    }\r\n\r\n    #introduction-right {\r\n        width: 50px;\r\n        padding: 15px;\r\n    }\r\n\r\n    .introduction-panel {\r\n        height: 300px;\r\n        width: 300px;\r\n    }\r\n\r\n    .profile-image {\r\n        width: 180px;\r\n        height: 180px;\r\n    }\r\n\r\n    .name {\r\n        width: 180px;\r\n    }\r\n\r\n    .career {\r\n        width: 180px;\r\n    }\r\n\r\n    .link-img {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    #linkedin-img {\r\n        width: 58.75px;\r\n        height: 50px;\r\n    }\r\n\r\n}\r\n\r\n",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/introduction.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/introduction.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div class=\"introduction-wrapper\">\r\n        <div class=\"introduction-panel\">\r\n            <div class=\"introduction-side\" id=\"introduction-left\">\r\n                <img class=\"profile-image\" src=\"../assets/content/github-profile-pic.jpg\">\r\n                <div class=\"name\">Nick Grove</div>\r\n                <div class=\"career\">Full Stack Developer & Web Designer</div>\r\n            </div>\r\n            <div class=\"introduction-side\" id=\"introduction-right\">\r\n                <div class=\"link-container\">\r\n                    <NuxtLink class=\"link\" to=\"https://github.com/NickGroveSE\"><img class=\"link-img\" src=\"/github-mark.svg\" alt=\"NickGroveSE on Github\"></NuxtLink>\r\n                    <NuxtLink class=\"link\" to=\"https://www.behance.net/nickgrove1\"><img class=\"link-img\" src=\"/behance-square.svg\" alt=\"Nick Grove on Behance\"></NuxtLink>\r\n                    <NuxtLink class=\"link\" to=\"https://www.linkedin.com/in/nick-grove-9417b6199/\"><img class=\"link-img\" id=\"linkedin-img\" src=\"/LI-In-Bug.png\" alt=\"Nick Grove on LinkedIn\"></NuxtLink>\r\n                    \r\n                    \r\n                </div>\r\n                <div class=\"recent-pre-title\">What I Am Currently Working On</div>\r\n                <ProjectTile\r\n                    class=\"recent-project\"\r\n                    :title=\"projects[0].title\"\r\n                    :tags=\"projects[0].tags\"\r\n                    :imgurl=\"projects[0].imgurl\"\r\n                    :description=\"projects[0].description\"\r\n                />\r\n            </div>\r\n        </div>\r\n        <div class=\"page-down-wrapper\">\r\n            <NuxtLink class=\"page-down\" to=\"#page\">\r\n                <Arrow id=\"arrow-1\"></Arrow>\r\n                <Arrow id=\"arrow-2\"></Arrow>\r\n                <Arrow id=\"arrow-3\"></Arrow>\r\n                <Arrow id=\"arrow-4\"></Arrow>\r\n            </NuxtLink>\r\n        </div>\r\n\r\n    </div>\r\n\r\n</template>\r\n\r\n<script setup>\r\n    import Arrow from './arrow.vue'\r\n    import ProjectTile from './projecttile.vue'\r\n\r\n    const projects = await queryContent(\"projects\").sort({ date: -1 }).find();\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n.introduction-wrapper {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 100vh;\r\n    background-color: #171614;\r\n    overflow: auto;\r\n    z-index: 10;\r\n}\r\n\r\n.introduction-panel {\r\n    width: 584px;\r\n    height: 320px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: calc(50vh - 200px);\r\n    background-color: #f5f0f6;\r\n    border-radius: 25px;\r\n    box-shadow: 10px 10px #CE7919;\r\n}\r\n\r\n.page-down-wrapper {\r\n    position: relative;\r\n    width: 100px;\r\n    height: 70px;\r\n    margin: calc(100vh - (50vh + 220px)) auto 0 auto;\r\n    vertical-align: bottom;\r\n}\r\n\r\n.page-down {\r\n    display: inline-block;\r\n    width: 100%;\r\n    height: 100%;\r\n    transition: 1s;\r\n}\r\n\r\n.introduction-side {\r\n    display: inline-block;\r\n}\r\n\r\n#introduction-left {\r\n    width: 200px;\r\n    height: 280px;\r\n    background-color: #42b883;\r\n    border-radius: 25px;\r\n    padding: 20px;\r\n    vertical-align: top;\r\n    color: #f5f0f6 ;\r\n}\r\n\r\n#introduction-right {\r\n    width: 304px;\r\n    height: 280px;\r\n    padding: 20px;\r\n}\r\n\r\n.profile-image {\r\n    height: 200px;\r\n    width: 200px;\r\n    border-radius: 100px;\r\n}\r\n\r\n.name {\r\n    height: 33px;\r\n    width: 200px;\r\n    font-size: 30px;\r\n    font-weight: 900;\r\n}\r\n\r\n.career {\r\n    font-size: 18px;\r\n    font-weight: 200;\r\n}\r\n\r\n.link-container {\r\n    height: 40px;\r\n    width: 304px;\r\n}\r\n\r\n.link {\r\n    float: right;\r\n    margin-left: 10px;\r\n}\r\n\r\n.link-img {\r\n    width: 40px;\r\n    height: 40px;\r\n}\r\n\r\n#linkedin-img {\r\n    width: 47px;\r\n    height: 40px;\r\n}\r\n\r\n.recent-pre-title {\r\n    height: 18px;\r\n    color: #42b883;\r\n    font-size: 15px;\r\n    font-weight: 700;\r\n    margin: 55px 0 2px 10px\r\n}\r\n\r\n@media (max-width: 700px) {\r\n    \r\n    #introduction-right {\r\n        width: 50px;\r\n    }\r\n\r\n    .introduction-panel {\r\n        width: 330px;\r\n    }\r\n\r\n    .recent-pre-title {\r\n        display: none;\r\n    }\r\n\r\n    .recent-project {\r\n        display: none;\r\n    }\r\n\r\n    .link-container { \r\n        margin-top: 20px;\r\n        width: 40px;\r\n    }\r\n\r\n    .link {\r\n        float: left;\r\n        margin: 20px 0 0 0;\r\n    }\r\n\r\n    .link-img {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    #linkedin-img {\r\n        width: 58.75px;\r\n        height: 50px;\r\n    }\r\n\r\n}\r\n\r\n@media (max-width: 400px) {\r\n\r\n    #introduction-left {\r\n        height: 260px;\r\n        width: 180px;\r\n    }\r\n\r\n    #introduction-right {\r\n        width: 50px;\r\n        padding: 15px;\r\n    }\r\n\r\n    .introduction-panel {\r\n        height: 300px;\r\n        width: 300px;\r\n    }\r\n\r\n    .profile-image {\r\n        width: 180px;\r\n        height: 180px;\r\n    }\r\n\r\n    .name {\r\n        width: 180px;\r\n    }\r\n\r\n    .career {\r\n        width: 180px;\r\n    }\r\n\r\n    .link-img {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    #linkedin-img {\r\n        width: 58.75px;\r\n        height: 50px;\r\n    }\r\n\r\n}\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088888659,
+      "end": 1702088888659,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".introduction-wrapper{background-color:#171614;height:100vh;overflow:auto;position:relative;width:100%;z-index:10}.introduction-panel{background-color:#f5f0f6;border-radius:25px;box-shadow:10px 10px #ce7919;height:320px;margin-left:auto;margin-right:auto;margin-top:calc(50vh - 200px);width:584px}.page-down-wrapper{height:70px;margin:calc(50vh - 220px) auto 0;position:relative;vertical-align:bottom;width:100px}.page-down{height:100%;transition:1s;width:100%}.introduction-side,.page-down{display:inline-block}#introduction-left{background-color:#42b883;border-radius:25px;color:#f5f0f6;height:280px;padding:20px;vertical-align:top;width:200px}#introduction-right{height:280px;padding:20px;width:304px}.profile-image{border-radius:100px;height:200px;width:200px}.name{font-size:30px;font-weight:900;height:33px;width:200px}.career{font-size:18px;font-weight:200}.link-container{height:40px;width:304px}.link{float:right;margin-left:10px}.link-img{height:40px;width:40px}#linkedin-img{height:40px;width:47px}.recent-pre-title{color:#42b883;font-size:15px;font-weight:700;height:18px;margin:55px 0 2px 10px}@media (max-width:700px){#introduction-right{width:50px}.introduction-panel{width:330px}.recent-pre-title,.recent-project{display:none}.link-container{margin-top:20px;width:40px}.link{float:left;margin:20px 0 0}.link-img{height:50px;width:50px}#linkedin-img{height:50px;width:58.75px}}@media (max-width:400px){#introduction-left{height:260px;width:180px}#introduction-right{padding:15px;width:50px}.introduction-panel{height:300px;width:300px}.profile-image{height:180px;width:180px}.career,.name{width:180px}.link-img{height:50px;width:50px}#linkedin-img{height:50px;width:58.75px}}",
+      "start": 1702088888659,
+      "end": 1702088888670,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/introduction.vue",
+        "mappings": "AAEA,sBAII,wBAAyB,CADzB,YAAa,CAEb,aAAc,CAJd,iBAAkB,CAClB,UAAW,CAIX,UACJ,CAEA,oBAMI,wBAAyB,CACzB,kBAAmB,CACnB,4BAA6B,CAN7B,YAAa,CACb,gBAAiB,CACjB,iBAAkB,CAClB,6BAA8B,CAJ9B,WAQJ,CAEA,mBAGI,WAAY,CACZ,gCAAgD,CAHhD,iBAAkB,CAIlB,qBAAsB,CAHtB,WAIJ,CAEA,WAGI,WAAY,CACZ,aAAc,CAFd,UAGJ,CAEA,8BANI,oBAQJ,CAEA,mBAGI,wBAAyB,CACzB,kBAAmB,CAGnB,aAAe,CALf,YAAa,CAGb,YAAa,CACb,kBAAmB,CALnB,WAOJ,CAEA,oBAEI,YAAa,CACb,YAAa,CAFb,WAGJ,CAEA,eAGI,mBAAoB,CAFpB,YAAa,CACb,WAEJ,CAEA,MAGI,cAAe,CACf,eAAgB,CAHhB,WAAY,CACZ,WAGJ,CAEA,QACI,cAAe,CACf,eACJ,CAEA,gBACI,WAAY,CACZ,WACJ,CAEA,MACI,WAAY,CACZ,gBACJ,CAEA,UAEI,WAAY,CADZ,UAEJ,CAEA,cAEI,WAAY,CADZ,UAEJ,CAEA,kBAEI,aAAc,CACd,cAAe,CACf,eAAgB,CAHhB,WAAY,CAIZ,sBACJ,CAEA,yBAEI,oBACI,UACJ,CAEA,oBACI,WACJ,CAMA,kCACI,YACJ,CAEA,gBACI,eAAgB,CAChB,UACJ,CAEA,MACI,UAAW,CACX,eACJ,CAEA,UAEI,WAAY,CADZ,UAEJ,CAEA,cAEI,WAAY,CADZ,aAEJ,CAEJ,CAEA,yBAEI,mBACI,YAAa,CACb,WACJ,CAEA,oBAEI,YAAa,CADb,UAEJ,CAEA,oBACI,YAAa,CACb,WACJ,CAEA,eAEI,YAAa,CADb,WAEJ,CAMA,cACI,WACJ,CAEA,UAEI,WAAY,CADZ,UAEJ,CAEA,cAEI,WAAY,CADZ,aAEJ,CAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/introduction.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n.introduction-wrapper {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 100vh;\r\n    background-color: #171614;\r\n    overflow: auto;\r\n    z-index: 10;\r\n}\r\n\r\n.introduction-panel {\r\n    width: 584px;\r\n    height: 320px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    margin-top: calc(50vh - 200px);\r\n    background-color: #f5f0f6;\r\n    border-radius: 25px;\r\n    box-shadow: 10px 10px #CE7919;\r\n}\r\n\r\n.page-down-wrapper {\r\n    position: relative;\r\n    width: 100px;\r\n    height: 70px;\r\n    margin: calc(100vh - (50vh + 220px)) auto 0 auto;\r\n    vertical-align: bottom;\r\n}\r\n\r\n.page-down {\r\n    display: inline-block;\r\n    width: 100%;\r\n    height: 100%;\r\n    transition: 1s;\r\n}\r\n\r\n.introduction-side {\r\n    display: inline-block;\r\n}\r\n\r\n#introduction-left {\r\n    width: 200px;\r\n    height: 280px;\r\n    background-color: #42b883;\r\n    border-radius: 25px;\r\n    padding: 20px;\r\n    vertical-align: top;\r\n    color: #f5f0f6 ;\r\n}\r\n\r\n#introduction-right {\r\n    width: 304px;\r\n    height: 280px;\r\n    padding: 20px;\r\n}\r\n\r\n.profile-image {\r\n    height: 200px;\r\n    width: 200px;\r\n    border-radius: 100px;\r\n}\r\n\r\n.name {\r\n    height: 33px;\r\n    width: 200px;\r\n    font-size: 30px;\r\n    font-weight: 900;\r\n}\r\n\r\n.career {\r\n    font-size: 18px;\r\n    font-weight: 200;\r\n}\r\n\r\n.link-container {\r\n    height: 40px;\r\n    width: 304px;\r\n}\r\n\r\n.link {\r\n    float: right;\r\n    margin-left: 10px;\r\n}\r\n\r\n.link-img {\r\n    width: 40px;\r\n    height: 40px;\r\n}\r\n\r\n#linkedin-img {\r\n    width: 47px;\r\n    height: 40px;\r\n}\r\n\r\n.recent-pre-title {\r\n    height: 18px;\r\n    color: #42b883;\r\n    font-size: 15px;\r\n    font-weight: 700;\r\n    margin: 55px 0 2px 10px\r\n}\r\n\r\n@media (max-width: 700px) {\r\n    \r\n    #introduction-right {\r\n        width: 50px;\r\n    }\r\n\r\n    .introduction-panel {\r\n        width: 330px;\r\n    }\r\n\r\n    .recent-pre-title {\r\n        display: none;\r\n    }\r\n\r\n    .recent-project {\r\n        display: none;\r\n    }\r\n\r\n    .link-container { \r\n        margin-top: 20px;\r\n        width: 40px;\r\n    }\r\n\r\n    .link {\r\n        float: left;\r\n        margin: 20px 0 0 0;\r\n    }\r\n\r\n    .link-img {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    #linkedin-img {\r\n        width: 58.75px;\r\n        height: 50px;\r\n    }\r\n\r\n}\r\n\r\n@media (max-width: 400px) {\r\n\r\n    #introduction-left {\r\n        height: 260px;\r\n        width: 180px;\r\n    }\r\n\r\n    #introduction-right {\r\n        width: 50px;\r\n        padding: 15px;\r\n    }\r\n\r\n    .introduction-panel {\r\n        height: 300px;\r\n        width: 300px;\r\n    }\r\n\r\n    .profile-image {\r\n        width: 180px;\r\n        height: 180px;\r\n    }\r\n\r\n    .name {\r\n        width: 180px;\r\n    }\r\n\r\n    .career {\r\n        width: 180px;\r\n    }\r\n\r\n    .link-img {\r\n        width: 50px;\r\n        height: 50px;\r\n    }\r\n\r\n    #linkedin-img {\r\n        width: 58.75px;\r\n        height: 50px;\r\n    }\r\n\r\n}\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088888670,
+      "end": 1702088888670,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088888670,
+      "end": 1702088888670,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088888670,
+      "end": 1702088888670,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".introduction-wrapper[data-v-aed80b1d]{background-color:#171614;height:100vh;overflow:auto;position:relative;width:100%;z-index:10}.introduction-panel[data-v-aed80b1d]{background-color:#f5f0f6;border-radius:25px;box-shadow:10px 10px #ce7919;height:320px;margin-left:auto;margin-right:auto;margin-top:calc(50vh - 200px);width:584px}.page-down-wrapper[data-v-aed80b1d]{height:70px;margin:calc(50vh - 220px) auto 0;position:relative;vertical-align:bottom;width:100px}.page-down[data-v-aed80b1d]{height:100%;transition:1s;width:100%}.introduction-side[data-v-aed80b1d],.page-down[data-v-aed80b1d]{display:inline-block}#introduction-left[data-v-aed80b1d]{background-color:#42b883;border-radius:25px;color:#f5f0f6;height:280px;padding:20px;vertical-align:top;width:200px}#introduction-right[data-v-aed80b1d]{height:280px;padding:20px;width:304px}.profile-image[data-v-aed80b1d]{border-radius:100px;height:200px;width:200px}.name[data-v-aed80b1d]{font-size:30px;font-weight:900;height:33px;width:200px}.career[data-v-aed80b1d]{font-size:18px;font-weight:200}.link-container[data-v-aed80b1d]{height:40px;width:304px}.link[data-v-aed80b1d]{float:right;margin-left:10px}.link-img[data-v-aed80b1d]{height:40px;width:40px}#linkedin-img[data-v-aed80b1d]{height:40px;width:47px}.recent-pre-title[data-v-aed80b1d]{color:#42b883;font-size:15px;font-weight:700;height:18px;margin:55px 0 2px 10px}@media (max-width:700px){#introduction-right[data-v-aed80b1d]{width:50px}.introduction-panel[data-v-aed80b1d]{width:330px}.recent-pre-title[data-v-aed80b1d],.recent-project[data-v-aed80b1d]{display:none}.link-container[data-v-aed80b1d]{margin-top:20px;width:40px}.link[data-v-aed80b1d]{float:left;margin:20px 0 0}.link-img[data-v-aed80b1d]{height:50px;width:50px}#linkedin-img[data-v-aed80b1d]{height:50px;width:58.75px}}@media (max-width:400px){#introduction-left[data-v-aed80b1d]{height:260px;width:180px}#introduction-right[data-v-aed80b1d]{padding:15px;width:50px}.introduction-panel[data-v-aed80b1d]{height:300px;width:300px}.profile-image[data-v-aed80b1d]{height:180px;width:180px}.career[data-v-aed80b1d],.name[data-v-aed80b1d]{width:180px}.link-img[data-v-aed80b1d]{height:50px;width:50px}#linkedin-img[data-v-aed80b1d]{height:50px;width:58.75px}}",
+      "start": 1702088888670,
+      "end": 1702088888676,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/introduction.vue",
+        "mappings": "AAAA,uCAAsB,wBAAwB,CAAC,YAAY,CAAC,aAAa,CAAC,iBAAiB,CAAC,UAAU,CAAC,UAAU,CAAC,qCAAoB,wBAAwB,CAAC,kBAAkB,CAAC,4BAA4B,CAAC,YAAY,CAAC,gBAAgB,CAAC,iBAAiB,CAAC,6BAA6B,CAAC,WAAW,CAAC,oCAAmB,WAAW,CAAC,gCAAgC,CAAC,iBAAiB,CAAC,qBAAqB,CAAC,WAAW,CAAC,4BAAW,WAAW,CAAC,aAAa,CAAC,UAAU,CAAC,gEAA8B,oBAAoB,CAAC,oCAAmB,wBAAwB,CAAC,kBAAkB,CAAC,aAAa,CAAC,YAAY,CAAC,YAAY,CAAC,kBAAkB,CAAC,WAAW,CAAC,qCAAoB,YAAY,CAAC,YAAY,CAAC,WAAW,CAAC,gCAAe,mBAAmB,CAAC,YAAY,CAAC,WAAW,CAAC,uBAAM,cAAc,CAAC,eAAe,CAAC,WAAW,CAAC,WAAW,CAAC,yBAAQ,cAAc,CAAC,eAAe,CAAC,iCAAgB,WAAW,CAAC,WAAW,CAAC,uBAAM,WAAW,CAAC,gBAAgB,CAAC,2BAAU,WAAW,CAAC,UAAU,CAAC,+BAAc,WAAW,CAAC,UAAU,CAAC,mCAAkB,aAAa,CAAC,cAAc,CAAC,eAAe,CAAC,WAAW,CAAC,sBAAsB,CAAC,yBAAyB,qCAAoB,UAAU,CAAC,qCAAoB,WAAW,CAAC,oEAAkC,YAAY,CAAC,iCAAgB,eAAe,CAAC,UAAU,CAAC,uBAAM,UAAU,CAAC,eAAe,CAAC,2BAAU,WAAW,CAAC,UAAU,CAAC,+BAAc,WAAW,CAAC,aAAa,CAAC,CAAC,yBAAyB,oCAAmB,YAAY,CAAC,WAAW,CAAC,qCAAoB,YAAY,CAAC,UAAU,CAAC,qCAAoB,YAAY,CAAC,WAAW,CAAC,gCAAe,YAAY,CAAC,WAAW,CAAC,gDAAc,WAAW,CAAC,2BAAU,WAAW,CAAC,UAAU,CAAC,+BAAc,WAAW,CAAC,aAAa,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/introduction.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888676,
+      "end": 1702088888676,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088888677,
+      "end": 1702088888677,
+      "order": "normal"
+    }
+  ]
+}

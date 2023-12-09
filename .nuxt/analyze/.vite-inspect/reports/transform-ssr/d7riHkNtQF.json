@@ -1,0 +1,270 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/education.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <div class=\"edu-wrapper\">\r\n        <img class=\"edu-image\" :src=\"`${imgurl}`\">\r\n        <div class=\"edu-text\">\r\n            <div class=\"heading\">{{ heading }}</div>\r\n            <div class=\"degree\">{{ degree }}</div>\r\n            <div class=\"timeframe\">{{ timeframe }}</div>\r\n        </div> \r\n    </div>\r\n</template>\r\n\r\n<script setup>\r\n    defineProps({\r\n        imgurl: String,\r\n        heading: String,\r\n        degree: String,\r\n        timeframe: String\r\n    })\r\n</script>\r\n\r\n    \r\n\r\n<style scoped>\r\n\r\n    .edu-wrapper {\r\n        margin: 20px 0 0 30px;\r\n    }\r\n\r\n    .edu-image {\r\n        width: 80px;\r\n        height: 80px;\r\n        display: inline-block;\r\n    }\r\n\r\n    .edu-text {\r\n        color: #171614;\r\n        vertical-align: top;\r\n        display: inline-block;\r\n        margin-left: 20px;\r\n    }\r\n\r\n    .heading {\r\n        font-size: 28px;\r\n        font-weight: 900;\r\n    }\r\n\r\n    .timeframe {\r\n        font-size: 14px;\r\n        font-weight: 300;\r\n        padding-left: 20px;\r\n        font-style: italic;\r\n    }\r\n\r\n    .degree {\r\n        font-size: 15px;\r\n        padding-left: 20px;\r\n        font-weight: 700;\r\n    }\r\n\r\n    @media (max-width: 800px) {\r\n        \r\n        .edu-wrapper {\r\n            margin: 20px 0 0 15px;\r\n        }\r\n        .edu-text {\r\n            margin-left: 10px;\r\n            width: calc(100% - 80px);\r\n        }\r\n\r\n        .edu-image {\r\n            width: 70px;\r\n            height: 70px;\r\n        }\r\n\r\n        .heading {\r\n            font-size: 20px;\r\n        }\r\n\r\n        .degree {\r\n            font-size: 14px;\r\n            padding-left: 10px;\r\n        }\r\n\r\n        .timeframe {\r\n            font-size: 13px;\r\n            padding-left: 10px;\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 550px) {\r\n        \r\n        .edu-wrapper {\r\n            margin: 20px 0 0 5px;\r\n        }\r\n\r\n        .edu-text {\r\n            margin-left: 5px;\r\n            width: calc(100% - 70px)\r\n        }\r\n        .edu-image {\r\n            width: 60px;\r\n            height: 60px;\r\n        }\r\n        \r\n        .heading {\r\n            font-size: 18px;\r\n        }\r\n\r\n        .degree {\r\n            font-size: 12px;\r\n            padding-left: 5px;\r\n            max-width: 220px;\r\n        }\r\n\r\n        .timeframe {\r\n            font-size: 11px;\r\n            padding-left: 5px;\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 400px) {\r\n        \r\n        .heading {\r\n            width: 220px;\r\n        }\r\n    }\r\n\r\n</style>",
+      "start": 1702088887562,
+      "end": 1702088887877,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088887877,
+      "end": 1702088887877,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887878,
+      "end": 1702088887878,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887878,
+      "end": 1702088887878,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887878,
+      "end": 1702088887878,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttr as _ssrRenderAttr, ssrRenderAttrs as _ssrRenderAttrs, ssrInterpolate as _ssrInterpolate } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'education',\n  __ssrInlineRender: true,\n  props: {\r\n        imgurl: String,\r\n        heading: String,\r\n        degree: String,\r\n        timeframe: String\r\n    },\n  setup(__props) {\n\r\n    \r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<div${\n    _ssrRenderAttrs(_mergeProps({ class: \"edu-wrapper\" }, _attrs))\n  } data-v-3432ba74><img class=\"edu-image\"${\n    _ssrRenderAttr(\"src\", `${__props.imgurl}`)\n  } data-v-3432ba74><div class=\"edu-text\" data-v-3432ba74><div class=\"heading\" data-v-3432ba74>${\n    _ssrInterpolate(__props.heading)\n  }</div><div class=\"degree\" data-v-3432ba74>${\n    _ssrInterpolate(__props.degree)\n  }</div><div class=\"timeframe\" data-v-3432ba74>${\n    _ssrInterpolate(__props.timeframe)\n  }</div></div></div>`)\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/education.vue?vue&type=style&index=0&scoped=3432ba74&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/education.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-3432ba74\"]])",
+      "start": 1702088887878,
+      "end": 1702088887880,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/education.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n    <div class=\"edu-wrapper\">\r\n        <img class=\"edu-image\" :src=\"`${imgurl}`\">\r\n        <div class=\"edu-text\">\r\n            <div class=\"heading\">{{ heading }}</div>\r\n            <div class=\"degree\">{{ degree }}</div>\r\n            <div class=\"timeframe\">{{ timeframe }}</div>\r\n        </div> \r\n    </div>\r\n</template>\r\n\r\n<script setup>\r\n    defineProps({\r\n        imgurl: String,\r\n        heading: String,\r\n        degree: String,\r\n        timeframe: String\r\n    })\r\n</script>\r\n\r\n    \r\n\r\n<style scoped>\r\n\r\n    .edu-wrapper {\r\n        margin: 20px 0 0 30px;\r\n    }\r\n\r\n    .edu-image {\r\n        width: 80px;\r\n        height: 80px;\r\n        display: inline-block;\r\n    }\r\n\r\n    .edu-text {\r\n        color: #171614;\r\n        vertical-align: top;\r\n        display: inline-block;\r\n        margin-left: 20px;\r\n    }\r\n\r\n    .heading {\r\n        font-size: 28px;\r\n        font-weight: 900;\r\n    }\r\n\r\n    .timeframe {\r\n        font-size: 14px;\r\n        font-weight: 300;\r\n        padding-left: 20px;\r\n        font-style: italic;\r\n    }\r\n\r\n    .degree {\r\n        font-size: 15px;\r\n        padding-left: 20px;\r\n        font-weight: 700;\r\n    }\r\n\r\n    @media (max-width: 800px) {\r\n        \r\n        .edu-wrapper {\r\n            margin: 20px 0 0 15px;\r\n        }\r\n        .edu-text {\r\n            margin-left: 10px;\r\n            width: calc(100% - 80px);\r\n        }\r\n\r\n        .edu-image {\r\n            width: 70px;\r\n            height: 70px;\r\n        }\r\n\r\n        .heading {\r\n            font-size: 20px;\r\n        }\r\n\r\n        .degree {\r\n            font-size: 14px;\r\n            padding-left: 10px;\r\n        }\r\n\r\n        .timeframe {\r\n            font-size: 13px;\r\n            padding-left: 10px;\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 550px) {\r\n        \r\n        .edu-wrapper {\r\n            margin: 20px 0 0 5px;\r\n        }\r\n\r\n        .edu-text {\r\n            margin-left: 5px;\r\n            width: calc(100% - 70px)\r\n        }\r\n        .edu-image {\r\n            width: 60px;\r\n            height: 60px;\r\n        }\r\n        \r\n        .heading {\r\n            font-size: 18px;\r\n        }\r\n\r\n        .degree {\r\n            font-size: 12px;\r\n            padding-left: 5px;\r\n            max-width: 220px;\r\n        }\r\n\r\n        .timeframe {\r\n            font-size: 11px;\r\n            padding-left: 5px;\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 400px) {\r\n        \r\n        .heading {\r\n            width: 220px;\r\n        }\r\n    }\r\n\r\n</style>"
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;;;;;AAWc,CAAC;AACf,CAAC,CAAC,CAAC,CAKG,CAAC;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887881,
+      "end": 1702088887881,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887881,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887881,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887882,
+      "end": 1702088887882,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887882,
+      "end": 1702088887883,
+      "order": "normal"
+    }
+  ]
+}

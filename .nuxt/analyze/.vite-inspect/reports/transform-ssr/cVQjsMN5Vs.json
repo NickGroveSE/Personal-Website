@@ -1,0 +1,270 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/projectimage.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n\r\n    <img v-if=\"imgurl\" :class=\"$attrs.class\" :src=\"imgurl\">\r\n    <div v-else :class=\"$attrs.class\">No Image</div>\r\n\r\n</template>\r\n\r\n\r\n<script setup>\r\n\r\n    defineProps({\r\n        imgurl: String\r\n    })\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n    img {\r\n        display: inline-block;\r\n        border-radius: 5px;\r\n        background-color: #f5f0f6;\r\n    }\r\n\r\n    div {\r\n        display: inline-block;\r\n        border-radius: 5px;\r\n        background-color: lightgray;\r\n        border: 2px solid #CE7919;\r\n        font-size: 14px;\r\n        color: #171614;\r\n        text-decoration: italic;\r\n        text-align: center;\r\n        vertical-align: middle;\r\n    }\r\n\r\n    .tile {\r\n        width: 60px;\r\n        height: 60px;\r\n    }\r\n\r\n    .link {\r\n        width: 80px;\r\n        height: 80px;\r\n    }\r\n\r\n    @media (max-width: 500px) {\r\n\r\n        .link {\r\n            width: 60px;\r\n            height: 60px;\r\n        }\r\n        \r\n    }\r\n\r\n</style>",
+      "start": 1702088887804,
+      "end": 1702088888249,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088888249,
+      "end": 1702088888249,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\n\nconst _sfc_main = {\n  __name: 'projectimage',\n  __ssrInlineRender: true,\n  props: {\r\n        imgurl: String\r\n    },\n  setup(__props) {\n\r\n\r\n    \r\n\r\n\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  if (__props.imgurl) {\n    _push(`<img${_ssrRenderAttrs(_mergeProps({\n      class: _ctx.$attrs.class,\n      src: __props.imgurl\n    }, _attrs))} data-v-cc9013f9>`)\n  } else {\n    _push(`<div${_ssrRenderAttrs(_mergeProps({\n      class: _ctx.$attrs.class\n    }, _attrs))} data-v-cc9013f9>No Image</div>`)\n  }\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/projectimage.vue?vue&type=style&index=0&scoped=cc9013f9&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/projectimage.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-cc9013f9\"]])",
+      "start": 1702088888249,
+      "end": 1702088888251,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/projectimage.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n\r\n    <img v-if=\"imgurl\" :class=\"$attrs.class\" :src=\"imgurl\">\r\n    <div v-else :class=\"$attrs.class\">No Image</div>\r\n\r\n</template>\r\n\r\n\r\n<script setup>\r\n\r\n    defineProps({\r\n        imgurl: String\r\n    })\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n    img {\r\n        display: inline-block;\r\n        border-radius: 5px;\r\n        background-color: #f5f0f6;\r\n    }\r\n\r\n    div {\r\n        display: inline-block;\r\n        border-radius: 5px;\r\n        background-color: lightgray;\r\n        border: 2px solid #CE7919;\r\n        font-size: 14px;\r\n        color: #171614;\r\n        text-decoration: italic;\r\n        text-align: center;\r\n        vertical-align: middle;\r\n    }\r\n\r\n    .tile {\r\n        width: 60px;\r\n        height: 60px;\r\n    }\r\n\r\n    .link {\r\n        width: 80px;\r\n        height: 80px;\r\n    }\r\n\r\n    @media (max-width: 500px) {\r\n\r\n        .link {\r\n            width: 60px;\r\n            height: 60px;\r\n        }\r\n        \r\n    }\r\n\r\n</style>"
+        ],
+        "names": [],
+        "mappings": ";;;;;;;;;;;AAQc,CAAC;AACf,CAAC;AACD,CAAC,CAAC,CAAC,CAEG,CAAC;AACP,CAAC;AACD,CAAC;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088888251,
+      "end": 1702088888251,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088888252,
+      "end": 1702088888252,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888252,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888252,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888253,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888253,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888253,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888253,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888253,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888253,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088888253,
+      "end": 1702088888253,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088888253,
+      "end": 1702088888254,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088888254,
+      "end": 1702088888254,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088888254,
+      "end": 1702088888254,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088888254,
+      "end": 1702088888254,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,272 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n\r\n    <div class=\"arrow\" :id=\"$attrs.id\"></div>\r\n    \r\n</template>\r\n\r\n\r\n<script setup>\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n.arrow {\r\n    width: 100px;\r\n    height: 25px;\r\n    margin-left: 5px;\r\n    animation: pulse 3s infinite\r\n}\r\n\r\n@keyframes pulse {\r\n  0% {\r\n    transform: translate(0, -10px);\r\n  }\r\n  30% {\r\n    transform: translate(0, 10px);\r\n  }\r\n    100% {\r\n    transform: translate(0, -10px);\r\n  }\r\n}\r\n\r\n#arrow-1 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-1.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n#arrow-2 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-2.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-3 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-3.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-4 {\r\n    background-image: url('./down-arrow-4.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n</style>",
+      "start": 1702088888660,
+      "end": 1702088888690,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088888690,
+      "end": 1702088888690,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088888690,
+      "end": 1702088888691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088888691,
+      "end": 1702088888691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088888691,
+      "end": 1702088888691,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "const _sfc_main = {}\nimport { mergeProps as _mergeProps } from \"vue\"\nimport { ssrRenderAttrs as _ssrRenderAttrs } from \"vue/server-renderer\"\n\nfunction _sfc_ssrRender(_ctx, _push, _parent, _attrs) {\n  _push(`<div${_ssrRenderAttrs(_mergeProps({\n    class: \"arrow\",\n    id: _ctx.$attrs.id\n  }, _attrs))} data-v-9bb08a52></div>`)\n}\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue?vue&type=style&index=0&scoped=9bb08a52&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"components/arrow.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',\"data-v-9bb08a52\"]])",
+      "start": 1702088888691,
+      "end": 1702088888693,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue"
+        ],
+        "names": [],
+        "mappings": ";;;;;IAES,KAAK,EAAC,OAAO;IAAE,EAAE,EAAE,WAAM,CAAC,EAAE",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/arrow.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n\r\n    <div class=\"arrow\" :id=\"$attrs.id\"></div>\r\n    \r\n</template>\r\n\r\n\r\n<script setup>\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n.arrow {\r\n    width: 100px;\r\n    height: 25px;\r\n    margin-left: 5px;\r\n    animation: pulse 3s infinite\r\n}\r\n\r\n@keyframes pulse {\r\n  0% {\r\n    transform: translate(0, -10px);\r\n  }\r\n  30% {\r\n    transform: translate(0, 10px);\r\n  }\r\n    100% {\r\n    transform: translate(0, -10px);\r\n  }\r\n}\r\n\r\n#arrow-1 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-1.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n#arrow-2 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-2.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-3 {\r\n    margin-bottom: -10px;\r\n    background-image: url('./down-arrow-3.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n#arrow-4 {\r\n    background-image: url('./down-arrow-4.svg');\r\n    background-repeat: no-repeat;\r\n}\r\n\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088888693,
+      "end": 1702088888693,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888694,
+      "end": 1702088888694,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088888694,
+      "end": 1702088888695,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088888695,
+      "end": 1702088888695,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088888695,
+      "end": 1702088888695,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088888695,
+      "end": 1702088888695,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088888695,
+      "end": 1702088888695,
+      "order": "normal"
+    }
+  ]
+}

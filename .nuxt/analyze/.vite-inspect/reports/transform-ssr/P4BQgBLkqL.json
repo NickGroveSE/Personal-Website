@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/pages/about.vue?vue&type=style&index=0&scoped=46aeb0d4&lang.css?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n.contact {\r\n    vertical-align: top;\r\n    display: inline-block;\r\n    margin: 0 15px 0 15px;\r\n    width: 70px;\r\n    height: 100px;\r\n    font-weight: 300;\r\n    color: #171614;\r\n}\r\n\r\n.contact:hover .contact-title {\r\n    font-weight: 700;\r\n    color: #42b883;\r\n    transition: 0.5s;\r\n}\r\n\r\n#email {\r\n    width: 200px;\r\n}\r\n\r\n.contact-title {\r\n    margin: 5px 0 5px 0;\r\n    text-align: center;\r\n}\r\n\r\n#email-title {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.contact-link {\r\n    display: block;\r\n    width: 100%;\r\n    height: 100%;\r\n    cursor: pointer;\r\n}\r\n\r\n.link-img {\r\n    width: 70px;\r\n    height: 70px;\r\n    position: relative;\r\n    margin: auto;\r\n}\r\n\r\n#linkedin-img {\r\n    width: 82.25px;\r\n    height: 70px;\r\n}\r\n\r\n@media (max-width: 550px) {\r\n\r\n    #email-title {\r\n        text-align: left;\r\n        margin: 10px 0 5px 0;\r\n    }\r\n\r\n    #email-actual {\r\n        text-align: left;\r\n    }\r\n\r\n}\r\n\r\n",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/about.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/about.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <PageTitle class=\"page\" heading=\"My Story\"/>\r\n    <div class=\"content\">\r\n        <ContentDoc path=\"/pages/aboutme\"/>\r\n    </div>\r\n    <PageTitle class=\"page\" heading=\"My Links & Contact Info\"/>\r\n    <div class=\"contact\">\r\n        <div class=\"contact-title\">Github</div>\r\n        <NuxtLink class=\"contact-link\"><img class=\"link-img\" src=\"/github-mark.svg\" alt=\"NickGroveSE on Github\"></NuxtLink>\r\n    </div>\r\n    <div class=\"contact\">\r\n        <div class=\"contact-title\">Behance</div>\r\n        <NuxtLink class=\"contact-link\"><img class=\"link-img\" src=\"/behance-square.svg\" alt=\"Nick Grove on Behance\"></NuxtLink>\r\n    </div> \r\n    <div class=\"contact\" id=\"linkedin-contact\">\r\n        <div class=\"contact-title\">Linkedin</div> \r\n        <NuxtLink class=\"contact-link\"><img class=\"link-img\" id=\"linkedin-img\" src=\"/LI-In-Bug.png\" alt=\"Nick Grove on LinkedIn\"></NuxtLink>\r\n    </div> \r\n    <div class=\"contact\" id=\"email\">\r\n        <div class=\"contact-title\" id=\"email-title\">Email:</div>\r\n        <div class=\"contact-title\" id=\"email-actual\">nickgrove.se@gmail.com</div>\r\n    </div>\r\n</template>\r\n\r\n<script setup>\r\n    import PageTitle from '../components/pagetitle.vue'\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n.contact {\r\n    vertical-align: top;\r\n    display: inline-block;\r\n    margin: 0 15px 0 15px;\r\n    width: 70px;\r\n    height: 100px;\r\n    font-weight: 300;\r\n    color: #171614;\r\n}\r\n\r\n.contact:hover .contact-title {\r\n    font-weight: 700;\r\n    color: #42b883;\r\n    transition: 0.5s;\r\n}\r\n\r\n#email {\r\n    width: 200px;\r\n}\r\n\r\n.contact-title {\r\n    margin: 5px 0 5px 0;\r\n    text-align: center;\r\n}\r\n\r\n#email-title {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.contact-link {\r\n    display: block;\r\n    width: 100%;\r\n    height: 100%;\r\n    cursor: pointer;\r\n}\r\n\r\n.link-img {\r\n    width: 70px;\r\n    height: 70px;\r\n    position: relative;\r\n    margin: auto;\r\n}\r\n\r\n#linkedin-img {\r\n    width: 82.25px;\r\n    height: 70px;\r\n}\r\n\r\n@media (max-width: 550px) {\r\n\r\n    #email-title {\r\n        text-align: left;\r\n        margin: 10px 0 5px 0;\r\n    }\r\n\r\n    #email-actual {\r\n        text-align: left;\r\n    }\r\n\r\n}\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887323,
+      "end": 1702088887323,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".contact{color:#171614;display:inline-block;font-weight:300;height:100px;margin:0 15px;vertical-align:top;width:70px}.contact:hover .contact-title{color:#42b883;font-weight:700;transition:.5s}#email{width:200px}.contact-title{margin:5px 0;text-align:center}#email-title{margin-bottom:20px}.contact-link{cursor:pointer;display:block;height:100%;width:100%}.link-img{height:70px;margin:auto;position:relative;width:70px}#linkedin-img{height:70px;width:82.25px}@media (max-width:550px){#email-title{margin:10px 0 5px}#email-actual,#email-title{text-align:left}}",
+      "start": 1702088887323,
+      "end": 1702088887335,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/about.vue",
+        "mappings": "AAEA,SAOI,aAAc,CALd,oBAAqB,CAIrB,eAAgB,CADhB,YAAa,CAFb,aAAqB,CAFrB,kBAAmB,CAGnB,UAIJ,CAEA,8BAEI,aAAc,CADd,eAAgB,CAEhB,cACJ,CAEA,OACI,WACJ,CAEA,eACI,YAAmB,CACnB,iBACJ,CAEA,aACI,kBACJ,CAEA,cAII,cAAe,CAHf,aAAc,CAEd,WAAY,CADZ,UAGJ,CAEA,UAEI,WAAY,CAEZ,WAAY,CADZ,iBAAkB,CAFlB,UAIJ,CAEA,cAEI,WAAY,CADZ,aAEJ,CAEA,yBAEI,aAEI,iBACJ,CAEA,2BAJI,eAMJ,CAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/about.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n.contact {\r\n    vertical-align: top;\r\n    display: inline-block;\r\n    margin: 0 15px 0 15px;\r\n    width: 70px;\r\n    height: 100px;\r\n    font-weight: 300;\r\n    color: #171614;\r\n}\r\n\r\n.contact:hover .contact-title {\r\n    font-weight: 700;\r\n    color: #42b883;\r\n    transition: 0.5s;\r\n}\r\n\r\n#email {\r\n    width: 200px;\r\n}\r\n\r\n.contact-title {\r\n    margin: 5px 0 5px 0;\r\n    text-align: center;\r\n}\r\n\r\n#email-title {\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.contact-link {\r\n    display: block;\r\n    width: 100%;\r\n    height: 100%;\r\n    cursor: pointer;\r\n}\r\n\r\n.link-img {\r\n    width: 70px;\r\n    height: 70px;\r\n    position: relative;\r\n    margin: auto;\r\n}\r\n\r\n#linkedin-img {\r\n    width: 82.25px;\r\n    height: 70px;\r\n}\r\n\r\n@media (max-width: 550px) {\r\n\r\n    #email-title {\r\n        text-align: left;\r\n        margin: 10px 0 5px 0;\r\n    }\r\n\r\n    #email-actual {\r\n        text-align: left;\r\n    }\r\n\r\n}\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887335,
+      "end": 1702088887335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887335,
+      "end": 1702088887335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887335,
+      "end": 1702088887335,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".contact[data-v-46aeb0d4]{color:#171614;display:inline-block;font-weight:300;height:100px;margin:0 15px;vertical-align:top;width:70px}.contact:hover .contact-title[data-v-46aeb0d4]{color:#42b883;font-weight:700;transition:.5s}#email[data-v-46aeb0d4]{width:200px}.contact-title[data-v-46aeb0d4]{margin:5px 0;text-align:center}#email-title[data-v-46aeb0d4]{margin-bottom:20px}.contact-link[data-v-46aeb0d4]{cursor:pointer;display:block;height:100%;width:100%}.link-img[data-v-46aeb0d4]{height:70px;margin:auto;position:relative;width:70px}#linkedin-img[data-v-46aeb0d4]{height:70px;width:82.25px}@media (max-width:550px){#email-title[data-v-46aeb0d4]{margin:10px 0 5px}#email-actual[data-v-46aeb0d4],#email-title[data-v-46aeb0d4]{text-align:left}}",
+      "start": 1702088887335,
+      "end": 1702088887337,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/about.vue",
+        "mappings": "AAAA,0BAAS,aAAa,CAAC,oBAAoB,CAAC,eAAe,CAAC,YAAY,CAAC,aAAa,CAAC,kBAAkB,CAAC,UAAU,CAAC,+CAA8B,aAAa,CAAC,eAAe,CAAC,cAAc,CAAC,wBAAO,WAAW,CAAC,gCAAe,YAAY,CAAC,iBAAiB,CAAC,8BAAa,kBAAkB,CAAC,+BAAc,cAAc,CAAC,aAAa,CAAC,WAAW,CAAC,UAAU,CAAC,2BAAU,WAAW,CAAC,WAAW,CAAC,iBAAiB,CAAC,UAAU,CAAC,+BAAc,WAAW,CAAC,aAAa,CAAC,yBAAyB,8BAAa,iBAAiB,CAAC,6DAA2B,eAAe,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/about.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887337,
+      "end": 1702088887337,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887337,
+      "end": 1702088887337,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887337,
+      "end": 1702088887337,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".contact[data-v-46aeb0d4]{color:#171614;display:inline-block;font-weight:300;height:100px;margin:0 15px;vertical-align:top;width:70px}.contact:hover .contact-title[data-v-46aeb0d4]{color:#42b883;font-weight:700;transition:.5s}#email[data-v-46aeb0d4]{width:200px}.contact-title[data-v-46aeb0d4]{margin:5px 0;text-align:center}#email-title[data-v-46aeb0d4]{margin-bottom:20px}.contact-link[data-v-46aeb0d4]{cursor:pointer;display:block;height:100%;width:100%}.link-img[data-v-46aeb0d4]{height:70px;margin:auto;position:relative;width:70px}#linkedin-img[data-v-46aeb0d4]{height:70px;width:82.25px}@media (max-width:550px){#email-title[data-v-46aeb0d4]{margin:10px 0 5px}#email-actual[data-v-46aeb0d4],#email-title[data-v-46aeb0d4]{text-align:left}}\"",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887338,
+      "end": 1702088887338,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887339,
+      "end": 1702088887339,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887340,
+      "end": 1702088887340,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887340,
+      "end": 1702088887340,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887340,
+      "end": 1702088887340,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887340,
+      "end": 1702088887340,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887340,
+      "end": 1702088887340,
+      "order": "normal"
+    }
+  ]
+}

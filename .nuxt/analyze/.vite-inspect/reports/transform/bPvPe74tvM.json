@@ -1,0 +1,221 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <NuxtLink class=\"project-link\" :to=\"`/projects/${title}`\" >\r\n        <div class=\"project\">\r\n            <div class=\"img-and-title\">\r\n                <ProjectImage class=\"tile\" :imgurl=\"imgurl\"/>\r\n                <ProjectTitle class=\"tile\" :title=\"title\"/>\r\n            </div>\r\n            <div class=\"tags\">\r\n                <TagCollection class=\"tile\" :tags=\"tags\"/>\r\n            </div>\r\n            <div class=\"description\">{{ description }}</div>\r\n        </div>\r\n    </NuxtLink>\r\n</template>\r\n\r\n\r\n<script setup>\r\n    import TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    defineProps({\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n        description: String\r\n    })\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n    .project-link {\r\n        display: inline-block;\r\n        margin-left: 0;\r\n        width: 304px;\r\n        text-decoration: none;\r\n    }\r\n\r\n    .project {\r\n        height: 140px;\r\n        width: 280px;\r\n        padding: 10px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n        \r\n    }\r\n\r\n    .project:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid #42b883;\r\n        transition: 0.5s;\r\n    }\r\n\r\n    .img-and-title {\r\n        margin-top: 5px;\r\n    }\r\n\r\n    /* .tile-title {\r\n\r\n    } */\r\n\r\n    .description {\r\n        height: 42px;\r\n        width: 280px;\r\n        margin-top: 5px;\r\n        font-size: 12px;\r\n        font-weight: 300;\r\n        color: #171614;\r\n    } \r\n\r\n    .tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n</style>",
+      "start": 1702088883098,
+      "end": 1702088883298,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088883298,
+      "end": 1702088883298,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088883298,
+      "end": 1702088883299,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088883299,
+      "end": 1702088883299,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088883299,
+      "end": 1702088883299,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088883299,
+      "end": 1702088883299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088883299,
+      "end": 1702088883299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088883299,
+      "end": 1702088883299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088883299,
+      "end": 1702088883299,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createVNode as _createVNode, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-e83d14df\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"project\" }\nconst _hoisted_2 = { class: \"img-and-title\" }\nconst _hoisted_3 = { class: \"tags\" }\nconst _hoisted_4 = { class: \"description\" }\n\nimport TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    \nconst _sfc_main = {\n  __name: 'projecttile',\n  props: {\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n        description: String\r\n    },\n  setup(__props) {\n\r\n    \r\n\r\n\nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = _resolveComponent(\"NuxtLink\")\n\n  return (_openBlock(), _createBlock(_component_NuxtLink, {\n    class: \"project-link\",\n    to: `/projects/${__props.title}`\n  }, {\n    default: _withCtx(() => [\n      _createElementVNode(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createVNode(ProjectImage, {\n            class: \"tile\",\n            imgurl: __props.imgurl\n          }, null, 8, [\"imgurl\"]),\n          _createVNode(ProjectTitle, {\n            class: \"tile\",\n            title: __props.title\n          }, null, 8, [\"title\"])\n        ]),\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createVNode(TagCollection, {\n            class: \"tile\",\n            tags: __props.tags\n          }, null, 8, [\"tags\"])\n        ]),\n        _createElementVNode(\"div\", _hoisted_4, _toDisplayString(__props.description), 1)\n      ])\n    ]),\n    _: 1\n  }, 8, [\"to\"]))\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue?vue&type=style&index=0&scoped=e83d14df&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-e83d14df\"]])",
+      "start": 1702088883299,
+      "end": 1702088883301,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088883301,
+      "end": 1702088883301,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883301,
+      "end": 1702088883301,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088883301,
+      "end": 1702088883301,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702088883301,
+      "end": 1702088883301,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088883301,
+      "end": 1702088883301,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883301,
+      "end": 1702088883301,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088883301,
+      "end": 1702088883301,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088883301,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088883302,
+      "end": 1702088883302,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088883302,
+      "end": 1702088883303,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "result": "import { default as __nuxt_component_0 } from \"C:/Users/Nick/Desktop/PersonalWebsite/node_modules/nuxt/dist/app/components/nuxt-link\";\nimport { createVNode as _createVNode, createElementVNode as _createElementVNode, toDisplayString as _toDisplayString, resolveComponent as _resolveComponent, withCtx as _withCtx, openBlock as _openBlock, createBlock as _createBlock, pushScopeId as _pushScopeId, popScopeId as _popScopeId } from \"vue\"\n\nconst _withScopeId = n => (_pushScopeId(\"data-v-e83d14df\"),n=n(),_popScopeId(),n)\nconst _hoisted_1 = { class: \"project\" }\nconst _hoisted_2 = { class: \"img-and-title\" }\nconst _hoisted_3 = { class: \"tags\" }\nconst _hoisted_4 = { class: \"description\" }\n\nimport TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    \nconst _sfc_main = {\n  __name: 'projecttile',\n  props: {\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n        description: String\r\n    },\n  setup(__props) {\n\r\n    \r\n\r\n\nreturn (_ctx, _cache) => {\n  const _component_NuxtLink = __nuxt_component_0\n\n  return (_openBlock(), _createBlock(_component_NuxtLink, {\n    class: \"project-link\",\n    to: `/projects/${__props.title}`\n  }, {\n    default: _withCtx(() => [\n      _createElementVNode(\"div\", _hoisted_1, [\n        _createElementVNode(\"div\", _hoisted_2, [\n          _createVNode(ProjectImage, {\n            class: \"tile\",\n            imgurl: __props.imgurl\n          }, null, 8, [\"imgurl\"]),\n          _createVNode(ProjectTitle, {\n            class: \"tile\",\n            title: __props.title\n          }, null, 8, [\"title\"])\n        ]),\n        _createElementVNode(\"div\", _hoisted_3, [\n          _createVNode(TagCollection, {\n            class: \"tile\",\n            tags: __props.tags\n          }, null, 8, [\"tags\"])\n        ]),\n        _createElementVNode(\"div\", _hoisted_4, _toDisplayString(__props.description), 1)\n      ])\n    ]),\n    _: 1\n  }, 8, [\"to\"]))\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/projecttile.vue?vue&type=style&index=0&scoped=e83d14df&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-e83d14df\"]])",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088883303,
+      "end": 1702088883303,
+      "order": "normal"
+    }
+  ]
+}

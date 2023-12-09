@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/layouts/default.vue?vue&type=style&index=0&scoped=32ebc8ee&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n#page {\r\n    height: 100%;\r\n}\r\n\r\n.blur {\r\n    position: absolute;\r\n    background: linear-gradient(rgba(23, 22, 20, 1) 40%, rgba(23, 22, 20, 0));\r\n    width: 150px;\r\n    height: 30px;\r\n    z-index: 10;\r\n}\r\n\r\n#ham-menu {\r\n    position: absolute;\r\n    display: inline-block;\r\n    visibility: hidden;\r\n    top: 10px;\r\n    margin-left: 10px;\r\n    margin-top: 10px;\r\n    z-index: 15;\r\n    width: 40px;\r\n    height: 35px;\r\n    background-color: #171614;\r\n    background-image: url('/ham-menu.svg');\r\n    border: 2px solid #42b883;\r\n    border-radius: 5px;\r\n}\r\n\r\n#ham-menu:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n#transparent-layer {\r\n    position: fixed;\r\n    visibility: hidden;\r\n    top: 0;\r\n    left: 0;\r\n    height: calc(100% + 2px);\r\n    background-color: rgba(66, 184, 131, 0.3);\r\n    backdrop-filter: blur(0.38px);\r\n    z-index: 1;\r\n}\r\n\r\n#sidebar {\r\n    position: fixed;\r\n    top: 0;\r\n    margin: 0;\r\n    padding: 0;\r\n    width: 150px;\r\n    height: calc(100% + 2px);\r\n    background-color: #171614;\r\n    border-right: 2px solid #42b883;\r\n    z-index: 2;\r\n}\r\n\r\n#sidebar::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n.main-content {\r\n\r\n    vertical-align: top;\r\n    display: inline-block;\r\n    height: calc(100% + 2px);\r\n    margin: 10px 10px 10px 160px;\r\n    border-top-left-radius: 25px;\r\n    background-color: #f5f0f6;\r\n    z-index: 0;\r\n}\r\n\r\n@media (max-width: 700px) {\r\n\r\n    #sidebar {\r\n        visibility: hidden;\r\n    }\r\n\r\n    .blur {\r\n        visibility: hidden;\r\n    }\r\n\r\n    #ham-menu {\r\n        position: sticky;\r\n        visibility: visible;\r\n    }\r\n\r\n    .main-content {\r\n\r\n        margin: 10px;\r\n\r\n    }\r\n\r\n    #transparent-layer {\r\n        visibility: visible;\r\n    }\r\n\r\n}\r\n\r\n@media (min-width: 701px) {\r\n    \r\n    #sidebar {\r\n        visibility: visible;\r\n        pointer-events: all;\r\n    }\r\n\r\n\r\n}\r\n\r\n\r\n\r\n/* Color Palette */\r\n/*  171614\r\n    CE7919\r\n    42b883\r\n    f5f0f6 \r\n    \r\n    D5E6E3\r\n    B6DDD0\r\n    7BCBA9\r\n    */\r\n\r\n",
+      "start": 1702088888454,
+      "end": 1702088888454,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/layouts/default.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/layouts/default.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <div id=\"page\">\r\n        <div class=\"blur\">\r\n\r\n        </div>\r\n\r\n        <div id=\"ham-menu\" v-on:click=\"showSidebar=!showSidebar\" :style=\"showSidebar ? openedButtonStyle : closedButtonStyle\">\r\n\r\n        </div>\r\n        <div id=\"transparent-layer\" :style=\"showSidebar ? openedLayerStyle : closedLayerStyle\">\r\n            <Sidebar id=\"sidebar\" :style=\"showSidebar ? openedMenuStyle : closedMenuStyle\" @click=\"showSidebar = !showSidebar\">\r\n\r\n            </Sidebar>\r\n        </div>\r\n\r\n        <div class=\"main-content\">\r\n            <slot />\r\n        </div>\r\n    </div>\r\n\r\n</template>\r\n\r\n<script>\r\n\r\n    export default {\r\n        data() {\r\n            return {\r\n                showSidebar: false,\r\n                openedButtonStyle: {\r\n                    left: \"160px\", \r\n                    \"background-image\" : \"url('/x.svg')\"\r\n                }, \r\n                closedButtonStyle: {\r\n                    left: \"0\",\r\n                    \"background-image\" : \"url('/ham-menu.svg')\"\r\n                }, \r\n                openedMenuStyle: {\r\n                    visibility: \"visible\"\r\n                },\r\n                closedMenuStyle: {\r\n                    left: \"0\"\r\n                },\r\n                openedLayerStyle: {\r\n                    width: \"100vw\"\r\n                }, \r\n                closedLayerStyle: {\r\n                    width: \"0\"\r\n                }\r\n            }\r\n\t    },\r\n        methods: {\r\n            toggleSidebar() {\r\n                this.showSidebar=!this.showSidebar\r\n            }\r\n        }\r\n    }\r\n\r\n\r\n    // function toggleSideBar(event) {\r\n\r\n    //     console.log(this.$refs.sidebar)\r\n\r\n    // }\r\n\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n#page {\r\n    height: 100%;\r\n}\r\n\r\n.blur {\r\n    position: absolute;\r\n    background: linear-gradient(rgba(23, 22, 20, 1) 40%, rgba(23, 22, 20, 0));\r\n    width: 150px;\r\n    height: 30px;\r\n    z-index: 10;\r\n}\r\n\r\n#ham-menu {\r\n    position: absolute;\r\n    display: inline-block;\r\n    visibility: hidden;\r\n    top: 10px;\r\n    margin-left: 10px;\r\n    margin-top: 10px;\r\n    z-index: 15;\r\n    width: 40px;\r\n    height: 35px;\r\n    background-color: #171614;\r\n    background-image: url('/ham-menu.svg');\r\n    border: 2px solid #42b883;\r\n    border-radius: 5px;\r\n}\r\n\r\n#ham-menu:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n#transparent-layer {\r\n    position: fixed;\r\n    visibility: hidden;\r\n    top: 0;\r\n    left: 0;\r\n    height: calc(100% + 2px);\r\n    background-color: rgba(66, 184, 131, 0.3);\r\n    backdrop-filter: blur(0.38px);\r\n    z-index: 1;\r\n}\r\n\r\n#sidebar {\r\n    position: fixed;\r\n    top: 0;\r\n    margin: 0;\r\n    padding: 0;\r\n    width: 150px;\r\n    height: calc(100% + 2px);\r\n    background-color: #171614;\r\n    border-right: 2px solid #42b883;\r\n    z-index: 2;\r\n}\r\n\r\n#sidebar::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n.main-content {\r\n\r\n    vertical-align: top;\r\n    display: inline-block;\r\n    height: calc(100% + 2px);\r\n    margin: 10px 10px 10px 160px;\r\n    border-top-left-radius: 25px;\r\n    background-color: #f5f0f6;\r\n    z-index: 0;\r\n}\r\n\r\n@media (max-width: 700px) {\r\n\r\n    #sidebar {\r\n        visibility: hidden;\r\n    }\r\n\r\n    .blur {\r\n        visibility: hidden;\r\n    }\r\n\r\n    #ham-menu {\r\n        position: sticky;\r\n        visibility: visible;\r\n    }\r\n\r\n    .main-content {\r\n\r\n        margin: 10px;\r\n\r\n    }\r\n\r\n    #transparent-layer {\r\n        visibility: visible;\r\n    }\r\n\r\n}\r\n\r\n@media (min-width: 701px) {\r\n    \r\n    #sidebar {\r\n        visibility: visible;\r\n        pointer-events: all;\r\n    }\r\n\r\n\r\n}\r\n\r\n\r\n\r\n/* Color Palette */\r\n/*  171614\r\n    CE7919\r\n    42b883\r\n    f5f0f6 \r\n    \r\n    D5E6E3\r\n    B6DDD0\r\n    7BCBA9\r\n    */\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888454,
+      "end": 1702088888454,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088888454,
+      "end": 1702088888454,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888455,
+      "end": 1702088888455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088888455,
+      "end": 1702088888455,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888455,
+      "end": 1702088888455,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088888455,
+      "end": 1702088888455,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088888455,
+      "end": 1702088888456,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "#page{height:100%}.blur{background:linear-gradient(#171614 40%,rgba(23,22,20,0));height:30px;width:150px;z-index:10}#ham-menu,.blur{position:absolute}#ham-menu{background-color:#171614;background-image:url(__VITE_PUBLIC_ASSET__82ac79f0__);border:2px solid #42b883;border-radius:5px;display:inline-block;height:35px;margin-left:10px;margin-top:10px;top:10px;visibility:hidden;width:40px;z-index:15}#ham-menu:hover{cursor:pointer}#transparent-layer{-webkit-backdrop-filter:blur(.38px);backdrop-filter:blur(.38px);background-color:rgba(66,184,131,.3);left:0;visibility:hidden;z-index:1}#sidebar,#transparent-layer{height:calc(100% + 2px);position:fixed;top:0}#sidebar{background-color:#171614;border-right:2px solid #42b883;margin:0;padding:0;width:150px;z-index:2}#sidebar::-webkit-scrollbar{display:none}.main-content{background-color:#f5f0f6;border-top-left-radius:25px;display:inline-block;height:calc(100% + 2px);margin:10px 10px 10px 160px;vertical-align:top;z-index:0}@media (max-width:700px){#sidebar,.blur{visibility:hidden}#ham-menu{position:sticky;visibility:visible}.main-content{margin:10px}#transparent-layer{visibility:visible}}@media (min-width:701px){#sidebar{pointer-events:all;visibility:visible}}",
+      "start": 1702088888456,
+      "end": 1702088888468,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/layouts/default.vue",
+        "mappings": "AACA,MACI,WACJ,CAEA,MAEI,wDAAyE,CAEzE,WAAY,CADZ,WAAY,CAEZ,UACJ,CAEA,gBAPI,iBAqBJ,CAdA,UAUI,wBAAyB,CACzB,qDAAsC,CACtC,wBAAyB,CACzB,iBAAkB,CAXlB,oBAAqB,CAOrB,WAAY,CAJZ,gBAAiB,CACjB,eAAgB,CAFhB,QAAS,CADT,iBAAkB,CAKlB,UAAW,CADX,UAOJ,CAEA,gBACI,cACJ,CAEA,mBAOI,mCAA6B,CAA7B,2BAA6B,CAD7B,oCAAyC,CAFzC,MAAO,CAFP,iBAAkB,CAMlB,SACJ,CAEA,4BANI,uBAAwB,CAJxB,cAAe,CAEf,KAkBJ,CAVA,SAOI,wBAAyB,CACzB,8BAA+B,CAL/B,QAAS,CACT,SAAU,CACV,WAAY,CAIZ,SACJ,CAEA,4BACI,YACJ,CAEA,cAOI,wBAAyB,CADzB,2BAA4B,CAH5B,oBAAqB,CACrB,uBAAwB,CACxB,2BAA4B,CAH5B,kBAAmB,CAMnB,SACJ,CAEA,yBAMI,eACI,iBACJ,CAEA,UACI,eAAgB,CAChB,kBACJ,CAEA,cAEI,WAEJ,CAEA,mBACI,kBACJ,CAEJ,CAEA,yBAEI,SAEI,kBAAmB,CADnB,kBAEJ,CAGJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/layouts/default.vue"
+        ],
+        "sourcesContent": [
+          "\r\n#page {\r\n    height: 100%;\r\n}\r\n\r\n.blur {\r\n    position: absolute;\r\n    background: linear-gradient(rgba(23, 22, 20, 1) 40%, rgba(23, 22, 20, 0));\r\n    width: 150px;\r\n    height: 30px;\r\n    z-index: 10;\r\n}\r\n\r\n#ham-menu {\r\n    position: absolute;\r\n    display: inline-block;\r\n    visibility: hidden;\r\n    top: 10px;\r\n    margin-left: 10px;\r\n    margin-top: 10px;\r\n    z-index: 15;\r\n    width: 40px;\r\n    height: 35px;\r\n    background-color: #171614;\r\n    background-image: url('/ham-menu.svg');\r\n    border: 2px solid #42b883;\r\n    border-radius: 5px;\r\n}\r\n\r\n#ham-menu:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n#transparent-layer {\r\n    position: fixed;\r\n    visibility: hidden;\r\n    top: 0;\r\n    left: 0;\r\n    height: calc(100% + 2px);\r\n    background-color: rgba(66, 184, 131, 0.3);\r\n    backdrop-filter: blur(0.38px);\r\n    z-index: 1;\r\n}\r\n\r\n#sidebar {\r\n    position: fixed;\r\n    top: 0;\r\n    margin: 0;\r\n    padding: 0;\r\n    width: 150px;\r\n    height: calc(100% + 2px);\r\n    background-color: #171614;\r\n    border-right: 2px solid #42b883;\r\n    z-index: 2;\r\n}\r\n\r\n#sidebar::-webkit-scrollbar {\r\n    display: none;\r\n}\r\n\r\n.main-content {\r\n\r\n    vertical-align: top;\r\n    display: inline-block;\r\n    height: calc(100% + 2px);\r\n    margin: 10px 10px 10px 160px;\r\n    border-top-left-radius: 25px;\r\n    background-color: #f5f0f6;\r\n    z-index: 0;\r\n}\r\n\r\n@media (max-width: 700px) {\r\n\r\n    #sidebar {\r\n        visibility: hidden;\r\n    }\r\n\r\n    .blur {\r\n        visibility: hidden;\r\n    }\r\n\r\n    #ham-menu {\r\n        position: sticky;\r\n        visibility: visible;\r\n    }\r\n\r\n    .main-content {\r\n\r\n        margin: 10px;\r\n\r\n    }\r\n\r\n    #transparent-layer {\r\n        visibility: visible;\r\n    }\r\n\r\n}\r\n\r\n@media (min-width: 701px) {\r\n    \r\n    #sidebar {\r\n        visibility: visible;\r\n        pointer-events: all;\r\n    }\r\n\r\n\r\n}\r\n\r\n\r\n\r\n/* Color Palette */\r\n/*  171614\r\n    CE7919\r\n    42b883\r\n    f5f0f6 \r\n    \r\n    D5E6E3\r\n    B6DDD0\r\n    7BCBA9\r\n    */\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088888468,
+      "end": 1702088888468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088888468,
+      "end": 1702088888468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088888468,
+      "end": 1702088888468,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "#page[data-v-32ebc8ee]{height:100%}.blur[data-v-32ebc8ee]{background:linear-gradient(#171614 40%,rgba(23,22,20,0));height:30px;width:150px;z-index:10}#ham-menu[data-v-32ebc8ee],.blur[data-v-32ebc8ee]{position:absolute}#ham-menu[data-v-32ebc8ee]{background-color:#171614;background-image:url(__VITE_PUBLIC_ASSET__82ac79f0__);border:2px solid #42b883;border-radius:5px;display:inline-block;height:35px;margin-left:10px;margin-top:10px;top:10px;visibility:hidden;width:40px;z-index:15}#ham-menu[data-v-32ebc8ee]:hover{cursor:pointer}#transparent-layer[data-v-32ebc8ee]{-webkit-backdrop-filter:blur(.38px);backdrop-filter:blur(.38px);background-color:rgba(66,184,131,.3);left:0;visibility:hidden;z-index:1}#sidebar[data-v-32ebc8ee],#transparent-layer[data-v-32ebc8ee]{height:calc(100% + 2px);position:fixed;top:0}#sidebar[data-v-32ebc8ee]{background-color:#171614;border-right:2px solid #42b883;margin:0;padding:0;width:150px;z-index:2}#sidebar[data-v-32ebc8ee]::-webkit-scrollbar{display:none}.main-content[data-v-32ebc8ee]{background-color:#f5f0f6;border-top-left-radius:25px;display:inline-block;height:calc(100% + 2px);margin:10px 10px 10px 160px;vertical-align:top;z-index:0}@media (max-width:700px){#sidebar[data-v-32ebc8ee],.blur[data-v-32ebc8ee]{visibility:hidden}#ham-menu[data-v-32ebc8ee]{position:sticky;visibility:visible}.main-content[data-v-32ebc8ee]{margin:10px}#transparent-layer[data-v-32ebc8ee]{visibility:visible}}@media (min-width:701px){#sidebar[data-v-32ebc8ee]{pointer-events:all;visibility:visible}}",
+      "start": 1702088888468,
+      "end": 1702088888471,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/layouts/default.vue",
+        "mappings": "AAAA,uBAAM,WAAW,CAAC,uBAAM,wDAAwD,CAAC,WAAW,CAAC,WAAW,CAAC,UAAU,CAAC,kDAAgB,iBAAiB,CAAC,2BAAU,wBAAwB,CAAC,qDAAqD,CAAC,wBAAwB,CAAC,iBAAiB,CAAC,oBAAoB,CAAC,WAAW,CAAC,gBAAgB,CAAC,eAAe,CAAC,QAAQ,CAAC,iBAAiB,CAAC,UAAU,CAAC,UAAU,CAAC,iCAAgB,cAAc,CAAC,oCAAmB,mCAAmC,CAAC,2BAA2B,CAAC,oCAAoC,CAAC,MAAM,CAAC,iBAAiB,CAAC,SAAS,CAAC,8DAA4B,uBAAuB,CAAC,cAAc,CAAC,KAAK,CAAC,0BAAS,wBAAwB,CAAC,8BAA8B,CAAC,QAAQ,CAAC,SAAS,CAAC,WAAW,CAAC,SAAS,CAAC,6CAA4B,YAAY,CAAC,+BAAc,wBAAwB,CAAC,2BAA2B,CAAC,oBAAoB,CAAC,uBAAuB,CAAC,2BAA2B,CAAC,kBAAkB,CAAC,SAAS,CAAC,yBAAyB,iDAAe,iBAAiB,CAAC,2BAAU,eAAe,CAAC,kBAAkB,CAAC,+BAAc,WAAW,CAAC,oCAAmB,kBAAkB,CAAC,CAAC,yBAAyB,0BAAS,kBAAkB,CAAC,kBAAkB,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/layouts/default.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088888471,
+      "end": 1702088888471,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088888471,
+      "end": 1702088888472,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088888472,
+      "end": 1702088888472,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088888472,
+      "end": 1702088888472,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <PageTitle class=\"page\" heading=\"Education\"/>\r\n    <Education imgurl=\"/uofi.png\" heading=\"The University of Iowa\" degree=\"Bachelor's Degree in Computer Science & Engineering\" timeframe=\"August 2016 - May 2020\"/>\r\n    <Education id=\"last-edu\" imgurl=\"/sfassociate.png\" heading=\"Salesforce Associate (In Progress)\" timeframe=\"September 2023 - Current\"/>\r\n    <PageTitle class=\"page\" heading=\"Skills\"/>\r\n    <!-- <div id=\"hint\">(Click to View Projects for each Skill)</div> -->\r\n    <div class=\"subsets-wrapper\">\r\n        <SkillSubset \r\n            v-for=\"subset in subsets\"\r\n            :heading=\"subset.name\"\r\n            :tags=\"subset.tags\"\r\n        />\r\n    </div>\r\n</template>\r\n\r\n<script setup>\r\n    import PageTitle from '../components/pagetitle.vue'\r\n    import SkillSubset from '../components/skillsubset.vue' \r\n    import Education from '../components/education.vue'\r\n\r\n    const subsets = [\r\n        {\r\n            name: \"Languages\",\r\n            tags: [\"JavaScript\", \"Python\", \"Java\", \"C++\", \"Swift\"]\r\n\r\n        },\r\n        {\r\n            name: \"Frontend\",\r\n            tags: [ \"Vue\", \"React\"]\r\n        },\r\n        {\r\n            name: \"Backend\",\r\n            tags: [\"Express\"]\r\n        },\r\n        {\r\n            name: \"Databases\",\r\n            tags: [\"MongoDB\"]\r\n        },\r\n        {\r\n            name: \"Design\",\r\n            tags: [\"Figma\"]\r\n        }\r\n    ]\r\n\r\n</script>\r\n\r\n    \r\n\r\n<style scoped>\r\n\r\n    #hint {\r\n        font-size: 14px;\r\n        margin: -10px 0 10px 10px;\r\n    }\r\n\r\n    .subsets-wrapper {\r\n        margin-left: 30px;\r\n    }\r\n\r\n    #last-edu {\r\n        margin-bottom: 40px;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .subsets-wrapper {\r\n            margin-left: 20px;\r\n        }\r\n        \r\n    }\r\n\r\n</style>",
+      "start": 1702088886960,
+      "end": 1702088887185,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887185,
+      "end": 1702088887185,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887185,
+      "end": 1702088887185,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887185,
+      "end": 1702088887186,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887185,
+      "end": 1702088887186,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { ssrRenderComponent as _ssrRenderComponent, ssrRenderList as _ssrRenderList } from \"vue/server-renderer\"\n\nimport PageTitle from '../components/pagetitle.vue'\r\n    import SkillSubset from '../components/skillsubset.vue' \r\n    import Education from '../components/education.vue'\r\n\r\n    \nconst _sfc_main = {\n  __name: 'skills',\n  __ssrInlineRender: true,\n  setup(__props) {\n\r\n    const subsets = [\r\n        {\r\n            name: \"Languages\",\r\n            tags: [\"JavaScript\", \"Python\", \"Java\", \"C++\", \"Swift\"]\r\n\r\n        },\r\n        {\r\n            name: \"Frontend\",\r\n            tags: [ \"Vue\", \"React\"]\r\n        },\r\n        {\r\n            name: \"Backend\",\r\n            tags: [\"Express\"]\r\n        },\r\n        {\r\n            name: \"Databases\",\r\n            tags: [\"MongoDB\"]\r\n        },\r\n        {\r\n            name: \"Design\",\r\n            tags: [\"Figma\"]\r\n        }\r\n    ]\r\n\r\n\nreturn (_ctx, _push, _parent, _attrs) => {\n  _push(`<!--[-->`)\n  _push(_ssrRenderComponent(PageTitle, {\n    class: \"page\",\n    heading: \"Education\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(Education, {\n    imgurl: \"/uofi.png\",\n    heading: \"The University of Iowa\",\n    degree: \"Bachelor's Degree in Computer Science & Engineering\",\n    timeframe: \"August 2016 - May 2020\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(Education, {\n    id: \"last-edu\",\n    imgurl: \"/sfassociate.png\",\n    heading: \"Salesforce Associate (In Progress)\",\n    timeframe: \"September 2023 - Current\"\n  }, null, _parent))\n  _push(_ssrRenderComponent(PageTitle, {\n    class: \"page\",\n    heading: \"Skills\"\n  }, null, _parent))\n  _push(`<div class=\"subsets-wrapper\" data-v-6458ba4d><!--[-->`)\n  _ssrRenderList(subsets, (subset) => {\n    _push(_ssrRenderComponent(SkillSubset, {\n      heading: subset.name,\n      tags: subset.tags\n    }, null, _parent))\n  })\n  _push(`<!--]--></div><!--]-->`)\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue?vue&type=style&index=0&scoped=6458ba4d&lang.css\"\n\nimport { useSSRContext as __vite_useSSRContext } from 'vue'\nconst _sfc_setup = _sfc_main.setup\n_sfc_main.setup = (props, ctx) => {\n  const ssrContext = __vite_useSSRContext()\n  ;(ssrContext.modules || (ssrContext.modules = new Set())).add(\"pages/skills.vue\")\n  return _sfc_setup ? _sfc_setup(props, ctx) : undefined\n}\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-6458ba4d\"]])",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal",
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue"
+        ],
+        "sourcesContent": [
+          "<template>\r\n    <PageTitle class=\"page\" heading=\"Education\"/>\r\n    <Education imgurl=\"/uofi.png\" heading=\"The University of Iowa\" degree=\"Bachelor's Degree in Computer Science & Engineering\" timeframe=\"August 2016 - May 2020\"/>\r\n    <Education id=\"last-edu\" imgurl=\"/sfassociate.png\" heading=\"Salesforce Associate (In Progress)\" timeframe=\"September 2023 - Current\"/>\r\n    <PageTitle class=\"page\" heading=\"Skills\"/>\r\n    <!-- <div id=\"hint\">(Click to View Projects for each Skill)</div> -->\r\n    <div class=\"subsets-wrapper\">\r\n        <SkillSubset \r\n            v-for=\"subset in subsets\"\r\n            :heading=\"subset.name\"\r\n            :tags=\"subset.tags\"\r\n        />\r\n    </div>\r\n</template>\r\n\r\n<script setup>\r\n    import PageTitle from '../components/pagetitle.vue'\r\n    import SkillSubset from '../components/skillsubset.vue' \r\n    import Education from '../components/education.vue'\r\n\r\n    const subsets = [\r\n        {\r\n            name: \"Languages\",\r\n            tags: [\"JavaScript\", \"Python\", \"Java\", \"C++\", \"Swift\"]\r\n\r\n        },\r\n        {\r\n            name: \"Frontend\",\r\n            tags: [ \"Vue\", \"React\"]\r\n        },\r\n        {\r\n            name: \"Backend\",\r\n            tags: [\"Express\"]\r\n        },\r\n        {\r\n            name: \"Databases\",\r\n            tags: [\"MongoDB\"]\r\n        },\r\n        {\r\n            name: \"Design\",\r\n            tags: [\"Figma\"]\r\n        }\r\n    ]\r\n\r\n</script>\r\n\r\n    \r\n\r\n<style scoped>\r\n\r\n    #hint {\r\n        font-size: 14px;\r\n        margin: -10px 0 10px 10px;\r\n    }\r\n\r\n    .subsets-wrapper {\r\n        margin-left: 30px;\r\n    }\r\n\r\n    #last-edu {\r\n        margin-bottom: 40px;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .subsets-wrapper {\r\n            margin-left: 20px;\r\n        }\r\n        \r\n    }\r\n\r\n</style>"
+        ],
+        "names": [],
+        "mappings": ";;AAgBI,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7D,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACxD,CAAC;AACD,CAAC,CAAC,CAAC;;;;;AALW,CAAC;AACf,CAAC,CAAC,CAAC,CAIC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACnE,CAAC;AACD,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACpC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC7B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC/B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC9B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACX,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AAC5B,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACV,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACN,CAAC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887186,
+      "end": 1702088887186,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887186,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887198,
+      "end": 1702088887198,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887199,
+      "end": 1702088887199,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887199,
+      "end": 1702088887199,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887199,
+      "end": 1702088887199,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887199,
+      "end": 1702088887199,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887199,
+      "end": 1702088887199,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887199,
+      "end": 1702088887199,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887199,
+      "end": 1702088887200,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887199,
+      "end": 1702088887200,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887200,
+      "end": 1702088887200,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887200,
+      "end": 1702088887200,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887200,
+      "end": 1702088887200,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887200,
+      "end": 1702088887200,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887200,
+      "end": 1702088887200,
+      "order": "normal"
+    }
+  ]
+}

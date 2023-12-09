@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue?vue&type=style&index=0&scoped=6458ba4d&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n    #hint {\r\n        font-size: 14px;\r\n        margin: -10px 0 10px 10px;\r\n    }\r\n\r\n    .subsets-wrapper {\r\n        margin-left: 30px;\r\n    }\r\n\r\n    #last-edu {\r\n        margin-bottom: 40px;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .subsets-wrapper {\r\n            margin-left: 20px;\r\n        }\r\n        \r\n    }\r\n\r\n",
+      "start": 1702088887565,
+      "end": 1702088887565,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue"
+        ],
+        "names": [],
+        "mappings": ";;IAkDI,CAAC,CAAC,CAAC,CAAC,EAAE;QACF,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;QACf,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IAC7B;;IAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACrB;;IAEA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;QACN,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACvB;;IAEA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;;QAEtB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;YACb,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;QACrB;;IAEJ",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <PageTitle class=\"page\" heading=\"Education\"/>\r\n    <Education imgurl=\"/uofi.png\" heading=\"The University of Iowa\" degree=\"Bachelor's Degree in Computer Science & Engineering\" timeframe=\"August 2016 - May 2020\"/>\r\n    <Education id=\"last-edu\" imgurl=\"/sfassociate.png\" heading=\"Salesforce Associate (In Progress)\" timeframe=\"September 2023 - Current\"/>\r\n    <PageTitle class=\"page\" heading=\"Skills\"/>\r\n    <!-- <div id=\"hint\">(Click to View Projects for each Skill)</div> -->\r\n    <div class=\"subsets-wrapper\">\r\n        <SkillSubset \r\n            v-for=\"subset in subsets\"\r\n            :heading=\"subset.name\"\r\n            :tags=\"subset.tags\"\r\n        />\r\n    </div>\r\n</template>\r\n\r\n<script setup>\r\n    import PageTitle from '../components/pagetitle.vue'\r\n    import SkillSubset from '../components/skillsubset.vue' \r\n    import Education from '../components/education.vue'\r\n\r\n    const subsets = [\r\n        {\r\n            name: \"Languages\",\r\n            tags: [\"JavaScript\", \"Python\", \"Java\", \"C++\", \"Swift\"]\r\n\r\n        },\r\n        {\r\n            name: \"Frontend\",\r\n            tags: [ \"Vue\", \"React\"]\r\n        },\r\n        {\r\n            name: \"Backend\",\r\n            tags: [\"Express\"]\r\n        },\r\n        {\r\n            name: \"Databases\",\r\n            tags: [\"MongoDB\"]\r\n        },\r\n        {\r\n            name: \"Design\",\r\n            tags: [\"Figma\"]\r\n        }\r\n    ]\r\n\r\n</script>\r\n\r\n    \r\n\r\n<style scoped>\r\n\r\n    #hint {\r\n        font-size: 14px;\r\n        margin: -10px 0 10px 10px;\r\n    }\r\n\r\n    .subsets-wrapper {\r\n        margin-left: 30px;\r\n    }\r\n\r\n    #last-edu {\r\n        margin-bottom: 40px;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .subsets-wrapper {\r\n            margin-left: 20px;\r\n        }\r\n        \r\n    }\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887565,
+      "end": 1702088887565,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887565,
+      "end": 1702088887565,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887565,
+      "end": 1702088887565,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887565,
+      "end": 1702088887565,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887566,
+      "end": 1702088887566,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887566,
+      "end": 1702088887566,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887566,
+      "end": 1702088887566,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "#hint{font-size:14px;margin:-10px 0 10px 10px}.subsets-wrapper{margin-left:30px}#last-edu{margin-bottom:40px}@media (max-width:700px){.subsets-wrapper{margin-left:20px}}",
+      "start": 1702088887566,
+      "end": 1702088887570,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue",
+        "mappings": "AAEI,MACI,cAAe,CACf,wBACJ,CAEA,iBACI,gBACJ,CAEA,UACI,kBACJ,CAEA,yBAEI,iBACI,gBACJ,CAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n    #hint {\r\n        font-size: 14px;\r\n        margin: -10px 0 10px 10px;\r\n    }\r\n\r\n    .subsets-wrapper {\r\n        margin-left: 30px;\r\n    }\r\n\r\n    #last-edu {\r\n        margin-bottom: 40px;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .subsets-wrapper {\r\n            margin-left: 20px;\r\n        }\r\n        \r\n    }\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887571,
+      "end": 1702088887571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887571,
+      "end": 1702088887571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887571,
+      "end": 1702088887571,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "#hint[data-v-6458ba4d]{font-size:14px;margin:-10px 0 10px 10px}.subsets-wrapper[data-v-6458ba4d]{margin-left:30px}#last-edu[data-v-6458ba4d]{margin-bottom:40px}@media (max-width:700px){.subsets-wrapper[data-v-6458ba4d]{margin-left:20px}}",
+      "start": 1702088887571,
+      "end": 1702088887573,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue",
+        "mappings": "AAAA,uBAAM,cAAc,CAAC,wBAAwB,CAAC,kCAAiB,gBAAgB,CAAC,2BAAU,kBAAkB,CAAC,yBAAyB,kCAAiB,gBAAgB,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/skills.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887573,
+      "end": 1702088887573,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887573,
+      "end": 1702088887573,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887573,
+      "end": 1702088887573,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887573,
+      "end": 1702088887573,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887573,
+      "end": 1702088887573,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887573,
+      "end": 1702088887573,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887574,
+      "end": 1702088887574,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887574,
+      "end": 1702088887574,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887574,
+      "end": 1702088887574,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1702088887574,
+      "end": 1702088887574,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887574,
+      "end": 1702088887574,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887574,
+      "end": 1702088887574,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887575,
+      "end": 1702088887575,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887575,
+      "end": 1702088887575,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887576,
+      "end": 1702088887576,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887577,
+      "end": 1702088887577,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887578,
+      "end": 1702088887578,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887578,
+      "end": 1702088887578,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887578,
+      "end": 1702088887579,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887579,
+      "end": 1702088887579,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887579,
+      "end": 1702088887579,
+      "order": "normal"
+    }
+  ]
+}

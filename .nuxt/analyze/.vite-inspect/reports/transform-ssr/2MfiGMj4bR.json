@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/pages/index.vue?vue&type=style&index=0&scoped=2186ef5d&lang.css?inline&used",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n.more-projects {\r\n    display: block;\r\n    color: #CE7919;\r\n    border: 2px solid rgba(206, 121, 25, 0.15);\r\n    margin: 10px auto 0 auto;\r\n    width: 280px;\r\n    padding: 10px;\r\n    border-radius: 5px;\r\n    text-align: center;\r\n    font-size: 18px;\r\n    font-weight: 900;\r\n    text-decoration: none;\r\n}\r\n\r\n.more-projects:hover {\r\n    border: 2px solid rgba(206, 121, 25, 1);\r\n    transition: 0.5s;\r\n}\r\n\r\n#arrow {\r\n    vertical-align: middle;\r\n}\r\n\r\n@media (max-width: 400px) {\r\n\r\n    .more-projects {\r\n        width: calc(100vw - 90px);\r\n        font-size: 14px;\r\n    }\r\n    \r\n}\r\n\r\n",
+      "start": 1702088887360,
+      "end": 1702088887361,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/index.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/index.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <PageTitle class=\"page\" heading=\"Highlighted Projects\"/>\r\n    <ProjectLink\r\n          :title=\"MTGMetaTracker.title\"\r\n          :tags=\"MTGMetaTracker.tags\"\r\n          :imgurl=\"MTGMetaTracker.imgurl\"\r\n    />\r\n    <ProjectLink\r\n          :title=\"WordleSolver.title\"\r\n          :tags=\"WordleSolver.tags\"\r\n          :imgurl=\"WordleSolver.imgurl\"\r\n    /> \r\n    <NuxtLink class=\"more-projects\" to=\"/projects\">Check Out More of My Work <img id=\"arrow\" src=\"/RightArrow.svg\"></NuxtLink>\r\n</template>\r\n\r\n<script setup>\r\n    import ProjectLink from '../components/projectlink.vue'\r\n    import PageTitle from '../components/pagetitle.vue'\r\n\r\n    definePageMeta({\r\n        layout: 'home'\r\n    })\r\n\r\n    const MTGMetaTracker = await queryContent(\"projects\").where({ title: { $eq: 'MTGMetaTracker' } }).findOne()\r\n    const WordleSolver = await queryContent(\"projects\").where({ title: { $eq: 'Wordle Solver' } }).findOne()\r\n\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n.more-projects {\r\n    display: block;\r\n    color: #CE7919;\r\n    border: 2px solid rgba(206, 121, 25, 0.15);\r\n    margin: 10px auto 0 auto;\r\n    width: 280px;\r\n    padding: 10px;\r\n    border-radius: 5px;\r\n    text-align: center;\r\n    font-size: 18px;\r\n    font-weight: 900;\r\n    text-decoration: none;\r\n}\r\n\r\n.more-projects:hover {\r\n    border: 2px solid rgba(206, 121, 25, 1);\r\n    transition: 0.5s;\r\n}\r\n\r\n#arrow {\r\n    vertical-align: middle;\r\n}\r\n\r\n@media (max-width: 400px) {\r\n\r\n    .more-projects {\r\n        width: calc(100vw - 90px);\r\n        font-size: 14px;\r\n    }\r\n    \r\n}\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887364,
+      "end": 1702088887364,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887364,
+      "end": 1702088887364,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887365,
+      "end": 1702088887368,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887365,
+      "end": 1702088887368,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887370,
+      "end": 1702088887371,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887370,
+      "end": 1702088887371,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887373,
+      "end": 1702088887373,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".more-projects{border:2px solid rgba(206,121,25,.15);border-radius:5px;color:#ce7919;display:block;font-size:18px;font-weight:900;margin:10px auto 0;padding:10px;text-align:center;text-decoration:none;width:280px}.more-projects:hover{border:2px solid #ce7919;transition:.5s}#arrow{vertical-align:middle}@media (max-width:400px){.more-projects{font-size:14px;width:calc(100vw - 90px)}}",
+      "start": 1702088887374,
+      "end": 1702088887390,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/index.vue",
+        "mappings": "AAEA,eAGI,qCAA0C,CAI1C,iBAAkB,CALlB,aAAc,CADd,aAAc,CAQd,cAAe,CACf,eAAgB,CANhB,kBAAwB,CAExB,YAAa,CAEb,iBAAkB,CAGlB,oBAAqB,CANrB,WAOJ,CAEA,qBACI,wBAAuC,CACvC,cACJ,CAEA,OACI,qBACJ,CAEA,yBAEI,eAEI,cAAe,CADf,wBAEJ,CAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/index.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n.more-projects {\r\n    display: block;\r\n    color: #CE7919;\r\n    border: 2px solid rgba(206, 121, 25, 0.15);\r\n    margin: 10px auto 0 auto;\r\n    width: 280px;\r\n    padding: 10px;\r\n    border-radius: 5px;\r\n    text-align: center;\r\n    font-size: 18px;\r\n    font-weight: 900;\r\n    text-decoration: none;\r\n}\r\n\r\n.more-projects:hover {\r\n    border: 2px solid rgba(206, 121, 25, 1);\r\n    transition: 0.5s;\r\n}\r\n\r\n#arrow {\r\n    vertical-align: middle;\r\n}\r\n\r\n@media (max-width: 400px) {\r\n\r\n    .more-projects {\r\n        width: calc(100vw - 90px);\r\n        font-size: 14px;\r\n    }\r\n    \r\n}\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887390,
+      "end": 1702088887390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887390,
+      "end": 1702088887390,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887391,
+      "end": 1702088887391,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".more-projects[data-v-2186ef5d]{border:2px solid rgba(206,121,25,.15);border-radius:5px;color:#ce7919;display:block;font-size:18px;font-weight:900;margin:10px auto 0;padding:10px;text-align:center;text-decoration:none;width:280px}.more-projects[data-v-2186ef5d]:hover{border:2px solid #ce7919;transition:.5s}#arrow[data-v-2186ef5d]{vertical-align:middle}@media (max-width:400px){.more-projects[data-v-2186ef5d]{font-size:14px;width:calc(100vw - 90px)}}",
+      "start": 1702088887391,
+      "end": 1702088887396,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/pages/index.vue",
+        "mappings": "AAAA,gCAAe,qCAAqC,CAAC,iBAAiB,CAAC,aAAa,CAAC,aAAa,CAAC,cAAc,CAAC,eAAe,CAAC,kBAAkB,CAAC,YAAY,CAAC,iBAAiB,CAAC,oBAAoB,CAAC,WAAW,CAAC,sCAAqB,wBAAwB,CAAC,cAAc,CAAC,wBAAO,qBAAqB,CAAC,yBAAyB,gCAAe,cAAc,CAAC,wBAAwB,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/pages/index.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887396,
+      "end": 1702088887396,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887396,
+      "end": 1702088887396,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887396,
+      "end": 1702088887396,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887396,
+      "end": 1702088887396,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887396,
+      "end": 1702088887396,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887396,
+      "end": 1702088887396,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default \".more-projects[data-v-2186ef5d]{border:2px solid rgba(206,121,25,.15);border-radius:5px;color:#ce7919;display:block;font-size:18px;font-weight:900;margin:10px auto 0;padding:10px;text-align:center;text-decoration:none;width:280px}.more-projects[data-v-2186ef5d]:hover{border:2px solid #ce7919;transition:.5s}#arrow[data-v-2186ef5d]{vertical-align:middle}@media (max-width:400px){.more-projects[data-v-2186ef5d]{font-size:14px;width:calc(100vw - 90px)}}\"",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887397,
+      "end": 1702088887397,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887398,
+      "end": 1702088887398,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887399,
+      "end": 1702088887399,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887399,
+      "end": 1702088887399,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887399,
+      "end": 1702088887399,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887399,
+      "end": 1702088887399,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887399,
+      "end": 1702088887399,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887399,
+      "end": 1702088887399,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887399,
+      "end": 1702088887399,
+      "order": "normal"
+    }
+  ]
+}

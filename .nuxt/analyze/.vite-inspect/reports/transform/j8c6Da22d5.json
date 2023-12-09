@@ -1,0 +1,220 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/tagcollection.vue",
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "<template>\r\n    <ul :class=\"$attrs.class\">\r\n        <Tag :tags=\"tags\"></Tag>\r\n    </ul>\r\n</template>\r\n\r\n\r\n<script setup>\r\n\r\n    import Tag from './tag.vue'\r\n\r\n    defineProps({\r\n        tags: Object\r\n    })\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\nul {\r\n    padding: 0;\r\n    list-style-type: none;\r\n    height: 18px;\r\n}\r\n\r\n.tile {\r\n    margin: 5px 0 0 0;\r\n}\r\n\r\n.link {\r\n    margin: 5px 0 0 0;\r\n}\r\n\r\n.project {\r\n    margin: 0 0 0 10px;\r\n}\r\n\r\n.skill {\r\n    margin: 2px 0 0 20px;\r\n}\r\n\r\n</style>",
+      "start": 1702088883069,
+      "end": 1702088883291,
+      "sourcemaps": null
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088883291,
+      "end": 1702088883291,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "import { createVNode as _createVNode, normalizeClass as _normalizeClass, openBlock as _openBlock, createElementBlock as _createElementBlock } from \"vue\"\n\nimport Tag from './tag.vue'\r\n\r\n    \nconst _sfc_main = {\n  __name: 'tagcollection',\n  props: {\r\n        tags: Object\r\n    },\n  setup(__props) {\n\r\n\r\n    \r\n\r\n\nreturn (_ctx, _cache) => {\n  return (_openBlock(), _createElementBlock(\"ul\", {\n    class: _normalizeClass(_ctx.$attrs.class)\n  }, [\n    _createVNode(Tag, { tags: __props.tags }, null, 8, [\"tags\"])\n  ], 2))\n}\n}\n\n}\n\n\nimport \"C:/Users/Nick/Desktop/PersonalWebsite/components/tagcollection.vue?vue&type=style&index=0&scoped=4061d93e&lang.css\"\n\nimport _export_sfc from '\u0000plugin-vue:export-helper'\nexport default /*#__PURE__*/_export_sfc(_sfc_main, [['__scopeId',\"data-v-4061d93e\"]])",
+      "start": 1702088883291,
+      "end": 1702088883294,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088883294,
+      "end": 1702088883294,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883294,
+      "end": 1702088883294,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088883294,
+      "end": 1702088883294,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:chunk-error",
+      "start": 1702088883294,
+      "end": 1702088883294,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088883294,
+      "end": 1702088883294,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088883294,
+      "end": 1702088883294,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088883294,
+      "end": 1702088883294,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088883294,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088883295,
+      "end": 1702088883295,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088883295,
+      "end": 1702088883296,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:runtime-paths-dep",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:route-injection-plugin",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088883296,
+      "end": 1702088883296,
+      "order": "normal"
+    }
+  ]
+}

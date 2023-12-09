@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/skillsubset.vue?vue&type=style&index=0&scoped=335473a3&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\ndiv {\r\n    margin: 0 0 15px 0;\r\n    color: #171614;\r\n    font-weight: 900;\r\n    font-size: 22px;\r\n    width: 400px;\r\n    display: inline-block;\r\n}\r\n\r\nul {\r\n    margin: 0 0 0 5px;\r\n    padding: 0;\r\n}\r\n\r\n@media (max-width: 700px) {\r\n\r\n    div {\r\n        font-size: 18px;\r\n    }\r\n\r\n    ul {\r\n        width: 80vw;\r\n    }\r\n    \r\n}\r\n\r\n\r\n",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/skillsubset.vue"
+        ],
+        "names": [],
+        "mappings": ";;AAwBA,CAAC,CAAC,EAAE;IACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,EAAE,CAAC,CAAC,CAAC,EAAE,CAAC;IAClB,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;IACd,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC;IAChB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACf,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC;IACZ,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC;AACzB;;AAEA,CAAC,EAAE;IACC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,EAAE,EAAE,EAAE,CAAC,CAAC,CAAC;IACjB,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC;AACd;;AAEA,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE;;IAEtB,CAAC,CAAC,EAAE;QACA,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACnB;;IAEA,CAAC,EAAE;QACC,CAAC,CAAC,CAAC,CAAC,CAAC,EAAE,CAAC,CAAC,CAAC,CAAC;IACf;;AAEJ",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/skillsubset.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n\r\n\r\n    <div>{{ heading }}:     \r\n        <ul>\r\n            <Skill :tags=\"tags\"></Skill>\r\n        </ul>\r\n    </div>\r\n\r\n</template>\r\n\r\n\r\n<script setup>\r\n    import Skill from './skill.vue'\r\n\r\n    defineProps({\r\n        heading: String,\r\n        tags: Object\r\n    })\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\ndiv {\r\n    margin: 0 0 15px 0;\r\n    color: #171614;\r\n    font-weight: 900;\r\n    font-size: 22px;\r\n    width: 400px;\r\n    display: inline-block;\r\n}\r\n\r\nul {\r\n    margin: 0 0 0 5px;\r\n    padding: 0;\r\n}\r\n\r\n@media (max-width: 700px) {\r\n\r\n    div {\r\n        font-size: 18px;\r\n    }\r\n\r\n    ul {\r\n        width: 80vw;\r\n    }\r\n    \r\n}\r\n\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887956,
+      "end": 1702088887956,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": "div{color:#171614;display:inline-block;font-size:22px;font-weight:900;margin:0 0 15px;width:400px}ul{margin:0 0 0 5px;padding:0}@media (max-width:700px){div{font-size:18px}ul{width:80vw}}",
+      "start": 1702088887956,
+      "end": 1702088887961,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/skillsubset.vue",
+        "mappings": "AAEA,IAEI,aAAc,CAId,oBAAqB,CAFrB,cAAe,CADf,eAAgB,CAFhB,eAAkB,CAIlB,WAEJ,CAEA,GACI,gBAAiB,CACjB,SACJ,CAEA,yBAEI,IACI,cACJ,CAEA,GACI,UACJ,CAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/skillsubset.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\ndiv {\r\n    margin: 0 0 15px 0;\r\n    color: #171614;\r\n    font-weight: 900;\r\n    font-size: 22px;\r\n    width: 400px;\r\n    display: inline-block;\r\n}\r\n\r\nul {\r\n    margin: 0 0 0 5px;\r\n    padding: 0;\r\n}\r\n\r\n@media (max-width: 700px) {\r\n\r\n    div {\r\n        font-size: 18px;\r\n    }\r\n\r\n    ul {\r\n        width: 80vw;\r\n    }\r\n    \r\n}\r\n\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887961,
+      "end": 1702088887961,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887961,
+      "end": 1702088887961,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887961,
+      "end": 1702088887961,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": "div[data-v-335473a3]{color:#171614;display:inline-block;font-size:22px;font-weight:900;margin:0 0 15px;width:400px}ul[data-v-335473a3]{margin:0 0 0 5px;padding:0}@media (max-width:700px){div[data-v-335473a3]{font-size:18px}ul[data-v-335473a3]{width:80vw}}",
+      "start": 1702088887961,
+      "end": 1702088887963,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/skillsubset.vue",
+        "mappings": "AAAA,qBAAI,aAAa,CAAC,oBAAoB,CAAC,cAAc,CAAC,eAAe,CAAC,eAAe,CAAC,WAAW,CAAC,oBAAG,gBAAgB,CAAC,SAAS,CAAC,yBAAyB,qBAAI,cAAc,CAAC,oBAAG,UAAU,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/skillsubset.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887964,
+      "end": 1702088887964,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887968,
+      "end": 1702088887968,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887968,
+      "end": 1702088887968,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887968,
+      "end": 1702088887968,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887968,
+      "end": 1702088887968,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887968,
+      "end": 1702088887968,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887968,
+      "end": 1702088887968,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887969,
+      "end": 1702088887969,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887969,
+      "end": 1702088887969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887969,
+      "end": 1702088887969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887969,
+      "end": 1702088887969,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887970,
+      "end": 1702088887970,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887971,
+      "end": 1702088887971,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887971,
+      "end": 1702088887971,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887971,
+      "end": 1702088887976,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887976,
+      "end": 1702088887976,
+      "order": "normal"
+    }
+  ]
+}

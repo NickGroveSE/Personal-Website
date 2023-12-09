@@ -1,0 +1,300 @@
+{
+  "resolvedId": "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue?vue&type=style&index=0&scoped=7b386a1e&lang.css",
+  "transforms": [
+    {
+      "name": "vite:vue",
+      "result": "\r\n\r\n    .project-link {\r\n        color: #171614;\r\n        margin: 10px 20px 0 20px;\r\n        text-decoration: none;\r\n        display: block;\r\n        padding: 15px;\r\n        width: calc(100vw - 246px);\r\n        height: 265px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n    }\r\n\r\n    .project-link:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid rgba(66, 184, 131, 1);\r\n        box-shadow: 5px 5px #CE7919;\r\n        transform: translate(-5px, -5px);\r\n        transition: 0.5s;\r\n    }\r\n\r\n    /* .project-link:hover .read-more{\r\n        background: linear-gradient(to right, rgba(213, 230, 227, 0), rgba(213, 230, 227, 1));\r\n        transition: 1s;\r\n    } */\r\n\r\n    /* .project-link:hover #title {\r\n        color: #f5f0f6;\r\n    } */\r\n\r\n    .top-right-container {\r\n        margin-left: 20px;\r\n        padding-top: 5px;\r\n        vertical-align: top;\r\n        display: inline-block;\r\n    }\r\n\r\n    #tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n    .excerpt {\r\n        position: relative;\r\n        font-size: 16px;\r\n        font-weight: 300;\r\n        max-height: calc(var(--lh) * var(--max-lines));;\r\n        overflow: hidden;\r\n        --max-lines: 9;\r\n        text-overflow: ellipsis;\r\n    }\r\n\r\n    .read-more {\r\n        width: 100%;\r\n        margin-top: 10px;\r\n        font-size: 16px;\r\n        font-weight: 900;\r\n        color: #42b883;\r\n        text-align: center;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .project-link {\r\n            width: calc(100vw - 90px);\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 500px) {\r\n        \r\n        .top-right-container {\r\n            width: 175px;\r\n            margin-left: 8px;\r\n        }\r\n\r\n        .excerpt {\r\n            font-size: 12px;\r\n        }\r\n\r\n    }\r\n\r\n\r\n\r\n",
+      "start": 1702088887886,
+      "end": 1702088887886,
+      "sourcemaps": {
+        "version": 3,
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue"
+        ],
+        "names": [],
+        "mappings": "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",
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue",
+        "sourceRoot": "",
+        "sourcesContent": [
+          "<template>\r\n    <NuxtLink class=\"project-link\" :to=\"`/projects/${title}`\">\r\n        <ProjectImage id=\"image\" class=\"link\" :imgurl=\"imgurl\" />\r\n        <div class=\"top-right-container\">        \r\n            <ProjectTitle id=\"title\" class=\"link\" :title=\"title\"/>\r\n            <TagCollection id=\"tags\" class=\"link\" :tags=\"tags\"/>\r\n        </div>\r\n        <div class=\"excerpt\">\r\n            <ContentDoc class=\"excerpt-content\" :path=\"`/projects/${title.split(' ').join('').toLowerCase()}`\"></ContentDoc>\r\n            <div class=\"glimpse\"></div>\r\n        </div>\r\n        <div class=\"read-more\">Click to Read More</div>\r\n    </NuxtLink>\r\n</template>\r\n\r\n\r\n<script setup>\r\n    import TagCollection from './tagcollection.vue'\r\n    import ProjectImage from './projectimage.vue'\r\n    import ProjectTitle from './projecttitle.vue'\r\n\r\n    defineProps({\r\n        title: String,\r\n        tags: Object,\r\n        imgurl: String,\r\n    })\r\n\r\n</script>\r\n\r\n<style scoped>\r\n\r\n    .project-link {\r\n        color: #171614;\r\n        margin: 10px 20px 0 20px;\r\n        text-decoration: none;\r\n        display: block;\r\n        padding: 15px;\r\n        width: calc(100vw - 246px);\r\n        height: 265px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n    }\r\n\r\n    .project-link:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid rgba(66, 184, 131, 1);\r\n        box-shadow: 5px 5px #CE7919;\r\n        transform: translate(-5px, -5px);\r\n        transition: 0.5s;\r\n    }\r\n\r\n    /* .project-link:hover .read-more{\r\n        background: linear-gradient(to right, rgba(213, 230, 227, 0), rgba(213, 230, 227, 1));\r\n        transition: 1s;\r\n    } */\r\n\r\n    /* .project-link:hover #title {\r\n        color: #f5f0f6;\r\n    } */\r\n\r\n    .top-right-container {\r\n        margin-left: 20px;\r\n        padding-top: 5px;\r\n        vertical-align: top;\r\n        display: inline-block;\r\n    }\r\n\r\n    #tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n    .excerpt {\r\n        position: relative;\r\n        font-size: 16px;\r\n        font-weight: 300;\r\n        max-height: calc(var(--lh) * var(--max-lines));;\r\n        overflow: hidden;\r\n        --max-lines: 9;\r\n        text-overflow: ellipsis;\r\n    }\r\n\r\n    .read-more {\r\n        width: 100%;\r\n        margin-top: 10px;\r\n        font-size: 16px;\r\n        font-weight: 900;\r\n        color: #42b883;\r\n        text-align: center;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .project-link {\r\n            width: calc(100vw - 90px);\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 500px) {\r\n        \r\n        .top-right-container {\r\n            width: 175px;\r\n            margin-left: 8px;\r\n        }\r\n\r\n        .excerpt {\r\n            font-size: 12px;\r\n        }\r\n\r\n    }\r\n\r\n\r\n\r\n</style>"
+        ]
+      }
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887886,
+      "end": 1702088887886,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:layer-aliasing",
+      "start": 1702088887886,
+      "end": 1702088887886,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887886,
+      "end": 1702088887886,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:server-devonly:transform",
+      "start": 1702088887886,
+      "end": 1702088887886,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887887,
+      "end": 1702088887887,
+      "order": "pre"
+    },
+    {
+      "name": "content-slot",
+      "start": 1702088887887,
+      "end": 1702088887887,
+      "order": "pre"
+    },
+    {
+      "name": "nuxt:client-fallback-auto-id",
+      "start": 1702088887887,
+      "end": 1702088887887,
+      "order": "pre"
+    },
+    {
+      "name": "vite:css",
+      "result": ".project-link{border:2px solid rgba(66,184,131,.15);border-radius:5px;color:#171614;display:block;height:265px;margin:10px 20px 0;padding:15px;text-decoration:none;width:calc(100vw - 246px)}.project-link:hover{background-color:#d5e6e3;border:2px solid #42b883;box-shadow:5px 5px #ce7919;transform:translate(-5px,-5px);transition:.5s}.top-right-container{display:inline-block;margin-left:20px;padding-top:5px;vertical-align:top}#tags,.excerpt{overflow:hidden}.excerpt{--max-lines:9;font-size:16px;font-weight:300;max-height:calc(var(--lh)*var(--max-lines));position:relative;text-overflow:ellipsis}.read-more{color:#42b883;font-size:16px;font-weight:900;margin-top:10px;text-align:center;width:100%}@media (max-width:700px){.project-link{width:calc(100vw - 90px)}}@media (max-width:500px){.top-right-container{margin-left:8px;width:175px}.excerpt{font-size:12px}}",
+      "start": 1702088887887,
+      "end": 1702088887900,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue",
+        "mappings": "AAEI,cAQI,qCAA0C,CAC1C,iBAAkB,CARlB,aAAc,CAGd,aAAc,CAGd,YAAa,CALb,kBAAwB,CAGxB,YAAa,CAFb,oBAAqB,CAGrB,yBAIJ,CAEA,oBACI,wBAAyB,CACzB,wBAAuC,CACvC,0BAA2B,CAC3B,8BAAgC,CAChC,cACJ,CAWA,qBAII,oBAAqB,CAHrB,gBAAiB,CACjB,eAAgB,CAChB,kBAEJ,CAMA,eAHI,eAWJ,CARA,SAMI,aAAc,CAJd,cAAe,CACf,eAAgB,CAChB,2CAA8C,CAH9C,iBAAkB,CAMlB,sBACJ,CAEA,WAKI,aAAc,CAFd,cAAe,CACf,eAAgB,CAFhB,eAAgB,CAIhB,iBAAkB,CALlB,UAMJ,CAEA,yBAEI,cACI,wBACJ,CAEJ,CAEA,yBAEI,qBAEI,eAAgB,CADhB,WAEJ,CAEA,SACI,cACJ,CAEJ",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue"
+        ],
+        "sourcesContent": [
+          "\r\n\r\n    .project-link {\r\n        color: #171614;\r\n        margin: 10px 20px 0 20px;\r\n        text-decoration: none;\r\n        display: block;\r\n        padding: 15px;\r\n        width: calc(100vw - 246px);\r\n        height: 265px;\r\n        border: 2px solid rgba(66, 184, 131, 0.15);\r\n        border-radius: 5px; \r\n    }\r\n\r\n    .project-link:hover {\r\n        background-color: #D5E6E3;\r\n        border: 2px solid rgba(66, 184, 131, 1);\r\n        box-shadow: 5px 5px #CE7919;\r\n        transform: translate(-5px, -5px);\r\n        transition: 0.5s;\r\n    }\r\n\r\n    /* .project-link:hover .read-more{\r\n        background: linear-gradient(to right, rgba(213, 230, 227, 0), rgba(213, 230, 227, 1));\r\n        transition: 1s;\r\n    } */\r\n\r\n    /* .project-link:hover #title {\r\n        color: #f5f0f6;\r\n    } */\r\n\r\n    .top-right-container {\r\n        margin-left: 20px;\r\n        padding-top: 5px;\r\n        vertical-align: top;\r\n        display: inline-block;\r\n    }\r\n\r\n    #tags {\r\n        overflow: hidden;\r\n    }\r\n\r\n    .excerpt {\r\n        position: relative;\r\n        font-size: 16px;\r\n        font-weight: 300;\r\n        max-height: calc(var(--lh) * var(--max-lines));;\r\n        overflow: hidden;\r\n        --max-lines: 9;\r\n        text-overflow: ellipsis;\r\n    }\r\n\r\n    .read-more {\r\n        width: 100%;\r\n        margin-top: 10px;\r\n        font-size: 16px;\r\n        font-weight: 900;\r\n        color: #42b883;\r\n        text-align: center;\r\n    }\r\n\r\n    @media (max-width: 700px) {\r\n\r\n        .project-link {\r\n            width: calc(100vw - 90px);\r\n        }\r\n\r\n    }\r\n\r\n    @media (max-width: 500px) {\r\n        \r\n        .top-right-container {\r\n            width: 175px;\r\n            margin-left: 8px;\r\n        }\r\n\r\n        .excerpt {\r\n            font-size: 12px;\r\n        }\r\n\r\n    }\r\n\r\n\r\n\r\n"
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:esbuild",
+      "start": 1702088887900,
+      "end": 1702088887900,
+      "order": "normal"
+    },
+    {
+      "name": "vite:json",
+      "start": 1702088887900,
+      "end": 1702088887900,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker",
+      "start": 1702088887900,
+      "end": 1702088887900,
+      "order": "normal"
+    },
+    {
+      "name": "vite:vue",
+      "result": ".project-link[data-v-7b386a1e]{border:2px solid rgba(66,184,131,.15);border-radius:5px;color:#171614;display:block;height:265px;margin:10px 20px 0;padding:15px;text-decoration:none;width:calc(100vw - 246px)}.project-link[data-v-7b386a1e]:hover{background-color:#d5e6e3;border:2px solid #42b883;box-shadow:5px 5px #ce7919;transform:translate(-5px,-5px);transition:.5s}.top-right-container[data-v-7b386a1e]{display:inline-block;margin-left:20px;padding-top:5px;vertical-align:top}#tags[data-v-7b386a1e],.excerpt[data-v-7b386a1e]{overflow:hidden}.excerpt[data-v-7b386a1e]{--max-lines:9;font-size:16px;font-weight:300;max-height:calc(var(--lh)*var(--max-lines));position:relative;text-overflow:ellipsis}.read-more[data-v-7b386a1e]{color:#42b883;font-size:16px;font-weight:900;margin-top:10px;text-align:center;width:100%}@media (max-width:700px){.project-link[data-v-7b386a1e]{width:calc(100vw - 90px)}}@media (max-width:500px){.top-right-container[data-v-7b386a1e]{margin-left:8px;width:175px}.excerpt[data-v-7b386a1e]{font-size:12px}}",
+      "start": 1702088887900,
+      "end": 1702088887904,
+      "order": "normal",
+      "sourcemaps": {
+        "file": "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue",
+        "mappings": "AAAA,+BAAc,qCAAqC,CAAC,iBAAiB,CAAC,aAAa,CAAC,aAAa,CAAC,YAAY,CAAC,kBAAkB,CAAC,YAAY,CAAC,oBAAoB,CAAC,yBAAyB,CAAC,qCAAoB,wBAAwB,CAAC,wBAAwB,CAAC,0BAA0B,CAAC,8BAA8B,CAAC,cAAc,CAAC,sCAAqB,oBAAoB,CAAC,gBAAgB,CAAC,eAAe,CAAC,kBAAkB,CAAC,iDAAe,eAAe,CAAC,0BAAS,aAAa,CAAC,cAAc,CAAC,eAAe,CAAC,2CAA2C,CAAC,iBAAiB,CAAC,sBAAsB,CAAC,4BAAW,aAAa,CAAC,cAAc,CAAC,eAAe,CAAC,eAAe,CAAC,iBAAiB,CAAC,UAAU,CAAC,yBAAyB,+BAAc,wBAAwB,CAAC,CAAC,yBAAyB,sCAAqB,eAAe,CAAC,WAAW,CAAC,0BAAS,cAAc,CAAC",
+        "names": [],
+        "sources": [
+          "C:/Users/Nick/Desktop/PersonalWebsite/components/projectlink.vue"
+        ],
+        "sourcesContent": [
+          null
+        ],
+        "version": 3
+      }
+    },
+    {
+      "name": "vite:vue-jsx",
+      "start": 1702088887904,
+      "end": 1702088887904,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887904,
+      "end": 1702088887904,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887904,
+      "end": 1702088887904,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887904,
+      "end": 1702088887904,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:remove-plugin-metadata",
+      "start": 1702088887904,
+      "end": 1702088887904,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:components:imports",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "replace",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "ssr-styles",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "vite:define",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "vite:css-post",
+      "result": "export default ''",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal",
+      "sourcemaps": {
+        "mappings": ""
+      }
+    },
+    {
+      "name": "vite:build-html",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "vite:worker-import-meta-url",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "vite:asset-import-meta-url",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "commonjs",
+      "start": 1702088887905,
+      "end": 1702088887905,
+      "order": "normal"
+    },
+    {
+      "name": "vite:dynamic-import-vars",
+      "start": 1702088887909,
+      "end": 1702088887909,
+      "order": "normal"
+    },
+    {
+      "name": "vite:import-glob",
+      "start": 1702088887909,
+      "end": 1702088887909,
+      "order": "normal"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:composable-keys",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:imports-transform",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "unctx:transform",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:pages-macros-transform",
+      "start": 1702088887910,
+      "end": 1702088887910,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-template",
+      "start": 1702088887914,
+      "end": 1702088887915,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:components-loader",
+      "start": 1702088887915,
+      "end": 1702088887915,
+      "order": "post"
+    },
+    {
+      "name": "nuxt:tree-shake-composables:transform",
+      "start": 1702088887915,
+      "end": 1702088887915,
+      "order": "post"
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "start": 1702088887915,
+      "end": 1702088887915,
+      "order": "normal"
+    },
+    {
+      "name": "vite:reporter",
+      "start": 1702088887915,
+      "end": 1702088887915,
+      "order": "normal"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import{_ as a,o as s,c as t,t as _,n}from"./entry.677388f1.js";const c={};function o(e,r){return s(),t("h2",{class:n(e.$attrs.class)},_(e.$attrs.heading),3)}const i=a(c,[["render",o],["__scopeId","data-v-5a3f7346"]]);export{i as P};
