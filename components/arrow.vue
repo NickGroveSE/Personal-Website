@@ -16,6 +16,7 @@
     width: 100px;
     height: 25px;
     margin-left: 5px;
+    z-index: 15;
     animation: pulse 3s infinite
 }
 
