@@ -229,7 +229,7 @@
     }
 
     .page-down {
-        vertical-align: top;
+        margin-top: 20px;
     }
 
 }
