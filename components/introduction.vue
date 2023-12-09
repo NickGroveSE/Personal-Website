@@ -228,6 +228,10 @@
         height: 50px;
     }
 
+    .page-down {
+        vertical-align: top;
+    }
+
 }
 
 </style>
