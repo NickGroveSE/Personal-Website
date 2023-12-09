@@ -230,6 +230,7 @@
 
     .page-down-wrapper {
         margin-top: 20px;
+        vertical-align: top;
     }
 
 }
