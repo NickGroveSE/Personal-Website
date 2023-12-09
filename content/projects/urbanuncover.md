@@ -13,7 +13,7 @@ I was participating in the online Hackathon CAPTURETHEWORLD, and since the theme
 <div id="fig-1" style="display: block; width: 70%; margin-left: auto; margin-right: auto;">
     <div style="display: inline; font-size: 18px; font-weight: 900; color: #42b883;">Figure 1:</div>
     <div style=" font-size: 14px;">Figma designs</div>
-    <img  src="/urbanuncoverscreens.png" style="width: 100%; margin: 10px 0 50px 0">
+    <img  src="/urbanuncoverscreens.png" style="display block; width: 100%; margin: 10px 0 50px 0">
 </div>
 
 CAPTURETHEWORLD was very welcoming to projects with no code or low code, so I wanted to put some heavy emphasis on the Design (Figure 1). I felt like this idea really challenged me on the Design side of things, and I would love to come back to it one day. Next steps if I ever come back to this project is fully fleshing out the Design, showcase it on Behance, and maybe one day get to programming it using a native framework but it would be a large undertaking.
