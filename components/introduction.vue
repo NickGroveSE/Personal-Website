@@ -186,6 +186,12 @@
         height: 50px;
     }
 
+    .page-down-wrapper {
+        margin-top: 20px;
+        vertical-align: top;
+    }
+
+
 }
 
 @media (max-width: 400px) {
@@ -227,12 +233,6 @@
         width: 58.75px;
         height: 50px;
     }
-
-    .page-down-wrapper {
-        margin-top: 20px;
-        vertical-align: top;
-    }
-
 }
 
 </style>
