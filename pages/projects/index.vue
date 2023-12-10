@@ -14,11 +14,17 @@
 
 </template>
 
-<script setup>
+<script setup lang="ts">
     import PageTitle from '../../components/pagetitle.vue'
     import ProjectTile from '../../components/projecttile.vue'
 
     const projects = await queryContent("projects").where({ draft: { $ne: true } }).sort({ date: -1 }).find();
+
+    useHead({
+        titleTemplate: (titleChunk) => {
+            return titleChunk ? `My Projects` : 'Site Title';
+        }
+    })
 
 </script>
 

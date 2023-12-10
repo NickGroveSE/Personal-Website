@@ -22,8 +22,14 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
     import PageTitle from '../components/pagetitle.vue'
+
+    useHead({
+        titleTemplate: (titleChunk) => {
+            return titleChunk ? `About Me` : 'Site Title';
+        }
+    })
 
 </script>
 

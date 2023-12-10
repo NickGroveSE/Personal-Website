@@ -13,7 +13,7 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
     import PageTitle from '../components/pagetitle.vue'
     import SkillSubset from '../components/skillsubset.vue' 
     import Education from '../components/education.vue'
@@ -26,7 +26,7 @@
         },
         {
             name: "Frontend",
-            tags: [ "Vue", "React"]
+            tags: [ "Vue", "React", "HTML/CSS"]
         },
         {
             name: "Backend",
@@ -41,6 +41,12 @@
             tags: ["Figma"]
         }
     ]
+
+    useHead({
+        titleTemplate: (titleChunk) => {
+            return titleChunk ? `My Skills & Education` : 'Site Title';
+        }
+    })
 
 </script>
 

@@ -13,7 +13,7 @@
     <NuxtLink class="more-projects" to="/projects">Check Out More of My Work <img id="arrow" src="/RightArrow.svg"></NuxtLink>
 </template>
 
-<script setup>
+<script setup lang="ts">
     import ProjectLink from '../components/projectlink.vue'
     import PageTitle from '../components/pagetitle.vue'
 
@@ -24,6 +24,11 @@
     const MTGMetaTracker = await queryContent("projects").where({ title: { $eq: 'MTGMetaTracker' } }).findOne()
     const WordleSolver = await queryContent("projects").where({ title: { $eq: 'Wordle Solver' } }).findOne()
 
+    useHead({
+        titleTemplate: (titleChunk) => {
+            return titleChunk ? `Nick Grove Dev` : 'Site Title';
+        }
+    })
 
 </script>
 

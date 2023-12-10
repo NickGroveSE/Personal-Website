@@ -1,5 +1,8 @@
 <template>
     <div id="page">
+        <Head>
+            <title>Nick Grove Dev</title>
+        </Head>
         <div class="blur">
 
         </div>
@@ -56,6 +59,7 @@
             }
         }
     }
+
 
 
     // function toggleSideBar(event) {
