@@ -18,7 +18,7 @@
     import PageTitle from '../../components/pagetitle.vue'
     import ProjectTile from '../../components/projecttile.vue'
 
-    const projects = await queryContent("projects").sort({ date: -1 }).find();
+    const projects = await queryContent("projects").where({ draft: { $ne: true } }).sort({ date: -1 }).find();
 
 </script>
 
@@ -37,11 +37,30 @@
     .projects-tile {
         margin: 10px;
     }
+
+    @media (max-width: 900px) {
+        .projects-tile {
+            margin: 5px;
+        }
+
+    }
     
-    @media (max-width: 360px) {
+    @media (max-width: 700px) {
 
         .projects-wrapper {
             margin: 10px 0 10px 0;
+        }
+
+        .projects-tile {
+            margin-left: 20%;
+        }
+        
+    }
+
+    @media (max-width: 480px) {
+
+        .projects-tile {
+            margin: 5px 0 5px 4%;
         }
         
     }

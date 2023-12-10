@@ -1,6 +1,7 @@
 ---
 title: "Urban Uncover"
 description: "A design concept for a mobile app that aims to help people support their local businesses and non-profits."
+draft: false
 date: 2023-10-27
 tags: ["Design", "Figma"]
 imgurl: "/UrbanUncover.png"

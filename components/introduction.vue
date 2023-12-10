@@ -17,10 +17,10 @@
                 <div class="recent-pre-title">What I Am Currently Working On</div>
                 <ProjectTile
                     class="recent-project"
-                    :title="projects[0].title"
-                    :tags="projects[0].tags"
-                    :imgurl="projects[0].imgurl"
-                    :description="projects[0].description"
+                    :title="MTGMetaTracker.title"
+                    :tags="MTGMetaTracker.tags"
+                    :imgurl="MTGMetaTracker.imgurl"
+                    :description="MTGMetaTracker.description"
                 />
             </div>
         </div>
@@ -41,7 +41,7 @@
     import Arrow from './arrow.vue'
     import ProjectTile from './projecttile.vue'
 
-    const projects = await queryContent("projects").sort({ date: -1 }).find();
+    const MTGMetaTracker = await queryContent("projects").where({ title: { $eq: 'MTGMetaTracker' } }).findOne()
 
 </script>
 
