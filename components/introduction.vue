@@ -47,6 +47,93 @@
 
 <style scoped>
 
+@media (max-width: 700px) {
+    
+    #introduction-right {
+        width: 50px;
+    }
+
+    .introduction-panel {
+        width: 330px;
+    }
+
+    .recent-pre-title {
+        display: none;
+    }
+
+    .recent-project {
+        display: none;
+    }
+
+    .link-container { 
+        margin-top: 20px;
+        width: 40px;
+    }
+
+    .link {
+        float: left;
+        margin: 20px 0 0 0;
+    }
+
+    .link-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #linkedin-img {
+        width: 58.75px;
+        height: 50px;
+    }
+
+    .page-down-wrapper {
+        margin-top: 50px;
+        vertical-align: top;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+
+    #introduction-left {
+        height: 260px;
+        width: 180px;
+    }
+
+    #introduction-right {
+        width: 50px;
+        padding: 15px;
+    }
+
+    .introduction-panel {
+        height: 300px;
+        width: 300px;
+    }
+
+    .profile-image {
+        width: 180px;
+        height: 180px;
+    }
+
+    .name {
+        width: 180px;
+    }
+
+    .career {
+        width: 180px;
+    }
+
+    .link-img {
+        width: 50px;
+        height: 50px;
+    }
+
+    #linkedin-img {
+        width: 58.75px;
+        height: 50px;
+    }
+}
+
 .introduction-wrapper {
     position: relative;
     width: 100%;
@@ -146,93 +233,6 @@
     font-size: 15px;
     font-weight: 700;
     margin: 55px 0 2px 10px
-}
-
-@media (max-width: 700px) {
-    
-    #introduction-right {
-        width: 50px;
-    }
-
-    .introduction-panel {
-        width: 330px;
-    }
-
-    .recent-pre-title {
-        display: none;
-    }
-
-    .recent-project {
-        display: none;
-    }
-
-    .link-container { 
-        margin-top: 20px;
-        width: 40px;
-    }
-
-    .link {
-        float: left;
-        margin: 20px 0 0 0;
-    }
-
-    .link-img {
-        width: 50px;
-        height: 50px;
-    }
-
-    #linkedin-img {
-        width: 58.75px;
-        height: 50px;
-    }
-
-    .page-down-wrapper {
-        margin-top: 50px;
-        vertical-align: top;
-    }
-
-
-}
-
-@media (max-width: 400px) {
-
-    #introduction-left {
-        height: 260px;
-        width: 180px;
-    }
-
-    #introduction-right {
-        width: 50px;
-        padding: 15px;
-    }
-
-    .introduction-panel {
-        height: 300px;
-        width: 300px;
-    }
-
-    .profile-image {
-        width: 180px;
-        height: 180px;
-    }
-
-    .name {
-        width: 180px;
-    }
-
-    .career {
-        width: 180px;
-    }
-
-    .link-img {
-        width: 50px;
-        height: 50px;
-    }
-
-    #linkedin-img {
-        width: 58.75px;
-        height: 50px;
-    }
 }
 
 </style>
