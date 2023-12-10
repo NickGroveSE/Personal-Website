@@ -71,7 +71,7 @@
     position: relative;
     width: 100px;
     height: 70px;
-    margin: calc(100vh - (50vh + 220px)) auto 0 auto;
+    margin: calc(100vh - (50vh + 230px)) auto 0 auto;
     vertical-align: bottom;
 }
 
@@ -187,7 +187,7 @@
     }
 
     .page-down-wrapper {
-        margin-top: 20px;
+        margin-top: 50px;
         vertical-align: top;
     }
 

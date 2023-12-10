@@ -55,7 +55,7 @@
         "../public/*"
       ],
       "#mdc-imports": [
-        "./mdc-imports"
+        "./file:/C:/Users/Nick/Desktop/PersonalWebsite/.nuxt/mdc-imports"
       ],
       "#content/server": [
         "../node_modules/@nuxt/content/dist/runtime/legacy/server"

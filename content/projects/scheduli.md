@@ -1,6 +1,7 @@
 ---
 title: "Scheduli"
 description: "A sleek and unique scheduling app that focuses is on simplicity. My first Full Stack project using Vue and my introduction to various other frameworks."
+draft: true
 date: 2023-12-01
 tags: ["Full Stack", "Vue", "Laravel", "PostgreSQL", "Tailwind CSS"]
 imgurl: ""
