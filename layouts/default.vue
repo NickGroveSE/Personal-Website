@@ -28,11 +28,13 @@
                 showSidebar: false,
                 openedButtonStyle: {
                     left: "160px", 
-                    "background-image" : "url('/x.svg')"
+                    "background-image" : "url('/x.svg')",
+                    "z-index": "20"
                 }, 
                 closedButtonStyle: {
                     left: "0",
-                    "background-image" : "url('/ham-menu.svg')"
+                    "background-image" : "url('/ham-menu.svg')",
+                    "z-index": "0"
                 }, 
                 openedMenuStyle: {
                     visibility: "visible"
@@ -107,7 +109,7 @@
     height: calc(100% + 2px);
     background-color: rgba(66, 184, 131, 0.3);
     backdrop-filter: blur(0.38px);
-    z-index: 1;
+    z-index: 15;
 }
 
 #sidebar {
@@ -141,6 +143,7 @@
 
     #sidebar {
         visibility: hidden;
+        z-index: 20;
     }
 
     .blur {
@@ -168,7 +171,11 @@
     
     #sidebar {
         visibility: visible;
-        pointer-events: all;
+        z-index: unset;
+    }
+
+    #transparent-layer {
+        z-index: 1;
     }
 
 

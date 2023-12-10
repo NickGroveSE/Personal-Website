@@ -27,14 +27,14 @@ ul {
 
 li {
     text-align: right;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 
 .link {
     display: block;
     color: #f5f0f6;
     padding: 8px 20px 8px 0;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 900;
 }
 
