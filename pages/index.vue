@@ -1,4 +1,8 @@
 <template>
+    <PageTitle class="page" heading="Who Am I?"/>
+    <div class="content">
+        <ContentDoc path="/pages/intro"/>
+    </div>
     <PageTitle class="page" heading="Highlighted Projects"/>
     <ProjectLink
           :title="MTGMetaTracker.title"
