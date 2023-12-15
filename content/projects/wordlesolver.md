@@ -9,7 +9,7 @@ links: ["https://github.com/NickGroveSE"]
 linkimgurls: ["/github-mark.svg"]
 ---
 
-One weekend when I was in between finishing most of my MTGMetaTracker project and starting my work with the Vue.js, I want a quick casual project that would be engaging as I went through transition period. I had the idea since my girlfriend and I had been playing Wordle a lot at the time, what if I make a Python program that can solve Wordle. To me this felt perfect, I would get to work with some automation technology, get a refresher on a very relevant language I have not used in awhile, and it would be lightweight yet challenging. 
+One weekend when I was in between finishing most of my MTGMetaTracker project and starting my work with Vue.js, I want a quick casual project that would be engaging as I went through transition period. I had the idea since my girlfriend and I had been playing Wordle a lot at the time, what if I make a Python program that can solve Wordle. To me this felt perfect, I would get to work with some automation technology, get a refresher on a very relevant language I have not used in awhile, and it would be lightweight yet challenging. 
 
 First step was to get Wordle's word data, which was simple. I found it online along with each words probability of being the word of the day. I read this csv file using Pandas and from here we set up the PyAutoGUI. This was fairly straight forward as well, just needed to figure how my program could recognize the board and the colors of the guesses. Using an image of empty my program can detect where the board is on the screen, then after each guess the program would identify what colors a guess returned by checking each square. 
 
