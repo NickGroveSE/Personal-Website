@@ -1,3 +1,3 @@
-As you saw above I am a Full Stack Developer, but my expertise lies mostly in Front-End Development and I am currently pushing to get my Back-End knowledge up to speed. Currently I am expanding my mastery in the Front-End Framework Vue.js, learning Golang, and soon want to work on my fundamentals such as Low Level Programming and Front-End Development without a framework to get a better grasp conceptually.
+As you saw above I am a Full Stack Developer, but my expertise lies mostly in Front-End Development and I am currently pushing to get my Back-End knowledge up to speed. Right now, I am expanding my mastery in the Front-End Framework Vue.js, learning Golang and PHP (mostly for Laravel), and committing a lot of time to my fundamentals to have solid grasp conceptually.
 
-Right now I am Freelancing so if you are a business or organization that needs a website or want some designs contact me at nickgrove.se@gmail.com.
+Right now I am Freelancing so if you are a business or organization that needs a website or want some designs contact me at nickgrove.se@gmail.com so we can set up a call.
