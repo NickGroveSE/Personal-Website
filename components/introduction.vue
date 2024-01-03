@@ -17,10 +17,10 @@
                 <div class="recent-pre-title">What I Am Currently Working On</div>
                 <ProjectTile
                     class="recent-project"
-                    :title="MTGMetaTracker.title"
-                    :tags="MTGMetaTracker.tags"
-                    :imgurl="MTGMetaTracker.imgurl"
-                    :description="MTGMetaTracker.description"
+                    :title="currentProject.title"
+                    :tags="currentProject.tags"
+                    :imgurl="currentProject.imgurl"
+                    :description="currentProject.description"
                 />
             </div>
         </div>
@@ -41,7 +41,7 @@
     import Arrow from './arrow.vue'
     import ProjectTile from './projecttile.vue'
 
-    const MTGMetaTracker = await queryContent("projects").where({ title: { $eq: 'MTGMetaTracker' } }).findOne()
+    const currentProject = await queryContent("projects").where({ title: { $eq: 'Iris' } }).findOne()
 
 </script>
 

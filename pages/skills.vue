@@ -21,12 +21,12 @@
     const subsets = [
         {
             name: "Languages",
-            tags: ["JavaScript", "Python", "Java", "C++", "Swift"]
+            tags: ["JavaScript", "Python", "Golang", "Java", "C++", "Swift"]
 
         },
         {
             name: "Frontend",
-            tags: [ "Vue", "React", "HTML/CSS"]
+            tags: [ "Vue", "React", "HTML/CSS", "Sass"]
         },
         {
             name: "Backend",

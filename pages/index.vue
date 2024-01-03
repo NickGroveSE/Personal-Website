@@ -5,14 +5,14 @@
     </div>
     <PageTitle class="page" heading="Highlighted Projects"/>
     <ProjectLink
-          :title="MTGMetaTracker.title"
-          :tags="MTGMetaTracker.tags"
-          :imgurl="MTGMetaTracker.imgurl"
+          :title="firstHighlighted.title"
+          :tags="firstHighlighted.tags"
+          :imgurl="firstHighlighted.imgurl"
     />
     <ProjectLink
-          :title="WordleSolver.title"
-          :tags="WordleSolver.tags"
-          :imgurl="WordleSolver.imgurl"
+          :title="secondHighlighted.title"
+          :tags="secondHighlighted.tags"
+          :imgurl="secondHighlighted.imgurl"
     /> 
     <NuxtLink class="more-projects" to="/projects">Check Out More of My Work <img id="arrow" src="/RightArrow.svg"></NuxtLink>
 </template>
@@ -25,8 +25,8 @@
         layout: 'home'
     })
 
-    const MTGMetaTracker = await queryContent("projects").where({ title: { $eq: 'MTGMetaTracker' } }).findOne()
-    const WordleSolver = await queryContent("projects").where({ title: { $eq: 'Wordle Solver' } }).findOne()
+    const firstHighlighted = await queryContent("projects").where({ title: { $eq: 'MTGMetaTracker' } }).findOne()
+    const secondHighlighted = await queryContent("projects").where({ title: { $eq: 'Iris' } }).findOne()
 
     useHead({
         titleTemplate: (titleChunk) => {
