@@ -74,7 +74,7 @@
         font-size: 16px;
         font-weight: 300;
         max-height: calc(var(--lh) * var(--max-lines));;
-        overflow: hidden;
+        overflow: clip;
         --max-lines: 9;
         text-overflow: ellipsis;
     }

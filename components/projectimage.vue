@@ -20,7 +20,7 @@
     img {
         display: inline-block;
         border-radius: 5px;
-        background-color: #f5f0f6;
+        background-color: transparent;
     }
 
     div {

@@ -29,6 +29,7 @@ div {
     font-size: 22px;
     width: 400px;
     display: inline-block;
+    vertical-align: top;
 }
 
 ul {
