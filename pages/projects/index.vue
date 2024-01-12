@@ -30,7 +30,8 @@
 
 <style scoped>
     .projects-wrapper {
-        margin: 10px 10px 10px 10px;
+        margin: 10px auto 10px auto;
+        width: 960px;
     }
 
     .filters-heading {
@@ -45,9 +46,27 @@
         vertical-align: top;
     }
 
+    @media (max-width: 1125px) {
+
+        .projects-wrapper {
+            width: 640px;
+        }
+
+        
+    }
+
     @media (max-width: 900px) {
         .projects-tile {
             margin: 5px;
+        }
+
+
+    }
+
+    @media (max-width: 790px) {
+        
+        .projects-wrapper {
+            width: 410px;
         }
 
     }
@@ -55,20 +74,17 @@
     @media (max-width: 700px) {
 
         .projects-wrapper {
-            margin: 10px 0 10px 0;
+            margin: 10px auto 10px auto;
         }
 
-        .projects-tile {
-            margin-left: 20%;
-        }
         
     }
 
-    @media (max-width: 480px) {
+    @media (max-width: 450px) {
 
-        .projects-tile {
-            margin: 5px 0 5px 4%;
+        .projects-wrapper {
+            margin: 10px auto 10px auto;
+            width: 310px;
         }
-        
     }
 </style>

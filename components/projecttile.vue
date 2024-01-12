@@ -33,7 +33,7 @@
     .project-link {
         display: inline-block;
         margin-left: 0;
-        width: 304px;
+        width: 300px;
         text-decoration: none;
     }
 
@@ -62,7 +62,6 @@
 
     .description {
         height: 42px;
-        width: 280px;
         margin-top: 5px;
         font-size: 12px;
         font-weight: 300;
@@ -71,6 +70,32 @@
 
     .tags {
         overflow: hidden;
+    }
+
+    @media (max-width: 790px) {
+        
+        .project-link {
+            width: 400px;
+        }
+
+        .project {
+            height: 130px;
+            width: 380px;
+        }
+
+    }
+
+    @media (max-width: 450px) {
+
+        .project-link {
+            width: 300px;
+        }
+
+        .project {
+            height: 140px;
+            width: 280px;
+        }
+
     }
 
 </style>

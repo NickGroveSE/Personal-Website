@@ -136,6 +136,7 @@
 
     vertical-align: top;
     display: inline-block;
+    width: calc(100vw - 170px);
     height: calc(100% + 2px);
     margin: 10px 10px 10px 160px;
     border-top-left-radius: 25px;
@@ -160,9 +161,8 @@
     }
 
     .main-content {
-
         margin: 10px;
-
+        width: calc(100vw - 20px);
     }
 
     #transparent-layer {
