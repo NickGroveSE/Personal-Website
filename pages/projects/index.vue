@@ -1,5 +1,5 @@
 <template>
-    <PageTitle class="page" heading="My Projects"/>
+    <PageTitle class="page" heading="Projects & Experience"/>
     <!-- <div class="filters-heading">Filters Coming Soon!</div> -->
     <div class="projects-wrapper">    
         <ProjectTile
@@ -42,6 +42,7 @@
 
     .projects-tile {
         margin: 10px;
+        vertical-align: top;
     }
 
     @media (max-width: 900px) {

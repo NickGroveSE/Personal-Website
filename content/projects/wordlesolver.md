@@ -15,7 +15,7 @@ First step was to get Wordle's word data, which was simple. I found it online al
 
 The last step to this application was the logic behind guessing. This was the most involved step of the program, and currently I am even testing and optimizing it. The best way I found to keep track of letters was to create three global variables: a dictionary for Yellow Letters where each key is a letter and the value is the array of the positions it was found to be yellow, a five index array for Green Letters, and an array for Gray Letters. Each of these containers were custom for the letters color to make it easier on our logic. My logic for generate the best guess was to check Grays, Yellows, then Greens, and the loop would check positions 1-5 since positioning is very important for Yellows and Greens. As the program goes through these checks it whittles down my list of possible words, and then after these checks the best is index 0, because the list is sorted by its "Occurrence" aka probability to be the right answer. 
 
-As of right now for this project its about working out any kinks with testing, and making this program faster. Python is known for great speed, so optimization is my ultimate end goal. 
+As of right now for this project its about working out any kinks with testing, and making this program faster. It feels clunky, a rewrite in Go or Rust could be in the future.
 
 <!-- If would like to check it out in action check out the <a href="#fig-1" style="color: #CE7919;">Figure 1</a> -->
 

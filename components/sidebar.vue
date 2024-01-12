@@ -33,7 +33,7 @@ li {
 .link {
     display: block;
     color: #f5f0f6;
-    padding: 8px 20px 8px 0;
+    padding: 8px 15px 8px 5px;
     font-size: 18px;
     font-weight: 900;
 }
