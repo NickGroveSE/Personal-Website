@@ -27,10 +27,10 @@ li {
     font-weight: 700;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
     li {
-        font-size: 9px;
+        font-size: 11px;
     }
 
 }

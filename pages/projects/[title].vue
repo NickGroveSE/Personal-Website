@@ -35,6 +35,7 @@
 .link-container {
     vertical-align: top;
     display: inline-block;
+    margin-left: 10px;
 }
 
 .link-img {
@@ -46,15 +47,16 @@
 
     .link-container {
         margin-top: -50px;
+        margin-left: 5px;
     }
 
     .link-img {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 
     #tags {
-        margin: -35px 0 0 60px;
+        margin: -30px 0 0 60px;
     }
     
 }
@@ -62,7 +64,16 @@
 @media (max-width: 600px) {
 
     #tags {
-        margin-top: -40px;
+        margin-top: -35px;
+    }
+
+    .link-container {
+        margin-left: 0;
+    }
+
+    .link-img {
+        width: 30px;
+        height: 30px;
     }
     
 }

@@ -20,23 +20,20 @@
 ul {
     padding: 0;
     list-style-type: none;
-    height: 18px;
 }
 
 .tile {
     margin: 5px 0 0 0;
+    height: 18px;
 }
 
 .link {
     margin: 5px 0 0 0;
+    height: 18px;
 }
 
 .project {
     margin: 0 0 0 10px;
-}
-
-.skill {
-    margin: 2px 0 0 20px;
 }
 
 </style>

@@ -56,10 +56,6 @@
         margin-top: 5px;
     }
 
-    /* .tile-title {
-
-    } */
-
     .description {
         height: 42px;
         margin-top: 5px;
