@@ -3,7 +3,7 @@ title: "Iris"
 description: "Iris is a web app that visualizes the most prevalent colors from the album artwork of your favorite songs."
 draft: false
 date: 2023-12-28
-tags: ["Full Stack", "Vue", "Golang", "Sass", "Spotify API", "ImageMagick"]
+tags: ["Web Dev", "Vue", "Golang", "Sass", "Spotify API"]
 imgurl: "/irislogo.png"
 links: ["https://github.com/NickGroveSE/IrisDemo"]
 linkimgurls: ["/github-mark.svg"]

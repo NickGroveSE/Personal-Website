@@ -29,8 +29,8 @@
     const secondHighlighted = await queryContent("projects").where({ title: { $eq: 'Iris' } }).findOne()
 
     useHead({
-        titleTemplate: (titleChunk) => {
-            return titleChunk ? `Nick Grove Dev` : 'Site Title';
+        titleTemplate: () => {
+            return 'Nick Grove Dev';
         }
     })
 

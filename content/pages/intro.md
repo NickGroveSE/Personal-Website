@@ -1,3 +1,1 @@
-As you saw above I am a Full Stack Developer, but my expertise lies mostly in Front-End Development and I am currently pushing to get my Back-End knowledge up to speed. Right now, I am expanding my mastery in the Front-End Framework Vue.js, learning Golang and PHP (mostly for Laravel), and committing a lot of time to my fundamentals to have solid grasp conceptually.
-
-Right now I am Freelancing so if you are a business or organization that needs a website or want some designs contact me at nickgrove.se@gmail.com so we can set up a call.
+Hello! As you saw above I am a Full Stack Developer and Web Designer, but my expertise lies mostly in Front-End Development. I am currently building up my skills to become a Freelance Developer and working on a really exciting project called [Iris](https://nickgrove.netlify.app/projects/Iris) that will utilize Spotify's Web API. 
