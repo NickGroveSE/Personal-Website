@@ -73,9 +73,9 @@
         position: relative;
         font-size: 16px;
         font-weight: 300;
-        max-height: calc(var(--lh) * var(--max-lines));;
+        max-height: calc(var(--lh) * var(--max-lines));
         overflow: clip;
-        --max-lines: 9;
+        --max-lines: 8;
         text-overflow: ellipsis;
     }
 
@@ -105,6 +105,7 @@
 
         .excerpt {
             font-size: 14px;
+            --max-lines: 9;
         }
 
     }
