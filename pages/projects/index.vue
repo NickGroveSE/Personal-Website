@@ -3,7 +3,7 @@
     <!-- <div class="filters-heading">Filters Coming Soon!</div> -->
     <div class="projects-wrapper">    
         <ProjectTile
-            class="projects-tile"
+            class="projects-page-tile project-tile"
             v-for="project in projects"
             :title="project.title"
             :tags="project.tags"
@@ -41,7 +41,7 @@
         font-weight: 700;
     }
 
-    .projects-tile {
+    .project-tile {
         margin: 10px;
         vertical-align: top;
     }

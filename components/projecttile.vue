@@ -1,5 +1,5 @@
 <template>
-    <NuxtLink class="project-link" :to="`/projects/${title}`" >
+    <NuxtLink :class="$attrs.class" :to="`/projects/${title}`" >
         <div class="project">
             <div class="img-and-title">
                 <ProjectImage class="tile" :imgurl="imgurl"/>
@@ -30,7 +30,7 @@
 
 <style scoped>
 
-    .project-link {
+    .project-tile {
         display: inline-block;
         margin-left: 0;
         width: 300px;
@@ -69,9 +69,18 @@
     }
 
     @media (max-width: 790px) {
-        
-        .project-link {
+
+        .projects-page-tile {
             width: 400px;
+        }
+
+        .recent-project {
+            width: 300px;
+        } 
+
+        .recent-project .project {
+            height: 140px;
+            width: 280px;
         }
 
         .project {
@@ -83,7 +92,7 @@
 
     @media (max-width: 450px) {
 
-        .project-link {
+        .projects-page-tile {
             width: 300px;
         }
 

@@ -16,7 +16,7 @@
                 </div>
                 <div class="recent-pre-title">What I Am Currently Working On</div>
                 <ProjectTile
-                    class="recent-project"
+                    class="recent-project project-tile"
                     :title="currentProject.title"
                     :tags="currentProject.tags"
                     :imgurl="currentProject.imgurl"
