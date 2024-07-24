@@ -81,7 +81,8 @@
 
     .read-more {
         width: 100%;
-        margin-top: 10px;
+        vertical-align: top;
+        margin-top: 10px 0 10px 0;
         font-size: 16px;
         font-weight: 900;
         color: #42b883;
