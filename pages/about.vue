@@ -6,15 +6,15 @@
     <PageTitle class="page" heading="My Links & Contact Info"/>
     <div class="contact">
         <div class="contact-title">Github</div>
-        <NuxtLink class="contact-link"><img class="link-img" src="/github-mark.svg" alt="NickGroveSE on Github"></NuxtLink>
+        <NuxtLink class="contact-link" to="https://github.com/NickGroveSE"><img class="link-img" src="/github-mark.svg" alt="NickGroveSE on Github"></NuxtLink>
     </div>
     <div class="contact">
         <div class="contact-title">Behance</div>
-        <NuxtLink class="contact-link"><img class="link-img" src="/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
+        <NuxtLink class="contact-link" to="https://www.behance.net/nickgrove1"><img class="link-img" src="/behance-square.svg" alt="Nick Grove on Behance"></NuxtLink>
     </div> 
     <div class="contact" id="linkedin-contact">
         <div class="contact-title">Linkedin</div> 
-        <NuxtLink class="contact-link"><img class="link-img" id="linkedin-img" src="/LI-In-Bug.png" alt="Nick Grove on LinkedIn"></NuxtLink>
+        <NuxtLink class="contact-link" to="https://www.linkedin.com/in/nick-grove-9417b6199/"><img class="link-img" id="linkedin-img" src="/LI-In-Bug.png" alt="Nick Grove on LinkedIn"></NuxtLink>
     </div> 
     <div class="contact" id="email">
         <div class="contact-title" id="email-title">Email:</div>

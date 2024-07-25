@@ -82,7 +82,7 @@
     .read-more {
         width: 100%;
         vertical-align: top;
-        margin-top: 10px 0 10px 0;
+        margin: 10px 0 10px 0;
         font-size: 16px;
         font-weight: 900;
         color: #42b883;
