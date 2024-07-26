@@ -34,25 +34,25 @@
 
 #arrow-1 {
     margin-bottom: -10px;
-    background-image: url('../public/down-arrow-1.svg');
+    background-image: url('/down-arrow-1.svg');
     background-repeat: no-repeat;
 }
 
 
 #arrow-2 {
     margin-bottom: -10px;
-    background-image: url('../public/down-arrow-2.svg');
+    background-image: url('/down-arrow-2.svg');
     background-repeat: no-repeat;
 }
 
 #arrow-3 {
     margin-bottom: -10px;
-    background-image: url('../public/down-arrow-3.svg');
+    background-image: url('/down-arrow-3.svg');
     background-repeat: no-repeat;
 }
 
 #arrow-4 {
-    background-image: url('../public/down-arrow-4.svg');
+    background-image: url('/down-arrow-4.svg');
     background-repeat: no-repeat;
 }
 

@@ -29,6 +29,7 @@
     .edu-image {
         width: 80px;
         height: 80px;
+        border-radius: 5px;
         display: inline-block;
     }
 

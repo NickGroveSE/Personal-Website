@@ -84,7 +84,7 @@
         }
 
         .project {
-            height: 130px;
+            height: 140px;
             width: 380px;
         }
 

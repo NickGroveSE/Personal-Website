@@ -1,7 +1,9 @@
 <template>
     <PageTitle class="page" heading="Education"/>
-    <Education imgurl="/uofi.png" heading="The University of Iowa" degree="Bachelor's Degree in Computer Science & Engineering" timeframe="August 2016 - May 2020"/>
-    <Education id="last-edu" imgurl="/sfdev.png" heading="Salesforce Platform Developer I" timeframe="In Progress"/>
+    <Education imgurl="/headstarter.jfif" heading="Headerstarter SWE Fellowship" timeframe="In Progress (7 Week Program)"/>
+    <Education imgurl="/sfjsdev.webp" heading="Salesforce JavaScript Developer I" timeframe="In Progress"/>
+    <Education id="last-edu"  imgurl="/uofi.png" heading="The University of Iowa" degree="Bachelor's Degree in Computer Science & Engineering" timeframe="August 2016 - May 2020"/>
+    
     <PageTitle class="page" heading="Skills"/>
     <!-- <div id="hint">(Click to View Projects for each Skill)</div> -->
     <div class="subsets-wrapper">
