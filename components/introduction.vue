@@ -4,7 +4,7 @@
             <div class="introduction-side" id="introduction-left">
                 <img class="profile-image" src="../assets/content/github-profile-pic.jpg">
                 <div class="name">Nick Grove</div>
-                <div class="career">Full Stack Developer & Web Designer</div>
+                <div class="career">Software Engineer</div>
             </div>
             <div class="introduction-side" id="introduction-right">
                 <div class="link-container">
